@@ -61,6 +61,7 @@
 		AAC48E8A22B78D8200B885A3 /* LTKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC48E8E22B78D8200B885A3 /* LTKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTKitUITests.m; sourceTree = "<group>"; };
 		AAC48E9022B78D8200B885A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC48E9D22B7915F00B885A3 /* LTDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTDefines.h; sourceTree = "<group>"; };
 		BB88A2F166ECA98D44F90D14 /* Pods-LTKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTKitTests/Pods-LTKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB0696967615F615F5D4F66A /* libPods-LTKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LTKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -128,6 +129,7 @@
 		AAC48E6922B78D8000B885A3 /* LTKit */ = {
 			isa = PBXGroup;
 			children = (
+				AAC48E9C22B7911F00B885A3 /* LTDefines */,
 				AAC48E6A22B78D8000B885A3 /* AppDelegate.h */,
 				AAC48E6B22B78D8000B885A3 /* AppDelegate.m */,
 				AAC48E6D22B78D8000B885A3 /* ViewController.h */,
@@ -157,6 +159,14 @@
 				AAC48E9022B78D8200B885A3 /* Info.plist */,
 			);
 			path = LTKitUITests;
+			sourceTree = "<group>";
+		};
+		AAC48E9C22B7911F00B885A3 /* LTDefines */ = {
+			isa = PBXGroup;
+			children = (
+				AAC48E9D22B7915F00B885A3 /* LTDefines.h */,
+			);
+			path = LTDefines;
 			sourceTree = "<group>";
 		};
 		D806710BCB015E3DB6200A37 /* Pods */ = {
@@ -549,7 +559,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4634493CA;
 				INFOPLIST_FILE = LTKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -566,7 +578,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4634493CA;
 				INFOPLIST_FILE = LTKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

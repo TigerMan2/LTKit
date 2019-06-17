@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LTDefines.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    
+    NSString *str = @"";
+    NSLog(@"%@",str);
+    
+    
+//    CGFloat height = [[UIScreen mainScreen] bounds].size.height;
+//    NSLog(@"%lf",height);
+    
 }
 
 
