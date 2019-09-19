@@ -14,6 +14,9 @@
 		AA55E0C722B8B39A00CBC1CA /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55E0C622B8B39A00CBC1CA /* UIAlertController+Blocks.m */; };
 		AA55E0CA22B8C7A000CBC1CA /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55E0C922B8C7A000CBC1CA /* DemoViewController.m */; };
 		AA55E0CD22B8CBCF00CBC1CA /* UIViewController+LT.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55E0CC22B8CBCF00CBC1CA /* UIViewController+LT.m */; };
+		AA794C882333686200AB7EE6 /* UIView+LTGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = AA794C872333686200AB7EE6 /* UIView+LTGradient.m */; };
+		AA794C8E2333793B00AB7EE6 /* UIView+LTShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = AA794C8D2333793B00AB7EE6 /* UIView+LTShadow.m */; };
+		AA794C912333796700AB7EE6 /* UIView+LTTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = AA794C902333796700AB7EE6 /* UIView+LTTouch.m */; };
 		AAC48E6C22B78D8000B885A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC48E6B22B78D8000B885A3 /* AppDelegate.m */; };
 		AAC48E6F22B78D8000B885A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC48E6E22B78D8000B885A3 /* ViewController.m */; };
 		AAC48E7222B78D8000B885A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC48E7022B78D8000B885A3 /* Main.storyboard */; };
@@ -60,6 +63,12 @@
 		AA55E0C922B8C7A000CBC1CA /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		AA55E0CB22B8CBCF00CBC1CA /* UIViewController+LT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LT.h"; sourceTree = "<group>"; };
 		AA55E0CC22B8CBCF00CBC1CA /* UIViewController+LT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LT.m"; sourceTree = "<group>"; };
+		AA794C862333686200AB7EE6 /* UIView+LTGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LTGradient.h"; sourceTree = "<group>"; };
+		AA794C872333686200AB7EE6 /* UIView+LTGradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTGradient.m"; sourceTree = "<group>"; };
+		AA794C8C2333793B00AB7EE6 /* UIView+LTShadow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LTShadow.h"; sourceTree = "<group>"; };
+		AA794C8D2333793B00AB7EE6 /* UIView+LTShadow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTShadow.m"; sourceTree = "<group>"; };
+		AA794C8F2333796700AB7EE6 /* UIView+LTTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LTTouch.h"; sourceTree = "<group>"; };
+		AA794C902333796700AB7EE6 /* UIView+LTTouch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTTouch.m"; sourceTree = "<group>"; };
 		AAC48E6722B78D8000B885A3 /* LTKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC48E6A22B78D8000B885A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AAC48E6B22B78D8000B885A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -128,6 +137,12 @@
 				AA55E0CC22B8CBCF00CBC1CA /* UIViewController+LT.m */,
 				AA230EC522B9CB9800866C04 /* UIView+LTExtension.h */,
 				AA230EC622B9CB9800866C04 /* UIView+LTExtension.m */,
+				AA794C862333686200AB7EE6 /* UIView+LTGradient.h */,
+				AA794C872333686200AB7EE6 /* UIView+LTGradient.m */,
+				AA794C8C2333793B00AB7EE6 /* UIView+LTShadow.h */,
+				AA794C8D2333793B00AB7EE6 /* UIView+LTShadow.m */,
+				AA794C8F2333796700AB7EE6 /* UIView+LTTouch.h */,
+				AA794C902333796700AB7EE6 /* UIView+LTTouch.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -441,10 +456,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA55E0C722B8B39A00CBC1CA /* UIAlertController+Blocks.m in Sources */,
+				AA794C882333686200AB7EE6 /* UIView+LTGradient.m in Sources */,
 				AAC48E6F22B78D8000B885A3 /* ViewController.m in Sources */,
 				AA55E0CD22B8CBCF00CBC1CA /* UIViewController+LT.m in Sources */,
 				AAC48E7A22B78D8200B885A3 /* main.m in Sources */,
 				AA55E0CA22B8C7A000CBC1CA /* DemoViewController.m in Sources */,
+				AA794C912333796700AB7EE6 /* UIView+LTTouch.m in Sources */,
+				AA794C8E2333793B00AB7EE6 /* UIView+LTShadow.m in Sources */,
 				AAC48E6C22B78D8000B885A3 /* AppDelegate.m in Sources */,
 				AA230ECA22B9D18500866C04 /* LTView.m in Sources */,
 				AA230EC722B9CB9800866C04 /* UIView+LTExtension.m in Sources */,
