@@ -75,7 +75,20 @@
 || ([_object respondsToSelector:@selector(count)] && [(NSArray *)_object count] == 0))
 
 /** 不同屏幕尺寸，字体适配 */
+#define kScreenWidthRatio               ([[UIScreen mainScreen] bounds].size.width / 375.0)
+#define kScreenHeightRatio              ([[UIScreen mainScreen] bounds].size.height / 375.0)
 
+/** 弧度角度转换 */
+//角度转换弧度
+#define DegreesToRadian(x)              (M_PI * (x) / 180.0)
+//弧度转换角度
+#define RadianToDegrees(radian)         (radian * 180.0) / (M_PI)
+
+/** 获取系统时间戳 **/
+#define getCurentTime [NSString stringWithFormat:@"%ld", (long)[[NSDate date] timeIntervalSince1970]]
+
+/** 获取图片 **/
+#define UIImage_str(str) [UIImage imageNamed:str]
 
 
 #endif /* LTDefines_h */

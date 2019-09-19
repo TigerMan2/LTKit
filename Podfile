@@ -9,6 +9,9 @@ target 'LTKit' do
   
   #网络
   pod 'AFNetworking'
+  #加载框
+  pod 'MBProgressHUD'
+  pod 'SVProgressHUD'
 
   target 'LTKitTests' do
     inherit! :search_paths

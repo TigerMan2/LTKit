@@ -8,6 +8,10 @@
 
 #import "ViewController.h"
 #import "LTDefines.h"
+#import "DemoViewController.h"
+#import "UIAlertController+Blocks.h"
+#import "LTView.h"
+#import "UIView+LTExtension.h"
 
 @interface ViewController ()
 
@@ -17,15 +21,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
-    NSString *str = @"";
-    NSLog(@"%@",str);
-    
-    
-//    CGFloat height = [[UIScreen mainScreen] bounds].size.height;
-//    NSLog(@"%lf",height);
-    
 }
 
 

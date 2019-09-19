@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		10715E5EBEC92230B874EF35 /* libPods-LTKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2161A084AA2540F1B1A99F /* libPods-LTKit.a */; };
 		687943820E67AABEFE59F59E /* libPods-LTKitUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A988A394459BB63A72809351 /* libPods-LTKitUITests.a */; };
+		AA230EC722B9CB9800866C04 /* UIView+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA230EC622B9CB9800866C04 /* UIView+LTExtension.m */; };
+		AA230ECA22B9D18500866C04 /* LTView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA230EC922B9D18500866C04 /* LTView.m */; };
+		AA55E0C722B8B39A00CBC1CA /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55E0C622B8B39A00CBC1CA /* UIAlertController+Blocks.m */; };
+		AA55E0CA22B8C7A000CBC1CA /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55E0C922B8C7A000CBC1CA /* DemoViewController.m */; };
+		AA55E0CD22B8CBCF00CBC1CA /* UIViewController+LT.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55E0CC22B8CBCF00CBC1CA /* UIViewController+LT.m */; };
 		AAC48E6C22B78D8000B885A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC48E6B22B78D8000B885A3 /* AppDelegate.m */; };
 		AAC48E6F22B78D8000B885A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC48E6E22B78D8000B885A3 /* ViewController.m */; };
 		AAC48E7222B78D8000B885A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC48E7022B78D8000B885A3 /* Main.storyboard */; };
@@ -45,6 +50,16 @@
 		7C6FA6813241788AFEE8EC66 /* Pods-LTKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTKitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTKitUITests/Pods-LTKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8EF586D7F307D769E58CA115 /* Pods-LTKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTKitTests/Pods-LTKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		A988A394459BB63A72809351 /* libPods-LTKitUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LTKitUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA230EC522B9CB9800866C04 /* UIView+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LTExtension.h"; sourceTree = "<group>"; };
+		AA230EC622B9CB9800866C04 /* UIView+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTExtension.m"; sourceTree = "<group>"; };
+		AA230EC822B9D18500866C04 /* LTView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTView.h; sourceTree = "<group>"; };
+		AA230EC922B9D18500866C04 /* LTView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTView.m; sourceTree = "<group>"; };
+		AA55E0C522B8B39A00CBC1CA /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
+		AA55E0C622B8B39A00CBC1CA /* UIAlertController+Blocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Blocks.m"; sourceTree = "<group>"; };
+		AA55E0C822B8C7A000CBC1CA /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		AA55E0C922B8C7A000CBC1CA /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		AA55E0CB22B8CBCF00CBC1CA /* UIViewController+LT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LT.h"; sourceTree = "<group>"; };
+		AA55E0CC22B8CBCF00CBC1CA /* UIViewController+LT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LT.m"; sourceTree = "<group>"; };
 		AAC48E6722B78D8000B885A3 /* LTKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC48E6A22B78D8000B885A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AAC48E6B22B78D8000B885A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -104,6 +119,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AA55E0C422B8B34D00CBC1CA /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				AA55E0C522B8B39A00CBC1CA /* UIAlertController+Blocks.h */,
+				AA55E0C622B8B39A00CBC1CA /* UIAlertController+Blocks.m */,
+				AA55E0CB22B8CBCF00CBC1CA /* UIViewController+LT.h */,
+				AA55E0CC22B8CBCF00CBC1CA /* UIViewController+LT.m */,
+				AA230EC522B9CB9800866C04 /* UIView+LTExtension.h */,
+				AA230EC622B9CB9800866C04 /* UIView+LTExtension.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		AAC48E5E22B78D8000B885A3 = {
 			isa = PBXGroup;
 			children = (
@@ -129,16 +157,21 @@
 		AAC48E6922B78D8000B885A3 /* LTKit */ = {
 			isa = PBXGroup;
 			children = (
+				AA55E0C422B8B34D00CBC1CA /* UIKit */,
 				AAC48E9C22B7911F00B885A3 /* LTDefines */,
 				AAC48E6A22B78D8000B885A3 /* AppDelegate.h */,
 				AAC48E6B22B78D8000B885A3 /* AppDelegate.m */,
 				AAC48E6D22B78D8000B885A3 /* ViewController.h */,
 				AAC48E6E22B78D8000B885A3 /* ViewController.m */,
+				AA55E0C822B8C7A000CBC1CA /* DemoViewController.h */,
+				AA55E0C922B8C7A000CBC1CA /* DemoViewController.m */,
 				AAC48E7022B78D8000B885A3 /* Main.storyboard */,
 				AAC48E7322B78D8200B885A3 /* Assets.xcassets */,
 				AAC48E7522B78D8200B885A3 /* LaunchScreen.storyboard */,
 				AAC48E7822B78D8200B885A3 /* Info.plist */,
 				AAC48E7922B78D8200B885A3 /* main.m */,
+				AA230EC822B9D18500866C04 /* LTView.h */,
+				AA230EC922B9D18500866C04 /* LTView.m */,
 			);
 			path = LTKit;
 			sourceTree = "<group>";
@@ -193,6 +226,7 @@
 				AAC48E6322B78D8000B885A3 /* Sources */,
 				AAC48E6422B78D8000B885A3 /* Frameworks */,
 				AAC48E6522B78D8000B885A3 /* Resources */,
+				16E9333627A4AD339A8BEB03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -311,6 +345,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		16E9333627A4AD339A8BEB03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LTKit/Pods-LTKit-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LTKit/Pods-LTKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		1E22FA0F57339F40F570DC6E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,9 +440,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA55E0C722B8B39A00CBC1CA /* UIAlertController+Blocks.m in Sources */,
 				AAC48E6F22B78D8000B885A3 /* ViewController.m in Sources */,
+				AA55E0CD22B8CBCF00CBC1CA /* UIViewController+LT.m in Sources */,
 				AAC48E7A22B78D8200B885A3 /* main.m in Sources */,
+				AA55E0CA22B8C7A000CBC1CA /* DemoViewController.m in Sources */,
 				AAC48E6C22B78D8000B885A3 /* AppDelegate.m in Sources */,
+				AA230ECA22B9D18500866C04 /* LTView.m in Sources */,
+				AA230EC722B9CB9800866C04 /* UIView+LTExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
