@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		10715E5EBEC92230B874EF35 /* libPods-LTKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2161A084AA2540F1B1A99F /* libPods-LTKit.a */; };
 		687943820E67AABEFE59F59E /* libPods-LTKitUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A988A394459BB63A72809351 /* libPods-LTKitUITests.a */; };
+		AA04444823345DB400FD2F07 /* NSString+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA04444723345DB400FD2F07 /* NSString+LTExtension.m */; };
+		AA04444B23345F0C00FD2F07 /* NSData+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA04444A23345F0C00FD2F07 /* NSData+LTExtension.m */; };
+		AA04444E2334664200FD2F07 /* NSString+LTRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = AA04444D2334664200FD2F07 /* NSString+LTRegex.m */; };
+		AA0444552334679300FD2F07 /* NSString+LTEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0444542334679300FD2F07 /* NSString+LTEncrypt.m */; };
+		AA0A9BFE23385CBE008D0B08 /* UIApplication+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9BFD23385CBE008D0B08 /* UIApplication+LTExtension.m */; };
+		AA0A9C012338A39E008D0B08 /* UIButton+LTBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9C002338A39E008D0B08 /* UIButton+LTBadge.m */; };
+		AA0A9C042338A3D1008D0B08 /* UIButton+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9C032338A3D1008D0B08 /* UIButton+LTExtension.m */; };
 		AA230EC722B9CB9800866C04 /* UIView+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA230EC622B9CB9800866C04 /* UIView+LTExtension.m */; };
 		AA230ECA22B9D18500866C04 /* LTView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA230EC922B9D18500866C04 /* LTView.m */; };
 		AA55E0C722B8B39A00CBC1CA /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55E0C622B8B39A00CBC1CA /* UIAlertController+Blocks.m */; };
@@ -25,6 +32,13 @@
 		AAC48E7A22B78D8200B885A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC48E7922B78D8200B885A3 /* main.m */; };
 		AAC48E8422B78D8200B885A3 /* LTKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC48E8322B78D8200B885A3 /* LTKitTests.m */; };
 		AAC48E8F22B78D8200B885A3 /* LTKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC48E8E22B78D8200B885A3 /* LTKitUITests.m */; };
+		AAE2F523233747A000BE535B /* LTTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2F522233747A000BE535B /* LTTouchID.m */; };
+		AAE2F5262337576100BE535B /* UIView+LTFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2F5252337576100BE535B /* UIView+LTFrame.m */; };
+		AAE2F5292337577C00BE535B /* UIView+LTCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2F5282337577C00BE535B /* UIView+LTCorners.m */; };
+		AAE2F52C23375B4800BE535B /* NSObject+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2F52B23375B4800BE535B /* NSObject+LTExtension.m */; };
+		AAF11DE7234C55E20095201E /* UIButton+LTCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF11DE6234C55E20095201E /* UIButton+LTCountDown.m */; };
+		AAF11DEA234C596B0095201E /* UIColor+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF11DE9234C596B0095201E /* UIColor+LTExtension.m */; };
+		AAF11DED234C623E0095201E /* UIImage+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF11DEC234C623E0095201E /* UIImage+LTExtension.m */; };
 		FD3B1E5BAC1B4C9D18AF5042 /* libPods-LTKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0696967615F615F5D4F66A /* libPods-LTKitTests.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +67,20 @@
 		7C6FA6813241788AFEE8EC66 /* Pods-LTKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTKitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTKitUITests/Pods-LTKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8EF586D7F307D769E58CA115 /* Pods-LTKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTKitTests/Pods-LTKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		A988A394459BB63A72809351 /* libPods-LTKitUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LTKitUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA04444623345DB400FD2F07 /* NSString+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LTExtension.h"; sourceTree = "<group>"; };
+		AA04444723345DB400FD2F07 /* NSString+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LTExtension.m"; sourceTree = "<group>"; };
+		AA04444923345F0C00FD2F07 /* NSData+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+LTExtension.h"; sourceTree = "<group>"; };
+		AA04444A23345F0C00FD2F07 /* NSData+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+LTExtension.m"; sourceTree = "<group>"; };
+		AA04444C2334664200FD2F07 /* NSString+LTRegex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LTRegex.h"; sourceTree = "<group>"; };
+		AA04444D2334664200FD2F07 /* NSString+LTRegex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LTRegex.m"; sourceTree = "<group>"; };
+		AA0444532334679300FD2F07 /* NSString+LTEncrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LTEncrypt.h"; sourceTree = "<group>"; };
+		AA0444542334679300FD2F07 /* NSString+LTEncrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LTEncrypt.m"; sourceTree = "<group>"; };
+		AA0A9BFC23385CBE008D0B08 /* UIApplication+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+LTExtension.h"; sourceTree = "<group>"; };
+		AA0A9BFD23385CBE008D0B08 /* UIApplication+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+LTExtension.m"; sourceTree = "<group>"; };
+		AA0A9BFF2338A39E008D0B08 /* UIButton+LTBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+LTBadge.h"; sourceTree = "<group>"; };
+		AA0A9C002338A39E008D0B08 /* UIButton+LTBadge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LTBadge.m"; sourceTree = "<group>"; };
+		AA0A9C022338A3D1008D0B08 /* UIButton+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+LTExtension.h"; sourceTree = "<group>"; };
+		AA0A9C032338A3D1008D0B08 /* UIButton+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LTExtension.m"; sourceTree = "<group>"; };
 		AA230EC522B9CB9800866C04 /* UIView+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LTExtension.h"; sourceTree = "<group>"; };
 		AA230EC622B9CB9800866C04 /* UIView+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTExtension.m"; sourceTree = "<group>"; };
 		AA230EC822B9D18500866C04 /* LTView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTView.h; sourceTree = "<group>"; };
@@ -86,6 +114,21 @@
 		AAC48E8E22B78D8200B885A3 /* LTKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTKitUITests.m; sourceTree = "<group>"; };
 		AAC48E9022B78D8200B885A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAC48E9D22B7915F00B885A3 /* LTDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTDefines.h; sourceTree = "<group>"; };
+		AAE2F521233747A000BE535B /* LTTouchID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTTouchID.h; sourceTree = "<group>"; };
+		AAE2F522233747A000BE535B /* LTTouchID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTTouchID.m; sourceTree = "<group>"; };
+		AAE2F5242337576100BE535B /* UIView+LTFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LTFrame.h"; sourceTree = "<group>"; };
+		AAE2F5252337576100BE535B /* UIView+LTFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTFrame.m"; sourceTree = "<group>"; };
+		AAE2F5272337577C00BE535B /* UIView+LTCorners.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LTCorners.h"; sourceTree = "<group>"; };
+		AAE2F5282337577C00BE535B /* UIView+LTCorners.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTCorners.m"; sourceTree = "<group>"; };
+		AAE2F52A23375B4800BE535B /* NSObject+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+LTExtension.h"; sourceTree = "<group>"; };
+		AAE2F52B23375B4800BE535B /* NSObject+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LTExtension.m"; sourceTree = "<group>"; };
+		AAF11DE5234C55E20095201E /* UIButton+LTCountDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+LTCountDown.h"; sourceTree = "<group>"; };
+		AAF11DE6234C55E20095201E /* UIButton+LTCountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LTCountDown.m"; sourceTree = "<group>"; };
+		AAF11DE8234C596B0095201E /* UIColor+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+LTExtension.h"; sourceTree = "<group>"; };
+		AAF11DE9234C596B0095201E /* UIColor+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LTExtension.m"; sourceTree = "<group>"; };
+		AAF11DEB234C623E0095201E /* UIImage+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+LTExtension.h"; sourceTree = "<group>"; };
+		AAF11DEC234C623E0095201E /* UIImage+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LTExtension.m"; sourceTree = "<group>"; };
+		AAF11DEE234C75BD0095201E /* LTCategoriesHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTCategoriesHeader.h; sourceTree = "<group>"; };
 		BB88A2F166ECA98D44F90D14 /* Pods-LTKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTKitTests/Pods-LTKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB0696967615F615F5D4F66A /* libPods-LTKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LTKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -128,6 +171,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AA04444F2334666400FD2F07 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				AA04444623345DB400FD2F07 /* NSString+LTExtension.h */,
+				AA04444723345DB400FD2F07 /* NSString+LTExtension.m */,
+				AA04444C2334664200FD2F07 /* NSString+LTRegex.h */,
+				AA04444D2334664200FD2F07 /* NSString+LTRegex.m */,
+				AA0444532334679300FD2F07 /* NSString+LTEncrypt.h */,
+				AA0444542334679300FD2F07 /* NSString+LTEncrypt.m */,
+				AA04444923345F0C00FD2F07 /* NSData+LTExtension.h */,
+				AA04444A23345F0C00FD2F07 /* NSData+LTExtension.m */,
+				AAE2F52A23375B4800BE535B /* NSObject+LTExtension.h */,
+				AAE2F52B23375B4800BE535B /* NSObject+LTExtension.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 		AA55E0C422B8B34D00CBC1CA /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +203,22 @@
 				AA794C8D2333793B00AB7EE6 /* UIView+LTShadow.m */,
 				AA794C8F2333796700AB7EE6 /* UIView+LTTouch.h */,
 				AA794C902333796700AB7EE6 /* UIView+LTTouch.m */,
+				AAE2F5242337576100BE535B /* UIView+LTFrame.h */,
+				AAE2F5252337576100BE535B /* UIView+LTFrame.m */,
+				AAE2F5272337577C00BE535B /* UIView+LTCorners.h */,
+				AAE2F5282337577C00BE535B /* UIView+LTCorners.m */,
+				AA0A9BFC23385CBE008D0B08 /* UIApplication+LTExtension.h */,
+				AA0A9BFD23385CBE008D0B08 /* UIApplication+LTExtension.m */,
+				AA0A9BFF2338A39E008D0B08 /* UIButton+LTBadge.h */,
+				AA0A9C002338A39E008D0B08 /* UIButton+LTBadge.m */,
+				AA0A9C022338A3D1008D0B08 /* UIButton+LTExtension.h */,
+				AA0A9C032338A3D1008D0B08 /* UIButton+LTExtension.m */,
+				AAF11DE5234C55E20095201E /* UIButton+LTCountDown.h */,
+				AAF11DE6234C55E20095201E /* UIButton+LTCountDown.m */,
+				AAF11DE8234C596B0095201E /* UIColor+LTExtension.h */,
+				AAF11DE9234C596B0095201E /* UIColor+LTExtension.m */,
+				AAF11DEB234C623E0095201E /* UIImage+LTExtension.h */,
+				AAF11DEC234C623E0095201E /* UIImage+LTExtension.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -172,6 +248,8 @@
 		AAC48E6922B78D8000B885A3 /* LTKit */ = {
 			isa = PBXGroup;
 			children = (
+				AAE2F5202337477C00BE535B /* LTTools */,
+				AA04444F2334666400FD2F07 /* Foundation */,
 				AA55E0C422B8B34D00CBC1CA /* UIKit */,
 				AAC48E9C22B7911F00B885A3 /* LTDefines */,
 				AAC48E6A22B78D8000B885A3 /* AppDelegate.h */,
@@ -213,8 +291,18 @@
 			isa = PBXGroup;
 			children = (
 				AAC48E9D22B7915F00B885A3 /* LTDefines.h */,
+				AAF11DEE234C75BD0095201E /* LTCategoriesHeader.h */,
 			);
 			path = LTDefines;
+			sourceTree = "<group>";
+		};
+		AAE2F5202337477C00BE535B /* LTTools */ = {
+			isa = PBXGroup;
+			children = (
+				AAE2F521233747A000BE535B /* LTTouchID.h */,
+				AAE2F522233747A000BE535B /* LTTouchID.m */,
+			);
+			path = LTTools;
 			sourceTree = "<group>";
 		};
 		D806710BCB015E3DB6200A37 /* Pods */ = {
@@ -455,17 +543,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF11DED234C623E0095201E /* UIImage+LTExtension.m in Sources */,
 				AA55E0C722B8B39A00CBC1CA /* UIAlertController+Blocks.m in Sources */,
 				AA794C882333686200AB7EE6 /* UIView+LTGradient.m in Sources */,
+				AAF11DE7234C55E20095201E /* UIButton+LTCountDown.m in Sources */,
 				AAC48E6F22B78D8000B885A3 /* ViewController.m in Sources */,
 				AA55E0CD22B8CBCF00CBC1CA /* UIViewController+LT.m in Sources */,
 				AAC48E7A22B78D8200B885A3 /* main.m in Sources */,
+				AAE2F5262337576100BE535B /* UIView+LTFrame.m in Sources */,
+				AAE2F52C23375B4800BE535B /* NSObject+LTExtension.m in Sources */,
 				AA55E0CA22B8C7A000CBC1CA /* DemoViewController.m in Sources */,
+				AAE2F523233747A000BE535B /* LTTouchID.m in Sources */,
 				AA794C912333796700AB7EE6 /* UIView+LTTouch.m in Sources */,
 				AA794C8E2333793B00AB7EE6 /* UIView+LTShadow.m in Sources */,
 				AAC48E6C22B78D8000B885A3 /* AppDelegate.m in Sources */,
+				AA04444823345DB400FD2F07 /* NSString+LTExtension.m in Sources */,
+				AA0A9C042338A3D1008D0B08 /* UIButton+LTExtension.m in Sources */,
 				AA230ECA22B9D18500866C04 /* LTView.m in Sources */,
 				AA230EC722B9CB9800866C04 /* UIView+LTExtension.m in Sources */,
+				AA04444B23345F0C00FD2F07 /* NSData+LTExtension.m in Sources */,
+				AA0A9BFE23385CBE008D0B08 /* UIApplication+LTExtension.m in Sources */,
+				AA0A9C012338A39E008D0B08 /* UIButton+LTBadge.m in Sources */,
+				AAE2F5292337577C00BE535B /* UIView+LTCorners.m in Sources */,
+				AAF11DEA234C596B0095201E /* UIColor+LTExtension.m in Sources */,
+				AA0444552334679300FD2F07 /* NSString+LTEncrypt.m in Sources */,
+				AA04444E2334664200FD2F07 /* NSString+LTRegex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
