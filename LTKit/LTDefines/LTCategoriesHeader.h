@@ -32,6 +32,9 @@
 #import "NSString+LTEncrypt.h"
 #import "NSData+LTExtension.h"
 #import "NSObject+LTExtension.h"
+#import "NSMutableArray+LTAdd.h"
+#import "NSDate+LTExtension.h"
+#import "NSMutableDictionary+LTAdd.h"
 
 
 #endif /* LTCategoriesHeader_h */
