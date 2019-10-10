@@ -13,6 +13,8 @@
 		AA04444B23345F0C00FD2F07 /* NSData+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA04444A23345F0C00FD2F07 /* NSData+LTExtension.m */; };
 		AA04444E2334664200FD2F07 /* NSString+LTRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = AA04444D2334664200FD2F07 /* NSString+LTRegex.m */; };
 		AA0444552334679300FD2F07 /* NSString+LTEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0444542334679300FD2F07 /* NSString+LTEncrypt.m */; };
+		AA0487E6234F051600A7A87D /* LTAdPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0487E5234F051600A7A87D /* LTAdPageView.m */; };
+		AA08449B234DD3F800CDAC5D /* LTFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08449A234DD3F800CDAC5D /* LTFPSLabel.m */; };
 		AA0A9BFE23385CBE008D0B08 /* UIApplication+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9BFD23385CBE008D0B08 /* UIApplication+LTExtension.m */; };
 		AA0A9C012338A39E008D0B08 /* UIButton+LTBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9C002338A39E008D0B08 /* UIButton+LTBadge.m */; };
 		AA0A9C042338A3D1008D0B08 /* UIButton+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9C032338A3D1008D0B08 /* UIButton+LTExtension.m */; };
@@ -78,6 +80,10 @@
 		AA04444D2334664200FD2F07 /* NSString+LTRegex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LTRegex.m"; sourceTree = "<group>"; };
 		AA0444532334679300FD2F07 /* NSString+LTEncrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LTEncrypt.h"; sourceTree = "<group>"; };
 		AA0444542334679300FD2F07 /* NSString+LTEncrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LTEncrypt.m"; sourceTree = "<group>"; };
+		AA0487E4234F051600A7A87D /* LTAdPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTAdPageView.h; sourceTree = "<group>"; };
+		AA0487E5234F051600A7A87D /* LTAdPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAdPageView.m; sourceTree = "<group>"; };
+		AA084499234DD3F800CDAC5D /* LTFPSLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTFPSLabel.h; sourceTree = "<group>"; };
+		AA08449A234DD3F800CDAC5D /* LTFPSLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTFPSLabel.m; sourceTree = "<group>"; };
 		AA0A9BFC23385CBE008D0B08 /* UIApplication+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+LTExtension.h"; sourceTree = "<group>"; };
 		AA0A9BFD23385CBE008D0B08 /* UIApplication+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+LTExtension.m"; sourceTree = "<group>"; };
 		AA0A9BFF2338A39E008D0B08 /* UIButton+LTBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+LTBadge.h"; sourceTree = "<group>"; };
@@ -263,7 +269,7 @@
 		AAC48E6922B78D8000B885A3 /* LTKit */ = {
 			isa = PBXGroup;
 			children = (
-				AAE2F5202337477C00BE535B /* LTTools */,
+				AAE2F5202337477C00BE535B /* Utils */,
 				AA04444F2334666400FD2F07 /* Foundation */,
 				AA55E0C422B8B34D00CBC1CA /* UIKit */,
 				AAC48E9C22B7911F00B885A3 /* LTDefines */,
@@ -311,13 +317,17 @@
 			path = LTDefines;
 			sourceTree = "<group>";
 		};
-		AAE2F5202337477C00BE535B /* LTTools */ = {
+		AAE2F5202337477C00BE535B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				AAE2F521233747A000BE535B /* LTTouchID.h */,
 				AAE2F522233747A000BE535B /* LTTouchID.m */,
+				AA084499234DD3F800CDAC5D /* LTFPSLabel.h */,
+				AA08449A234DD3F800CDAC5D /* LTFPSLabel.m */,
+				AA0487E4234F051600A7A87D /* LTAdPageView.h */,
+				AA0487E5234F051600A7A87D /* LTAdPageView.m */,
 			);
-			path = LTTools;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		D806710BCB015E3DB6200A37 /* Pods */ = {
@@ -558,6 +568,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA0487E6234F051600A7A87D /* LTAdPageView.m in Sources */,
+				AA08449B234DD3F800CDAC5D /* LTFPSLabel.m in Sources */,
 				AAF11DED234C623E0095201E /* UIImage+LTExtension.m in Sources */,
 				AA55E0C722B8B39A00CBC1CA /* UIAlertController+Blocks.m in Sources */,
 				AAF11DF1234C78400095201E /* NSDate+LTExtension.m in Sources */,
