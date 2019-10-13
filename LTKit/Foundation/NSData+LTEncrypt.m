@@ -6,10 +6,10 @@
 //  Copyright © 2019 mrstock. All rights reserved.
 //
 
-#import "NSData+LTExtension.h"
+#import "NSData+LTEncrypt.h"
 #import <CommonCrypto/CommonCrypto.h>
 
-@implementation NSData (LTExtension)
+@implementation NSData (LTEncrypt)
 
 - (NSString *)md2String {
     unsigned char result[CC_MD2_DIGEST_LENGTH];

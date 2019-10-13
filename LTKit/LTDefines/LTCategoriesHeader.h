@@ -30,7 +30,7 @@
 #import "NSString+LTExtension.h"
 #import "NSString+LTRegex.h"
 #import "NSString+LTEncrypt.h"
-#import "NSData+LTExtension.h"
+#import "NSData+LTEncrypt.h"
 #import "NSObject+LTExtension.h"
 #import "NSMutableArray+LTAdd.h"
 #import "NSDate+LTExtension.h"

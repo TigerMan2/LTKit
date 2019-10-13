@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSData (LTExtension)
+@interface NSData (LTEncrypt)
 
 /**
  MD2加密

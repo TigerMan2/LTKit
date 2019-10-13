@@ -7,7 +7,7 @@
 //
 
 #import "NSString+LTEncrypt.h"
-#import "NSData+LTExtension.h"
+#import "NSData+LTEncrypt.h"
 
 @implementation NSString (LTEncrypt)
 

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "LTFPSLabel.h"
+#import "NSURLRequest+LTParams.h"
 
 @interface ViewController ()
 
@@ -21,9 +21,8 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    LTFPSLabel *fpsLabel = [[LTFPSLabel alloc] initWithFrame:CGRectZero];
-    fpsLabel.center = self.view.center;
-    [self.view addSubview:fpsLabel];
+    NSArray *array = [NSURLRequest queryStringComponentsFromKey:@"key" value:@[@"version",@"sss",@"aaa"]];
+    NSLog(@"array-----%@",array);
     
 }
 
