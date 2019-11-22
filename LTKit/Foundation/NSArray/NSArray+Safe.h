@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /// 数组安全添加数据
-@interface NSMutableArray (LTAdd)
+@interface NSMutableArray (Safe)
 
 - (void)safeAddObject:(id)anObject;
 
