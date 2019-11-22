@@ -6,9 +6,9 @@
 //  Copyright © 2019 mrstock. All rights reserved.
 //
 
-#import "NSMutableArray+LTAdd.h"
+#import "NSArray+Safe.h"
 
-@implementation NSMutableArray (LTAdd)
+@implementation NSMutableArray (Safe)
 
 - (void)safeAddObject:(id)anObject {
     if (anObject == nil) {
