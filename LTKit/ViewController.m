@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "NSURLRequest+LTParams.h"
 #import "NSDictionary+LT.h"
+#import "BlocksKit.h"
 
 @interface ViewController ()
 
@@ -19,16 +20,39 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     self.view.backgroundColor = [UIColor whiteColor];
     
-    NSString *urlString = @"https://service.agent.dexunzhenggu.cn/index.php?c=Answer&a=userhistory&site=stockdoctor&v=company&admin_id=1565&appId=ios&appcode=5c3d73a0f1f18c30cqb5zkov&client_id=211C918D-6042-CAE5-B9A9-668E01393FAA&company_id=2&curpage=1&datastatus=3&key=5dd4a57336c13r43dm2jvw3i&pagesize=10&serviceversion=v2&vcode=1&ver=1.0.0";
-    NSDictionary *dic = [NSDictionary dictionaryWithURLQuery:urlString];
-    NSLog(@"dic---%@",dic);
+    UITextField *textField = [[UITextField alloc] init];
+    textField.placeholder = @"请输入内容";
+    [self.view addSubview:textField];
     
-    NSString *url = [dic URLQueryString];
-    NSLog(@"url---%@",url);
+    UILabel *label = [[UILabel alloc] init];
+    label.textColor = [UIColor colorWithHexString:@"0xE50010"];
+    NSLog(@"%@",[UIColor colorWithHexString:@"0xE50010"]);
+    [self.view addSubview:label];
     
+    [textField mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.equalTo(@(0));
+        make.height.equalTo(@(40));
+        make.top.equalTo(@(100));
+        make.width.equalTo(@(300));
+    }];
+    
+    [label mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(textField.mas_bottom).offset(20);
+        make.left.equalTo(textField.mas_left);
+    }];
+    
+    RAC(label,text) = textField.rac_textSignal;
+    
+    [[[NSNotificationCenter defaultCenter] rac_addObserverForName:UIKeyboardWillShowNotification object:nil] subscribeNext:^(NSNotification * _Nullable x) {
+        
+    }];
+    
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self.view endEditing:YES];
 }
 
 

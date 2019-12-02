@@ -1,0 +1,6 @@
+module Pods_LTKit {
+  umbrella header "Pods-LTKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

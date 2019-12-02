@@ -12,6 +12,9 @@ target 'LTKit' do
   #加载框
   pod 'MBProgressHUD'
   pod 'SVProgressHUD'
+  pod 'BlocksKit'
+  pod 'ReactiveObjC'
+  pod 'Masonry'
 
   target 'LTKitTests' do
     inherit! :search_paths

@@ -25,7 +25,7 @@
     }
     
     //!< 如果是0x开头的，则从位置2截取字符串
-    if ([cString hasPrefix:@"0x"]) {
+    if ([cString hasPrefix:@"0X"]) {
         cString = [cString substringFromIndex:2];
     }
     
