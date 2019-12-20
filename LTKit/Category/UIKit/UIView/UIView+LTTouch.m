@@ -17,8 +17,6 @@
 
 - (void)lt_setTouchAction:(void(^)(UIView *view))touchAction {
     objc_setAssociatedObject(self, UIView_TouchAction, touchAction, OBJC_ASSOCIATION_COPY);
-    
-#warning 这里有个疑问，如果添加点击手势时，将所有手势都去掉，则怎么同时添加点击手势和长按手势呢？
     for (UIGestureRecognizer *gesture in self.gestureRecognizers) {
         [self removeGestureRecognizer:gesture];
     }
