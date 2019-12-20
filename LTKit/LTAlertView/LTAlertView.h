@@ -1,8 +1,8 @@
 //
-//  LTView.h
+//  LTAlertView.h
 //  LTKit
 //
-//  Created by Luther on 2019/6/19.
+//  Created by Luther on 2019/12/15.
 //  Copyright © 2019 mrstock. All rights reserved.
 //
 
@@ -10,7 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LTView : UIView
+typedef void(^LTShowAnimationCompletionBlock)(void);
+
+@interface LTAlertView : UIView
 
 @end
 

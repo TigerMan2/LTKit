@@ -10,50 +10,71 @@
 #import "NSURLRequest+LTParams.h"
 #import "NSDictionary+LT.h"
 #import "BlocksKit.h"
+#import "LTHeader.h"
+#import "LTPagerViewDemoCell.h"
 
 @interface ViewController ()
-
-@property (nonatomic, strong) UIButton *centerBtn;
+<
+    LTCyclePagerViewDelegate,
+    LTCyclePagerViewDataSource
+>
+@property (nonatomic, strong) LTCyclePagerView *pagerView;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor blackColor];
     
-    UITextField *textField = [[UITextField alloc] init];
-    textField.placeholder = @"请输入内容";
-    [self.view addSubview:textField];
-    
-    UILabel *label = [[UILabel alloc] init];
-    label.textColor = [UIColor colorWithHexString:@"0xE50010"];
-    NSLog(@"%@",[UIColor colorWithHexString:@"0xE50010"]);
-    [self.view addSubview:label];
-    
-    [textField mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.centerX.equalTo(@(0));
-        make.height.equalTo(@(40));
-        make.top.equalTo(@(100));
-        make.width.equalTo(@(300));
+    [self.view addSubview:self.pagerView];
+    [self.pagerView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.equalTo(self.view.mas_centerX);
+        make.centerY.equalTo(self.view.mas_centerY);
+        make.left.right.equalTo(@(0));
+        make.height.equalTo(@(188));
     }];
     
-    [label mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(textField.mas_bottom).offset(20);
-        make.left.equalTo(textField.mas_left);
-    }];
-    
-    RAC(label,text) = textField.rac_textSignal;
-    
-    [[[NSNotificationCenter defaultCenter] rac_addObserverForName:UIKeyboardWillShowNotification object:nil] subscribeNext:^(NSNotification * _Nullable x) {
-        
-    }];
-    
+    [self.pagerView reloadData];
+
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self.view endEditing:YES];
+#pragma mark  LTCyclePagerViewDataSource
+- (NSInteger)numberOfItemsInPagerView:(LTCyclePagerView *)pagerView {
+    return 6;
 }
 
+- (UICollectionViewCell *)pagerView:(LTCyclePagerView *)pagerView cellForItemAtIndex:(NSInteger)index {
+    LTPagerViewDemoCell *cell = [pagerView dequeueReusableCellWithReuseIdentifier:@"LTPagerViewDemoCell" forIndex:index];
+    NSArray *imgs = @[@"https://dexunzhenggu.oss-cn-shenzhen.aliyuncs.com/dx_web/file_1565677866737.jpg",
+    @"https://dexunzhenggu.oss-cn-shenzhen.aliyuncs.com/dx_web/file_1566524871843.jpg",
+    @"https://dexunzhenggu.oss-cn-shenzhen.aliyuncs.com/dx_web/file_1566714237783.jpg",
+    @"https://dexunzhenggu.oss-cn-shenzhen.aliyuncs.com/dx_web/file_1572504625820.png",
+    @"https://dexunzhenggu.oss-cn-shenzhen.aliyuncs.com/dx_web/file_1572504632430.png",
+    @"https://dexunzhenggu.oss-cn-shenzhen.aliyuncs.com/dx_web/file_1572504639466.png"];
+    [cell.imageView sd_setImageWithURL:imgs[index]];
+    return cell;
+}
+
+- (LTCyclePagerViewLayout *)layoutForPagerView:(LTCyclePagerView *)pagerView {
+    LTCyclePagerViewLayout *layout = [[LTCyclePagerViewLayout alloc] init];
+    layout.itemSize = CGSizeMake(315, 188);
+    layout.itemSpacing = 15;
+    return layout;
+}
+
+#pragma mark  getter
+
+- (LTCyclePagerView *)pagerView {
+    if (!_pagerView) {
+        _pagerView = [[LTCyclePagerView alloc] init];
+        _pagerView.isInfiniteLoop = YES;
+        _pagerView.autoScrollInterval = 3.0;
+        _pagerView.delegate = self;
+        _pagerView.dataSource = self;
+        [_pagerView registerClass:[LTPagerViewDemoCell class] forCellWithReuseIdentifier:@"LTPagerViewDemoCell"];
+    }
+    return _pagerView;
+}
 
 @end

@@ -21,6 +21,8 @@ target 'LTKit' do
   pod 'Masonry'
   # 无限滑动的轮播图(可制定轮播图的大小)
   pod 'TYCyclePagerView'
+  # 加载网络图片
+  pod 'SDWebImage'
 
   target 'LTKitTests' do
     inherit! :search_paths
