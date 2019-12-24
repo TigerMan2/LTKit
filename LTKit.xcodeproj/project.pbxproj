@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		10715E5EBEC92230B874EF35 /* libPods-LTKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2161A084AA2540F1B1A99F /* libPods-LTKit.a */; };
 		687943820E67AABEFE59F59E /* libPods-LTKitUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A988A394459BB63A72809351 /* libPods-LTKitUITests.a */; };
+		AA00663123B19C4300349C55 /* UIView+LTAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA00663023B19C4300349C55 /* UIView+LTAutoLayout.m */; };
 		AA0252DC23A864860098C132 /* LTPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0252DB23A864860098C132 /* LTPageControl.m */; };
 		AA0252DF23A864BD0098C132 /* LTCyclePagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0252DE23A864BD0098C132 /* LTCyclePagerView.m */; };
 		AA0252E223A865640098C132 /* LTCyclePagerTransformLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0252E123A865640098C132 /* LTCyclePagerTransformLayout.m */; };
@@ -46,7 +47,6 @@
 		AAE660DB2387AE4B00F58C13 /* UITextView+LT.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE660DA2387AE4B00F58C13 /* UITextView+LT.m */; };
 		AAE775472352FD6F00026A17 /* NSIndexPath+LTOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE775462352FD6F00026A17 /* NSIndexPath+LTOffset.m */; };
 		AAE7754B2353040300026A17 /* NSUserDefaults+LTiCloudSync.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE7754A2353040300026A17 /* NSUserDefaults+LTiCloudSync.m */; };
-		AAE8F8B523A6211C00D34BB3 /* LTAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE8F8B423A6211C00D34BB3 /* LTAlertView.m */; };
 		AAF11DE7234C55E20095201E /* UIButton+LTCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF11DE6234C55E20095201E /* UIButton+LTCountDown.m */; };
 		AAF11DEA234C596B0095201E /* UIColor+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF11DE9234C596B0095201E /* UIColor+LTExtension.m */; };
 		AAF11DED234C623E0095201E /* UIImage+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF11DEC234C623E0095201E /* UIImage+LTExtension.m */; };
@@ -54,6 +54,11 @@
 		AAF11DF4234C78F40095201E /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF11DF3234C78F40095201E /* NSArray+Safe.m */; };
 		AAF2E75123504AF7007470ED /* NSURLSession+LTSynchronousTask.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF2E75023504AF7007470ED /* NSURLSession+LTSynchronousTask.m */; };
 		AAF2E755235053BA007470ED /* NSURLRequest+LTParams.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF2E754235053BA007470ED /* NSURLRequest+LTParams.m */; };
+		AAF947AD23AF14190032DC0B /* LTBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF947AC23AF14190032DC0B /* LTBaseAnimation.m */; };
+		AAF947B123AF170D0032DC0B /* LTAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF947B023AF170D0032DC0B /* LTAlertController.m */; };
+		AAF947B423AF18C80032DC0B /* LTAlertFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF947B323AF18C80032DC0B /* LTAlertFadeAnimation.m */; };
+		AAF947B723AF369F0032DC0B /* LTAlertScaleFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF947B623AF369F0032DC0B /* LTAlertScaleFadeAnimation.m */; };
+		AAF947BA23AF38BF0032DC0B /* LTAlertDorpDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF947B923AF38BF0032DC0B /* LTAlertDorpDownAnimation.m */; };
 		FD3B1E5BAC1B4C9D18AF5042 /* libPods-LTKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0696967615F615F5D4F66A /* libPods-LTKitTests.a */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +87,8 @@
 		7C6FA6813241788AFEE8EC66 /* Pods-LTKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTKitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTKitUITests/Pods-LTKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8EF586D7F307D769E58CA115 /* Pods-LTKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTKitTests/Pods-LTKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		A988A394459BB63A72809351 /* libPods-LTKitUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LTKitUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA00662F23B19C4300349C55 /* UIView+LTAutoLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LTAutoLayout.h"; sourceTree = "<group>"; };
+		AA00663023B19C4300349C55 /* UIView+LTAutoLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTAutoLayout.m"; sourceTree = "<group>"; };
 		AA0252DA23A864860098C132 /* LTPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTPageControl.h; sourceTree = "<group>"; };
 		AA0252DB23A864860098C132 /* LTPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTPageControl.m; sourceTree = "<group>"; };
 		AA0252DD23A864BD0098C132 /* LTCyclePagerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTCyclePagerView.h; sourceTree = "<group>"; };
@@ -158,8 +165,6 @@
 		AAE775462352FD6F00026A17 /* NSIndexPath+LTOffset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+LTOffset.m"; sourceTree = "<group>"; };
 		AAE775492353040300026A17 /* NSUserDefaults+LTiCloudSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+LTiCloudSync.h"; sourceTree = "<group>"; };
 		AAE7754A2353040300026A17 /* NSUserDefaults+LTiCloudSync.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+LTiCloudSync.m"; sourceTree = "<group>"; };
-		AAE8F8B323A6211C00D34BB3 /* LTAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTAlertView.h; sourceTree = "<group>"; };
-		AAE8F8B423A6211C00D34BB3 /* LTAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAlertView.m; sourceTree = "<group>"; };
 		AAF11DE5234C55E20095201E /* UIButton+LTCountDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+LTCountDown.h"; sourceTree = "<group>"; };
 		AAF11DE6234C55E20095201E /* UIButton+LTCountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LTCountDown.m"; sourceTree = "<group>"; };
 		AAF11DE8234C596B0095201E /* UIColor+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+LTExtension.h"; sourceTree = "<group>"; };
@@ -176,6 +181,16 @@
 		AAF2E75023504AF7007470ED /* NSURLSession+LTSynchronousTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+LTSynchronousTask.m"; sourceTree = "<group>"; };
 		AAF2E753235053BA007470ED /* NSURLRequest+LTParams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+LTParams.h"; sourceTree = "<group>"; };
 		AAF2E754235053BA007470ED /* NSURLRequest+LTParams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+LTParams.m"; sourceTree = "<group>"; };
+		AAF947AB23AF14190032DC0B /* LTBaseAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBaseAnimation.h; sourceTree = "<group>"; };
+		AAF947AC23AF14190032DC0B /* LTBaseAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBaseAnimation.m; sourceTree = "<group>"; };
+		AAF947AF23AF170D0032DC0B /* LTAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTAlertController.h; sourceTree = "<group>"; };
+		AAF947B023AF170D0032DC0B /* LTAlertController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAlertController.m; sourceTree = "<group>"; };
+		AAF947B223AF18C80032DC0B /* LTAlertFadeAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTAlertFadeAnimation.h; sourceTree = "<group>"; };
+		AAF947B323AF18C80032DC0B /* LTAlertFadeAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAlertFadeAnimation.m; sourceTree = "<group>"; };
+		AAF947B523AF369F0032DC0B /* LTAlertScaleFadeAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTAlertScaleFadeAnimation.h; sourceTree = "<group>"; };
+		AAF947B623AF369F0032DC0B /* LTAlertScaleFadeAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAlertScaleFadeAnimation.m; sourceTree = "<group>"; };
+		AAF947B823AF38BF0032DC0B /* LTAlertDorpDownAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTAlertDorpDownAnimation.h; sourceTree = "<group>"; };
+		AAF947B923AF38BF0032DC0B /* LTAlertDorpDownAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAlertDorpDownAnimation.m; sourceTree = "<group>"; };
 		BB88A2F166ECA98D44F90D14 /* Pods-LTKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTKitTests/Pods-LTKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB0696967615F615F5D4F66A /* libPods-LTKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LTKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -216,6 +231,13 @@
 				A988A394459BB63A72809351 /* libPods-LTKitUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA00662E23B19C1700349C55 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AlertView;
 			sourceTree = "<group>";
 		};
 		AA0252D923A863FD0098C132 /* LTCyclePagerView */ = {
@@ -289,7 +311,7 @@
 			isa = PBXGroup;
 			children = (
 				AA0252D923A863FD0098C132 /* LTCyclePagerView */,
-				AAE8F8B223A6210000D34BB3 /* LTAlertView */,
+				AAE8F8B223A6210000D34BB3 /* LTAlertController */,
 				AAE8F8B123A6207900D34BB3 /* Category */,
 				AAE2F5202337477C00BE535B /* Utils */,
 				AAC48E9C22B7911F00B885A3 /* LTDefines */,
@@ -426,6 +448,8 @@
 		AAE660CC2387A8C200F58C13 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				AA00662F23B19C4300349C55 /* UIView+LTAutoLayout.h */,
+				AA00663023B19C4300349C55 /* UIView+LTAutoLayout.m */,
 				AA230EC522B9CB9800866C04 /* UIView+LTExtension.h */,
 				AA230EC622B9CB9800866C04 /* UIView+LTExtension.m */,
 				AA794C862333686200AB7EE6 /* UIView+LTGradient.h */,
@@ -525,13 +549,14 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		AAE8F8B223A6210000D34BB3 /* LTAlertView */ = {
+		AAE8F8B223A6210000D34BB3 /* LTAlertController */ = {
 			isa = PBXGroup;
 			children = (
-				AAE8F8B323A6211C00D34BB3 /* LTAlertView.h */,
-				AAE8F8B423A6211C00D34BB3 /* LTAlertView.m */,
+				AA00662E23B19C1700349C55 /* AlertView */,
+				AAF947AE23AF16F00032DC0B /* AlertController */,
+				AAF947AA23AF13CC0032DC0B /* AlertAnimations */,
 			);
-			path = LTAlertView;
+			path = LTAlertController;
 			sourceTree = "<group>";
 		};
 		AAF2E74E235047BF007470ED /* NSURLSession */ = {
@@ -550,6 +575,30 @@
 				AAF2E754235053BA007470ED /* NSURLRequest+LTParams.m */,
 			);
 			path = NSURLRequest;
+			sourceTree = "<group>";
+		};
+		AAF947AA23AF13CC0032DC0B /* AlertAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				AAF947AB23AF14190032DC0B /* LTBaseAnimation.h */,
+				AAF947AC23AF14190032DC0B /* LTBaseAnimation.m */,
+				AAF947B223AF18C80032DC0B /* LTAlertFadeAnimation.h */,
+				AAF947B323AF18C80032DC0B /* LTAlertFadeAnimation.m */,
+				AAF947B523AF369F0032DC0B /* LTAlertScaleFadeAnimation.h */,
+				AAF947B623AF369F0032DC0B /* LTAlertScaleFadeAnimation.m */,
+				AAF947B823AF38BF0032DC0B /* LTAlertDorpDownAnimation.h */,
+				AAF947B923AF38BF0032DC0B /* LTAlertDorpDownAnimation.m */,
+			);
+			path = AlertAnimations;
+			sourceTree = "<group>";
+		};
+		AAF947AE23AF16F00032DC0B /* AlertController */ = {
+			isa = PBXGroup;
+			children = (
+				AAF947AF23AF170D0032DC0B /* LTAlertController.h */,
+				AAF947B023AF170D0032DC0B /* LTAlertController.m */,
+			);
+			path = AlertController;
 			sourceTree = "<group>";
 		};
 		D806710BCB015E3DB6200A37 /* Pods */ = {
@@ -788,15 +837,18 @@
 				AA0487E6234F051600A7A87D /* LTAdPageView.m in Sources */,
 				AA08449B234DD3F800CDAC5D /* LTFPSLabel.m in Sources */,
 				AAF11DED234C623E0095201E /* UIImage+LTExtension.m in Sources */,
-				AAE8F8B523A6211C00D34BB3 /* LTAlertView.m in Sources */,
 				AAE660DB2387AE4B00F58C13 /* UITextView+LT.m in Sources */,
 				AAE660C52387730A00F58C13 /* NSDictionary+LT.m in Sources */,
+				AAF947B123AF170D0032DC0B /* LTAlertController.m in Sources */,
+				AAF947B723AF369F0032DC0B /* LTAlertScaleFadeAnimation.m in Sources */,
 				AA55E0C722B8B39A00CBC1CA /* UIAlertController+Blocks.m in Sources */,
 				AAF11DF1234C78400095201E /* NSDate+LTExtension.m in Sources */,
+				AAF947AD23AF14190032DC0B /* LTBaseAnimation.m in Sources */,
 				AA794C882333686200AB7EE6 /* UIView+LTGradient.m in Sources */,
 				AAF11DE7234C55E20095201E /* UIButton+LTCountDown.m in Sources */,
 				AAE660D52387A94800F58C13 /* LTTextView.m in Sources */,
 				AAC48E6F22B78D8000B885A3 /* ViewController.m in Sources */,
+				AA00663123B19C4300349C55 /* UIView+LTAutoLayout.m in Sources */,
 				AA55E0CD22B8CBCF00CBC1CA /* UIViewController+LT.m in Sources */,
 				AA0252DC23A864860098C132 /* LTPageControl.m in Sources */,
 				AAC48E7A22B78D8200B885A3 /* main.m in Sources */,
@@ -805,6 +857,7 @@
 				AAE2F52C23375B4800BE535B /* NSObject+LTExtension.m in Sources */,
 				AAE7754B2353040300026A17 /* NSUserDefaults+LTiCloudSync.m in Sources */,
 				AA55E0CA22B8C7A000CBC1CA /* DemoViewController.m in Sources */,
+				AAF947BA23AF38BF0032DC0B /* LTAlertDorpDownAnimation.m in Sources */,
 				AAE2F523233747A000BE535B /* LTTouchID.m in Sources */,
 				AA794C912333796700AB7EE6 /* UIView+LTTouch.m in Sources */,
 				AA794C8E2333793B00AB7EE6 /* UIView+LTShadow.m in Sources */,
@@ -821,6 +874,7 @@
 				AAE2F5292337577C00BE535B /* UIView+LTCorners.m in Sources */,
 				AAF11DEA234C596B0095201E /* UIColor+LTExtension.m in Sources */,
 				AA0444552334679300FD2F07 /* NSString+LTEncrypt.m in Sources */,
+				AAF947B423AF18C80032DC0B /* LTAlertFadeAnimation.m in Sources */,
 				AA04444E2334664200FD2F07 /* NSString+LTRegex.m in Sources */,
 				AAF2E755235053BA007470ED /* NSURLRequest+LTParams.m in Sources */,
 				AAF2E75123504AF7007470ED /* NSURLSession+LTSynchronousTask.m in Sources */,
