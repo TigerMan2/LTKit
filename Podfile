@@ -10,19 +10,43 @@ target 'LTKit' do
   
   # 网络
   pod 'AFNetworking'
+  
   # 加载框
   pod 'MBProgressHUD'
   pod 'SVProgressHUD'
+  
   # UIKit和Foundation的block类别
   pod 'BlocksKit'
+  
   # 信号
   pod 'ReactiveObjC'
-  # 约束布局
+  
+  # 约束
   pod 'Masonry'
-  # 无限滑动的轮播图(可制定轮播图的大小)
+  
+  # 轮播图
   pod 'TYCyclePagerView'
-  # 加载网络图片
+  pod 'SDCycleScrollView'
+  
+  # 弹框
+  pod 'TYAlertController'
+
+  # 图片
+  pod 'TZImagePickerController'
+  pod 'YBImageBrowser'
   pod 'SDWebImage'
+  
+  #UILabel
+  pod 'YYText'
+  
+  #特斯拉组件
+  pod 'YNPageViewController'
+  
+  #键盘
+  pod 'IQKeyboardManager'
+  
+  # 悬浮球
+  pod 'JhtFloatingBall'
 
   target 'LTKitTests' do
     inherit! :search_paths
