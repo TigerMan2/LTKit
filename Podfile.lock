@@ -102,6 +102,9 @@ PODS:
   - TZImagePickerController (3.2.9)
   - UICountingLabel (1.2.0)
   - "UITableView+FDTemplateLayoutCell (1.6)"
+  - VTMagic (1.2.4):
+    - VTMagic/Core (= 1.2.4)
+  - VTMagic/Core (1.2.4)
   - XHLaunchAd (3.9.8):
     - FLAnimatedImage (~> 1.0.12)
   - YBImageBrowser (3.0.8):
@@ -166,6 +169,7 @@ DEPENDENCIES:
   - TYCyclePagerView
   - TZImagePickerController
   - "UITableView+FDTemplateLayoutCell"
+  - VTMagic
   - XHLaunchAd
   - YBImageBrowser
   - YNPageViewController
@@ -223,6 +227,7 @@ SPEC REPOS:
     - TZImagePickerController
     - UICountingLabel
     - "UITableView+FDTemplateLayoutCell"
+    - VTMagic
     - XHLaunchAd
     - YBImageBrowser
     - YNPageViewController
@@ -281,6 +286,7 @@ SPEC CHECKSUMS:
   TZImagePickerController: 1f92968aa0e98a06b9e2eccca8560acc19254257
   UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  VTMagic: b49e5f456dbcbfd9a3588ba92417233a105bc193
   XHLaunchAd: 45048592af01aa501c9d2d0c45e95ca74c4d0596
   YBImageBrowser: ecb5b8b51c9c6e1e1f97d33ab94ad88097b200b3
   YNPageViewController: 33040d429adf0b415d4449ffeec848d8339934ea
@@ -292,6 +298,6 @@ SPEC CHECKSUMS:
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
   ZFPlayer: fbae8477ec9a83f644bd8890e92e7871f37a587d
 
-PODFILE CHECKSUM: c1e8b7e5e1b2f7f0e0ba1fd931adc4e684a7f0c3
+PODFILE CHECKSUM: ce7b7b68efc67065bcc7eb5250b7eb71be825bd4
 
 COCOAPODS: 1.8.4

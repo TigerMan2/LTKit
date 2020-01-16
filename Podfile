@@ -39,6 +39,7 @@ target 'LTKit' do
   pod 'TYAttributedLabel'
   # 特斯拉组件
   pod 'YNPageViewController'
+  pod 'VTMagic'
   # 键盘
   pod 'IQKeyboardManager'
   # 悬浮球
