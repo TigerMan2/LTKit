@@ -10,6 +10,7 @@ target 'LTKit' do
   
   # 网络
   pod 'AFNetworking'
+  pod 'YTKNetwork'
   # 加载框
   pod 'MBProgressHUD'
   pod 'SVProgressHUD'
@@ -60,6 +61,7 @@ target 'LTKit' do
   pod 'RETableViewManager'
   # 图标
   pod 'PNChart'
+  pod 'AAChartKit'
   # 侧边栏
   pod 'MMDrawerController'
   pod 'RESideMenu'
@@ -69,6 +71,21 @@ target 'LTKit' do
   # 富文本
   pod 'TTTAttributedLabel'
   pod 'TYAttributedLabel'
+  # 日历
+  pod 'FSCalendar'
+  # 视频播放器
+  pod 'ZFPlayer'
+  # 导航
+  pod "RTRootNavigationController"
+  # 启动广告
+  pod 'XHLaunchAd'
+  # 按钮
+  pod 'PPNumberButton'
+  # 搜索
+  pod 'PYSearch'
+  # 弹幕
+  pod 'OCBarrage'
+  pod 'BarrageRenderer'
   
 
   target 'LTKitTests' do
