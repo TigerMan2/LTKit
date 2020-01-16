@@ -35,6 +35,8 @@ target 'LTKit' do
   pod 'HUPhotoBrowser'
   # UILabel
   pod 'YYText'
+  pod 'TTTAttributedLabel'
+  pod 'TYAttributedLabel'
   # 特斯拉组件
   pod 'YNPageViewController'
   # 键盘
@@ -68,11 +70,9 @@ target 'LTKit' do
   # Tabbar
   pod 'ESTabBarController'
   pod 'CYLTabBarController'
-  # 富文本
-  pod 'TTTAttributedLabel'
-  pod 'TYAttributedLabel'
   # 日历
   pod 'FSCalendar'
+  pod 'PDTSimpleCalendar'
   # 视频播放器
   pod 'ZFPlayer'
   # 导航

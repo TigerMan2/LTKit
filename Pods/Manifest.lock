@@ -71,6 +71,7 @@ PODS:
   - MMDrawerController/Subclass (0.6.0):
     - MMDrawerController/Core
   - OCBarrage (1.0.5)
+  - PDTSimpleCalendar (0.9.1)
   - PNChart (0.8.9):
     - UICountingLabel (~> 1.2.0)
   - pop (1.0.12)
@@ -146,6 +147,7 @@ DEPENDENCIES:
   - MJRefresh
   - MMDrawerController
   - OCBarrage
+  - PDTSimpleCalendar
   - PNChart
   - PPNumberButton
   - PYSearch
@@ -198,6 +200,7 @@ SPEC REPOS:
     - MJRefresh
     - MMDrawerController
     - OCBarrage
+    - PDTSimpleCalendar
     - PNChart
     - pop
     - PPNumberButton
@@ -255,6 +258,7 @@ SPEC CHECKSUMS:
   MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
   MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
   OCBarrage: 5ee1a922afacb2c04739621ccda71872185e2e59
+  PDTSimpleCalendar: d1c03387678422715dc021aa1a85d70f4d1014f2
   PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   PPNumberButton: 4442ff64c21d91733057ca1b3dc05fb4df55f2c0
@@ -288,6 +292,6 @@ SPEC CHECKSUMS:
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
   ZFPlayer: fbae8477ec9a83f644bd8890e92e7871f37a587d
 
-PODFILE CHECKSUM: 30647251a3479bd180c4a998e0289b2d8ab0995e
+PODFILE CHECKSUM: c1e8b7e5e1b2f7f0e0ba1fd931adc4e684a7f0c3
 
 COCOAPODS: 1.8.4
