@@ -97,13 +97,23 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/ESTabBarController/Source/Controllers/ESTabBarController.xib"
+  install_resource "${PODS_ROOT}/IDMPhotoBrowser/Classes/IDMPhotoBrowser.bundle"
+  install_resource "${PODS_ROOT}/IDMPhotoBrowser/Classes/IDMPBLocalizations.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManager/IQKeyboardManager.bundle"
+  install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/RETableViewManager/RETableViewManager.bundle"
   install_resource "${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
   install_resource "${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle"
   install_resource "${PODS_ROOT}/YBImageBrowser/YBImageBrowser/YBImageBrowser.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/ESTabBarController/Source/Controllers/ESTabBarController.xib"
+  install_resource "${PODS_ROOT}/IDMPhotoBrowser/Classes/IDMPhotoBrowser.bundle"
+  install_resource "${PODS_ROOT}/IDMPhotoBrowser/Classes/IDMPBLocalizations.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManager/IQKeyboardManager.bundle"
+  install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/RETableViewManager/RETableViewManager.bundle"
   install_resource "${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
   install_resource "${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle"
   install_resource "${PODS_ROOT}/YBImageBrowser/YBImageBrowser/YBImageBrowser.bundle"
