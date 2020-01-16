@@ -54,6 +54,7 @@
 		AAF11DF4234C78F40095201E /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF11DF3234C78F40095201E /* NSArray+Safe.m */; };
 		AAF2E75123504AF7007470ED /* NSURLSession+LTSynchronousTask.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF2E75023504AF7007470ED /* NSURLSession+LTSynchronousTask.m */; };
 		AAF2E755235053BA007470ED /* NSURLRequest+LTParams.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF2E754235053BA007470ED /* NSURLRequest+LTParams.m */; };
+		AAFC39B123D04D77002AB88C /* LTStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFC39B023D04D77002AB88C /* LTStarView.m */; };
 		FD3B1E5BAC1B4C9D18AF5042 /* libPods-LTKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0696967615F615F5D4F66A /* libPods-LTKitTests.a */; };
 /* End PBXBuildFile section */
 
@@ -176,6 +177,8 @@
 		AAF2E75023504AF7007470ED /* NSURLSession+LTSynchronousTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+LTSynchronousTask.m"; sourceTree = "<group>"; };
 		AAF2E753235053BA007470ED /* NSURLRequest+LTParams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+LTParams.h"; sourceTree = "<group>"; };
 		AAF2E754235053BA007470ED /* NSURLRequest+LTParams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+LTParams.m"; sourceTree = "<group>"; };
+		AAFC39AF23D04D77002AB88C /* LTStarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTStarView.h; sourceTree = "<group>"; };
+		AAFC39B023D04D77002AB88C /* LTStarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTStarView.m; sourceTree = "<group>"; };
 		BB88A2F166ECA98D44F90D14 /* Pods-LTKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTKitTests/Pods-LTKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB0696967615F615F5D4F66A /* libPods-LTKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LTKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -288,6 +291,7 @@
 		AAC48E6922B78D8000B885A3 /* LTKit */ = {
 			isa = PBXGroup;
 			children = (
+				AAFC39AE23D04D51002AB88C /* LTStarView */,
 				AA0252D923A863FD0098C132 /* LTCyclePagerView */,
 				AAE8F8B123A6207900D34BB3 /* Category */,
 				AAE2F5202337477C00BE535B /* Utils */,
@@ -544,6 +548,15 @@
 			path = NSURLRequest;
 			sourceTree = "<group>";
 		};
+		AAFC39AE23D04D51002AB88C /* LTStarView */ = {
+			isa = PBXGroup;
+			children = (
+				AAFC39AF23D04D77002AB88C /* LTStarView.h */,
+				AAFC39B023D04D77002AB88C /* LTStarView.m */,
+			);
+			path = LTStarView;
+			sourceTree = "<group>";
+		};
 		D806710BCB015E3DB6200A37 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -793,6 +806,7 @@
 				AA0252DC23A864860098C132 /* LTPageControl.m in Sources */,
 				AAC48E7A22B78D8200B885A3 /* main.m in Sources */,
 				AAE2F5262337576100BE535B /* UIView+LTFrame.m in Sources */,
+				AAFC39B123D04D77002AB88C /* LTStarView.m in Sources */,
 				AA0252E223A865640098C132 /* LTCyclePagerTransformLayout.m in Sources */,
 				AAE2F52C23375B4800BE535B /* NSObject+LTExtension.m in Sources */,
 				AAE7754B2353040300026A17 /* NSUserDefaults+LTiCloudSync.m in Sources */,
