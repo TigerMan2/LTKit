@@ -13,6 +13,8 @@
 		AA0252DC23A864860098C132 /* LTPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0252DB23A864860098C132 /* LTPageControl.m */; };
 		AA0252DF23A864BD0098C132 /* LTCyclePagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0252DE23A864BD0098C132 /* LTCyclePagerView.m */; };
 		AA0252E223A865640098C132 /* LTCyclePagerTransformLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0252E123A865640098C132 /* LTCyclePagerTransformLayout.m */; };
+		AA0429B223D3FC770021D2D2 /* LTStarRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0429B123D3FC770021D2D2 /* LTStarRateView.m */; };
+		AA0429B823D41ACB0021D2D2 /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0429B723D41ACB0021D2D2 /* UIImage+Tint.m */; };
 		AA04444823345DB400FD2F07 /* NSString+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA04444723345DB400FD2F07 /* NSString+LTExtension.m */; };
 		AA04444B23345F0C00FD2F07 /* NSData+LTEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = AA04444A23345F0C00FD2F07 /* NSData+LTEncrypt.m */; };
 		AA04444E2334664200FD2F07 /* NSString+LTRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = AA04444D2334664200FD2F07 /* NSString+LTRegex.m */; };
@@ -92,6 +94,10 @@
 		AA0252E023A865640098C132 /* LTCyclePagerTransformLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTCyclePagerTransformLayout.h; sourceTree = "<group>"; };
 		AA0252E123A865640098C132 /* LTCyclePagerTransformLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTCyclePagerTransformLayout.m; sourceTree = "<group>"; };
 		AA0252E323A87A8F0098C132 /* LTHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTHeader.h; sourceTree = "<group>"; };
+		AA0429B023D3FC770021D2D2 /* LTStarRateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTStarRateView.h; sourceTree = "<group>"; };
+		AA0429B123D3FC770021D2D2 /* LTStarRateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTStarRateView.m; sourceTree = "<group>"; };
+		AA0429B623D41ACB0021D2D2 /* UIImage+Tint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
+		AA0429B723D41ACB0021D2D2 /* UIImage+Tint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
 		AA04444623345DB400FD2F07 /* NSString+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LTExtension.h"; sourceTree = "<group>"; };
 		AA04444723345DB400FD2F07 /* NSString+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LTExtension.m"; sourceTree = "<group>"; };
 		AA04444923345F0C00FD2F07 /* NSData+LTEncrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+LTEncrypt.h"; sourceTree = "<group>"; };
@@ -470,6 +476,8 @@
 			children = (
 				AAF11DEB234C623E0095201E /* UIImage+LTExtension.h */,
 				AAF11DEC234C623E0095201E /* UIImage+LTExtension.m */,
+				AA0429B623D41ACB0021D2D2 /* UIImage+Tint.h */,
+				AA0429B723D41ACB0021D2D2 /* UIImage+Tint.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -553,6 +561,8 @@
 			children = (
 				AAFC39AF23D04D77002AB88C /* LTStarView.h */,
 				AAFC39B023D04D77002AB88C /* LTStarView.m */,
+				AA0429B023D3FC770021D2D2 /* LTStarRateView.h */,
+				AA0429B123D3FC770021D2D2 /* LTStarRateView.m */,
 			);
 			path = LTStarView;
 			sourceTree = "<group>";
@@ -794,6 +804,7 @@
 				AA08449B234DD3F800CDAC5D /* LTFPSLabel.m in Sources */,
 				AAF11DED234C623E0095201E /* UIImage+LTExtension.m in Sources */,
 				AAE660DB2387AE4B00F58C13 /* UITextView+LT.m in Sources */,
+				AA0429B223D3FC770021D2D2 /* LTStarRateView.m in Sources */,
 				AAE660C52387730A00F58C13 /* NSDictionary+LT.m in Sources */,
 				AA55E0C722B8B39A00CBC1CA /* UIAlertController+Blocks.m in Sources */,
 				AAF11DF1234C78400095201E /* NSDate+LTExtension.m in Sources */,
@@ -817,6 +828,7 @@
 				AAF11DF4234C78F40095201E /* NSArray+Safe.m in Sources */,
 				AAE775472352FD6F00026A17 /* NSIndexPath+LTOffset.m in Sources */,
 				AAC48E6C22B78D8000B885A3 /* AppDelegate.m in Sources */,
+				AA0429B823D41ACB0021D2D2 /* UIImage+Tint.m in Sources */,
 				AA0252DF23A864BD0098C132 /* LTCyclePagerView.m in Sources */,
 				AA04444823345DB400FD2F07 /* NSString+LTExtension.m in Sources */,
 				AA0A9C042338A3D1008D0B08 /* UIButton+LTExtension.m in Sources */,

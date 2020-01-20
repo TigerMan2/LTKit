@@ -53,6 +53,7 @@ PODS:
     - SDWebImage
   - IQKeyboardManager (6.5.4)
   - JhtFloatingBall (1.0.3)
+  - LNPopupController (2.8.4)
   - LYEmptyView (1.3.1)
   - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
@@ -143,6 +144,7 @@ DEPENDENCIES:
   - IDMPhotoBrowser
   - IQKeyboardManager
   - JhtFloatingBall
+  - LNPopupController
   - LYEmptyView
   - Masonry
   - MBProgressHUD
@@ -197,6 +199,7 @@ SPEC REPOS:
     - IDMPhotoBrowser
     - IQKeyboardManager
     - JhtFloatingBall
+    - LNPopupController
     - LYEmptyView
     - Masonry
     - MBProgressHUD
@@ -256,6 +259,7 @@ SPEC CHECKSUMS:
   IDMPhotoBrowser: 4bb459b1faffc228e92bccdf7c54ad6d6b7e8c37
   IQKeyboardManager: 72b359cd7e777e3a984cedbe05f8da45320cbb63
   JhtFloatingBall: 5a8d8fe6d331cd763eab5c2e81daa6fdaa89fd36
+  LNPopupController: 2fc27d9f9ccf903d6f7a69bf59d45a549c79bd6d
   LYEmptyView: b6d418cfa38b78df0cf243f9a9c25ccbdc399922
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
@@ -298,6 +302,6 @@ SPEC CHECKSUMS:
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
   ZFPlayer: fbae8477ec9a83f644bd8890e92e7871f37a587d
 
-PODFILE CHECKSUM: ce7b7b68efc67065bcc7eb5250b7eb71be825bd4
+PODFILE CHECKSUM: ff5d90fed53608c8c73d0ca482e5720a6e4465e9
 
 COCOAPODS: 1.8.4

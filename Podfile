@@ -87,6 +87,8 @@ target 'LTKit' do
   # 弹幕
   pod 'OCBarrage'
   pod 'BarrageRenderer'
+  # 弹出视图
+  pod 'LNPopupController'
   
 
   target 'LTKitTests' do
