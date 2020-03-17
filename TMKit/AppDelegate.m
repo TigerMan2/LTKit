@@ -1,13 +1,13 @@
 //
 //  AppDelegate.m
-//  LTKit
+//  TMKit
 //
 //  Created by Luther on 2019/6/17.
 //  Copyright © 2019 mrstock. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "LTAdPageView.h"
+#import "TMAdPageView.h"
 #import "ViewController.h"
 
 @interface AppDelegate ()
@@ -24,7 +24,7 @@
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
     self.window.rootViewController = navController;
     
-    LTAdPageView *adPageView = [[LTAdPageView alloc] initWithFrame:[UIScreen mainScreen].bounds tapBlock:^{
+    TMAdPageView *adPageView = [[TMAdPageView alloc] initWithFrame:[UIScreen mainScreen].bounds tapBlock:^{
         NSLog(@"点击了广告...");
     }];
     adPageView = adPageView;

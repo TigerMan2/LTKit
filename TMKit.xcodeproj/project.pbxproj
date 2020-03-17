@@ -9,27 +9,27 @@
 /* Begin PBXBuildFile section */
 		10715E5EBEC92230B874EF35 /* libPods-TMKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2161A084AA2540F1B1A99F /* libPods-TMKit.a */; };
 		687943820E67AABEFE59F59E /* libPods-TMKitUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A988A394459BB63A72809351 /* libPods-TMKitUITests.a */; };
-		AA00663123B19C4300349C55 /* UIView+LTAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA00663023B19C4300349C55 /* UIView+LTAutoLayout.m */; };
-		AA0252DC23A864860098C132 /* LTPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0252DB23A864860098C132 /* LTPageControl.m */; };
-		AA0252DF23A864BD0098C132 /* LTCyclePagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0252DE23A864BD0098C132 /* LTCyclePagerView.m */; };
-		AA0252E223A865640098C132 /* LTCyclePagerTransformLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0252E123A865640098C132 /* LTCyclePagerTransformLayout.m */; };
-		AA0429B223D3FC770021D2D2 /* LTStarRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0429B123D3FC770021D2D2 /* LTStarRateView.m */; };
+		AA00663123B19C4300349C55 /* UIView+TMAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA00663023B19C4300349C55 /* UIView+TMAutoLayout.m */; };
+		AA0252DC23A864860098C132 /* TMPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0252DB23A864860098C132 /* TMPageControl.m */; };
+		AA0252DF23A864BD0098C132 /* TMCyclePagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0252DE23A864BD0098C132 /* TMCyclePagerView.m */; };
+		AA0252E223A865640098C132 /* TMCyclePagerTransformLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0252E123A865640098C132 /* TMCyclePagerTransformLayout.m */; };
+		AA0429B223D3FC770021D2D2 /* TMStarRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0429B123D3FC770021D2D2 /* TMStarRateView.m */; };
 		AA0429B823D41ACB0021D2D2 /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0429B723D41ACB0021D2D2 /* UIImage+Tint.m */; };
-		AA04444823345DB400FD2F07 /* NSString+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA04444723345DB400FD2F07 /* NSString+LTExtension.m */; };
-		AA04444B23345F0C00FD2F07 /* NSData+LTEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = AA04444A23345F0C00FD2F07 /* NSData+LTEncrypt.m */; };
-		AA04444E2334664200FD2F07 /* NSString+LTRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = AA04444D2334664200FD2F07 /* NSString+LTRegex.m */; };
-		AA0444552334679300FD2F07 /* NSString+LTEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0444542334679300FD2F07 /* NSString+LTEncrypt.m */; };
-		AA0487E6234F051600A7A87D /* LTAdPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0487E5234F051600A7A87D /* LTAdPageView.m */; };
-		AA08449B234DD3F800CDAC5D /* LTFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08449A234DD3F800CDAC5D /* LTFPSLabel.m */; };
-		AA0A9BFE23385CBE008D0B08 /* UIApplication+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9BFD23385CBE008D0B08 /* UIApplication+LTExtension.m */; };
-		AA0A9C012338A39E008D0B08 /* UIButton+LTBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9C002338A39E008D0B08 /* UIButton+LTBadge.m */; };
-		AA0A9C042338A3D1008D0B08 /* UIButton+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9C032338A3D1008D0B08 /* UIButton+LTExtension.m */; };
-		AA230EC722B9CB9800866C04 /* UIView+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA230EC622B9CB9800866C04 /* UIView+LTExtension.m */; };
+		AA04444823345DB400FD2F07 /* NSString+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA04444723345DB400FD2F07 /* NSString+TMExtension.m */; };
+		AA04444B23345F0C00FD2F07 /* NSData+TMEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = AA04444A23345F0C00FD2F07 /* NSData+TMEncrypt.m */; };
+		AA04444E2334664200FD2F07 /* NSString+TMRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = AA04444D2334664200FD2F07 /* NSString+TMRegex.m */; };
+		AA0444552334679300FD2F07 /* NSString+TMEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0444542334679300FD2F07 /* NSString+TMEncrypt.m */; };
+		AA0487E6234F051600A7A87D /* TMAdPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0487E5234F051600A7A87D /* TMAdPageView.m */; };
+		AA08449B234DD3F800CDAC5D /* TMFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08449A234DD3F800CDAC5D /* TMFPSLabel.m */; };
+		AA0A9BFE23385CBE008D0B08 /* UIApplication+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9BFD23385CBE008D0B08 /* UIApplication+TMExtension.m */; };
+		AA0A9C012338A39E008D0B08 /* UIButton+TMBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9C002338A39E008D0B08 /* UIButton+TMBadge.m */; };
+		AA0A9C042338A3D1008D0B08 /* UIButton+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9C032338A3D1008D0B08 /* UIButton+TMExtension.m */; };
+		AA230EC722B9CB9800866C04 /* UIView+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA230EC622B9CB9800866C04 /* UIView+TMExtension.m */; };
 		AA55E0C722B8B39A00CBC1CA /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55E0C622B8B39A00CBC1CA /* UIAlertController+Blocks.m */; };
-		AA55E0CD22B8CBCF00CBC1CA /* UIViewController+LT.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55E0CC22B8CBCF00CBC1CA /* UIViewController+LT.m */; };
-		AA794C882333686200AB7EE6 /* UIView+LTGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = AA794C872333686200AB7EE6 /* UIView+LTGradient.m */; };
-		AA794C8E2333793B00AB7EE6 /* UIView+LTShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = AA794C8D2333793B00AB7EE6 /* UIView+LTShadow.m */; };
-		AA794C912333796700AB7EE6 /* UIView+LTTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = AA794C902333796700AB7EE6 /* UIView+LTTouch.m */; };
+		AA55E0CD22B8CBCF00CBC1CA /* UIViewController+TM.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55E0CC22B8CBCF00CBC1CA /* UIViewController+TM.m */; };
+		AA794C882333686200AB7EE6 /* UIView+TMGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = AA794C872333686200AB7EE6 /* UIView+TMGradient.m */; };
+		AA794C8E2333793B00AB7EE6 /* UIView+TMShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = AA794C8D2333793B00AB7EE6 /* UIView+TMShadow.m */; };
+		AA794C912333796700AB7EE6 /* UIView+TMTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = AA794C902333796700AB7EE6 /* UIView+TMTouch.m */; };
 		AAC48E6C22B78D8000B885A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC48E6B22B78D8000B885A3 /* AppDelegate.m */; };
 		AAC48E6F22B78D8000B885A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC48E6E22B78D8000B885A3 /* ViewController.m */; };
 		AAC48E7222B78D8000B885A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC48E7022B78D8000B885A3 /* Main.storyboard */; };
@@ -38,28 +38,28 @@
 		AAC48E7A22B78D8200B885A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC48E7922B78D8200B885A3 /* main.m */; };
 		AAC48E8422B78D8200B885A3 /* TMKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC48E8322B78D8200B885A3 /* TMKitTests.m */; };
 		AAC48E8F22B78D8200B885A3 /* TMKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC48E8E22B78D8200B885A3 /* TMKitUITests.m */; };
-		AAE2F523233747A000BE535B /* LTTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2F522233747A000BE535B /* LTTouchID.m */; };
-		AAE2F5262337576100BE535B /* UIView+LTFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2F5252337576100BE535B /* UIView+LTFrame.m */; };
-		AAE2F5292337577C00BE535B /* UIView+LTCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2F5282337577C00BE535B /* UIView+LTCorners.m */; };
-		AAE2F52C23375B4800BE535B /* NSObject+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2F52B23375B4800BE535B /* NSObject+LTExtension.m */; };
-		AAE660C52387730A00F58C13 /* NSDictionary+LT.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE660C42387730A00F58C13 /* NSDictionary+LT.m */; };
-		AAE660D52387A94800F58C13 /* LTTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE660D42387A94800F58C13 /* LTTextView.m */; };
-		AAE660DB2387AE4B00F58C13 /* UITextView+LT.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE660DA2387AE4B00F58C13 /* UITextView+LT.m */; };
-		AAE775472352FD6F00026A17 /* NSIndexPath+LTOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE775462352FD6F00026A17 /* NSIndexPath+LTOffset.m */; };
-		AAE7754B2353040300026A17 /* NSUserDefaults+LTiCloudSync.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE7754A2353040300026A17 /* NSUserDefaults+LTiCloudSync.m */; };
-		AAECFBC623D57EFA00BAD468 /* LTTranslationMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAECFBC523D57EFA00BAD468 /* LTTranslationMainViewController.m */; };
-		AAECFBC923D57F1D00BAD468 /* LTTranslationModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAECFBC823D57F1D00BAD468 /* LTTranslationModalViewController.m */; };
-		AAECFBCD23D5820400BAD468 /* LTBouncePresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AAECFBCC23D5820400BAD468 /* LTBouncePresentAnimation.m */; };
-		AAECFBD023D5821B00BAD468 /* LTNormalDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AAECFBCF23D5821B00BAD468 /* LTNormalDismissAnimation.m */; };
-		AAECFBD323D5824800BAD468 /* LTSwipeUpInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AAECFBD223D5824800BAD468 /* LTSwipeUpInteractiveTransition.m */; };
-		AAF11DE7234C55E20095201E /* UIButton+LTCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF11DE6234C55E20095201E /* UIButton+LTCountDown.m */; };
-		AAF11DEA234C596B0095201E /* UIColor+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF11DE9234C596B0095201E /* UIColor+LTExtension.m */; };
-		AAF11DED234C623E0095201E /* UIImage+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF11DEC234C623E0095201E /* UIImage+LTExtension.m */; };
-		AAF11DF1234C78400095201E /* NSDate+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF11DF0234C78400095201E /* NSDate+LTExtension.m */; };
+		AAE2F523233747A000BE535B /* TMTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2F522233747A000BE535B /* TMTouchID.m */; };
+		AAE2F5262337576100BE535B /* UIView+TMFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2F5252337576100BE535B /* UIView+TMFrame.m */; };
+		AAE2F5292337577C00BE535B /* UIView+TMCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2F5282337577C00BE535B /* UIView+TMCorners.m */; };
+		AAE2F52C23375B4800BE535B /* NSObject+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2F52B23375B4800BE535B /* NSObject+TMExtension.m */; };
+		AAE660C52387730A00F58C13 /* NSDictionary+TM.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE660C42387730A00F58C13 /* NSDictionary+TM.m */; };
+		AAE660D52387A94800F58C13 /* TMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE660D42387A94800F58C13 /* TMTextView.m */; };
+		AAE660DB2387AE4B00F58C13 /* UITextView+TM.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE660DA2387AE4B00F58C13 /* UITextView+TM.m */; };
+		AAE775472352FD6F00026A17 /* NSIndexPath+TMOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE775462352FD6F00026A17 /* NSIndexPath+TMOffset.m */; };
+		AAE7754B2353040300026A17 /* NSUserDefaults+TMiCloudSync.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE7754A2353040300026A17 /* NSUserDefaults+TMiCloudSync.m */; };
+		AAECFBC623D57EFA00BAD468 /* TMTranslationMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAECFBC523D57EFA00BAD468 /* TMTranslationMainViewController.m */; };
+		AAECFBC923D57F1D00BAD468 /* TMTranslationModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAECFBC823D57F1D00BAD468 /* TMTranslationModalViewController.m */; };
+		AAECFBCD23D5820400BAD468 /* TMBouncePresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AAECFBCC23D5820400BAD468 /* TMBouncePresentAnimation.m */; };
+		AAECFBD023D5821B00BAD468 /* TMNormalDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AAECFBCF23D5821B00BAD468 /* TMNormalDismissAnimation.m */; };
+		AAECFBD323D5824800BAD468 /* TMSwipeUpInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AAECFBD223D5824800BAD468 /* TMSwipeUpInteractiveTransition.m */; };
+		AAF11DE7234C55E20095201E /* UIButton+TMCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF11DE6234C55E20095201E /* UIButton+TMCountDown.m */; };
+		AAF11DEA234C596B0095201E /* UIColor+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF11DE9234C596B0095201E /* UIColor+TMExtension.m */; };
+		AAF11DED234C623E0095201E /* UIImage+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF11DEC234C623E0095201E /* UIImage+TMExtension.m */; };
+		AAF11DF1234C78400095201E /* NSDate+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF11DF0234C78400095201E /* NSDate+TMExtension.m */; };
 		AAF11DF4234C78F40095201E /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF11DF3234C78F40095201E /* NSArray+Safe.m */; };
-		AAF2E75123504AF7007470ED /* NSURLSession+LTSynchronousTask.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF2E75023504AF7007470ED /* NSURLSession+LTSynchronousTask.m */; };
-		AAF2E755235053BA007470ED /* NSURLRequest+LTParams.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF2E754235053BA007470ED /* NSURLRequest+LTParams.m */; };
-		AAFC39B123D04D77002AB88C /* LTStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFC39B023D04D77002AB88C /* LTStarView.m */; };
+		AAF2E75123504AF7007470ED /* NSURLSession+TMSynchronousTask.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF2E75023504AF7007470ED /* NSURLSession+TMSynchronousTask.m */; };
+		AAF2E755235053BA007470ED /* NSURLRequest+TMParams.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF2E754235053BA007470ED /* NSURLRequest+TMParams.m */; };
+		AAFC39B123D04D77002AB88C /* TMStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFC39B023D04D77002AB88C /* TMStarView.m */; };
 		FD3B1E5BAC1B4C9D18AF5042 /* libPods-TMKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0696967615F615F5D4F66A /* libPods-TMKitTests.a */; };
 /* End PBXBuildFile section */
 
@@ -88,49 +88,49 @@
 		7C6FA6813241788AFEE8EC66 /* Pods-TMKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMKitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TMKitUITests/Pods-TMKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8EF586D7F307D769E58CA115 /* Pods-TMKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TMKitTests/Pods-TMKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		A988A394459BB63A72809351 /* libPods-TMKitUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TMKitUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA00662F23B19C4300349C55 /* UIView+LTAutoLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LTAutoLayout.h"; sourceTree = "<group>"; };
-		AA00663023B19C4300349C55 /* UIView+LTAutoLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTAutoLayout.m"; sourceTree = "<group>"; };
-		AA0252DA23A864860098C132 /* LTPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTPageControl.h; sourceTree = "<group>"; };
-		AA0252DB23A864860098C132 /* LTPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTPageControl.m; sourceTree = "<group>"; };
-		AA0252DD23A864BD0098C132 /* LTCyclePagerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTCyclePagerView.h; sourceTree = "<group>"; };
-		AA0252DE23A864BD0098C132 /* LTCyclePagerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTCyclePagerView.m; sourceTree = "<group>"; };
-		AA0252E023A865640098C132 /* LTCyclePagerTransformLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTCyclePagerTransformLayout.h; sourceTree = "<group>"; };
-		AA0252E123A865640098C132 /* LTCyclePagerTransformLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTCyclePagerTransformLayout.m; sourceTree = "<group>"; };
-		AA0252E323A87A8F0098C132 /* LTHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTHeader.h; sourceTree = "<group>"; };
-		AA0429B023D3FC770021D2D2 /* LTStarRateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTStarRateView.h; sourceTree = "<group>"; };
-		AA0429B123D3FC770021D2D2 /* LTStarRateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTStarRateView.m; sourceTree = "<group>"; };
+		AA00662F23B19C4300349C55 /* UIView+TMAutoLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TMAutoLayout.h"; sourceTree = "<group>"; };
+		AA00663023B19C4300349C55 /* UIView+TMAutoLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TMAutoLayout.m"; sourceTree = "<group>"; };
+		AA0252DA23A864860098C132 /* TMPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMPageControl.h; sourceTree = "<group>"; };
+		AA0252DB23A864860098C132 /* TMPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMPageControl.m; sourceTree = "<group>"; };
+		AA0252DD23A864BD0098C132 /* TMCyclePagerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMCyclePagerView.h; sourceTree = "<group>"; };
+		AA0252DE23A864BD0098C132 /* TMCyclePagerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMCyclePagerView.m; sourceTree = "<group>"; };
+		AA0252E023A865640098C132 /* TMCyclePagerTransformLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMCyclePagerTransformLayout.h; sourceTree = "<group>"; };
+		AA0252E123A865640098C132 /* TMCyclePagerTransformLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMCyclePagerTransformLayout.m; sourceTree = "<group>"; };
+		AA0252E323A87A8F0098C132 /* TMHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMHeader.h; sourceTree = "<group>"; };
+		AA0429B023D3FC770021D2D2 /* TMStarRateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMStarRateView.h; sourceTree = "<group>"; };
+		AA0429B123D3FC770021D2D2 /* TMStarRateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMStarRateView.m; sourceTree = "<group>"; };
 		AA0429B623D41ACB0021D2D2 /* UIImage+Tint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
 		AA0429B723D41ACB0021D2D2 /* UIImage+Tint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
-		AA04444623345DB400FD2F07 /* NSString+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LTExtension.h"; sourceTree = "<group>"; };
-		AA04444723345DB400FD2F07 /* NSString+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LTExtension.m"; sourceTree = "<group>"; };
-		AA04444923345F0C00FD2F07 /* NSData+LTEncrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+LTEncrypt.h"; sourceTree = "<group>"; };
-		AA04444A23345F0C00FD2F07 /* NSData+LTEncrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+LTEncrypt.m"; sourceTree = "<group>"; };
-		AA04444C2334664200FD2F07 /* NSString+LTRegex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LTRegex.h"; sourceTree = "<group>"; };
-		AA04444D2334664200FD2F07 /* NSString+LTRegex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LTRegex.m"; sourceTree = "<group>"; };
-		AA0444532334679300FD2F07 /* NSString+LTEncrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LTEncrypt.h"; sourceTree = "<group>"; };
-		AA0444542334679300FD2F07 /* NSString+LTEncrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LTEncrypt.m"; sourceTree = "<group>"; };
-		AA0487E4234F051600A7A87D /* LTAdPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTAdPageView.h; sourceTree = "<group>"; };
-		AA0487E5234F051600A7A87D /* LTAdPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAdPageView.m; sourceTree = "<group>"; };
-		AA084499234DD3F800CDAC5D /* LTFPSLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTFPSLabel.h; sourceTree = "<group>"; };
-		AA08449A234DD3F800CDAC5D /* LTFPSLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTFPSLabel.m; sourceTree = "<group>"; };
-		AA0A9BFC23385CBE008D0B08 /* UIApplication+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+LTExtension.h"; sourceTree = "<group>"; };
-		AA0A9BFD23385CBE008D0B08 /* UIApplication+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+LTExtension.m"; sourceTree = "<group>"; };
-		AA0A9BFF2338A39E008D0B08 /* UIButton+LTBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+LTBadge.h"; sourceTree = "<group>"; };
-		AA0A9C002338A39E008D0B08 /* UIButton+LTBadge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LTBadge.m"; sourceTree = "<group>"; };
-		AA0A9C022338A3D1008D0B08 /* UIButton+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+LTExtension.h"; sourceTree = "<group>"; };
-		AA0A9C032338A3D1008D0B08 /* UIButton+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LTExtension.m"; sourceTree = "<group>"; };
-		AA230EC522B9CB9800866C04 /* UIView+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LTExtension.h"; sourceTree = "<group>"; };
-		AA230EC622B9CB9800866C04 /* UIView+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTExtension.m"; sourceTree = "<group>"; };
+		AA04444623345DB400FD2F07 /* NSString+TMExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+TMExtension.h"; sourceTree = "<group>"; };
+		AA04444723345DB400FD2F07 /* NSString+TMExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+TMExtension.m"; sourceTree = "<group>"; };
+		AA04444923345F0C00FD2F07 /* NSData+TMEncrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+TMEncrypt.h"; sourceTree = "<group>"; };
+		AA04444A23345F0C00FD2F07 /* NSData+TMEncrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+TMEncrypt.m"; sourceTree = "<group>"; };
+		AA04444C2334664200FD2F07 /* NSString+TMRegex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+TMRegex.h"; sourceTree = "<group>"; };
+		AA04444D2334664200FD2F07 /* NSString+TMRegex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+TMRegex.m"; sourceTree = "<group>"; };
+		AA0444532334679300FD2F07 /* NSString+TMEncrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+TMEncrypt.h"; sourceTree = "<group>"; };
+		AA0444542334679300FD2F07 /* NSString+TMEncrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+TMEncrypt.m"; sourceTree = "<group>"; };
+		AA0487E4234F051600A7A87D /* TMAdPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAdPageView.h; sourceTree = "<group>"; };
+		AA0487E5234F051600A7A87D /* TMAdPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAdPageView.m; sourceTree = "<group>"; };
+		AA084499234DD3F800CDAC5D /* TMFPSLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMFPSLabel.h; sourceTree = "<group>"; };
+		AA08449A234DD3F800CDAC5D /* TMFPSLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMFPSLabel.m; sourceTree = "<group>"; };
+		AA0A9BFC23385CBE008D0B08 /* UIApplication+TMExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+TMExtension.h"; sourceTree = "<group>"; };
+		AA0A9BFD23385CBE008D0B08 /* UIApplication+TMExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+TMExtension.m"; sourceTree = "<group>"; };
+		AA0A9BFF2338A39E008D0B08 /* UIButton+TMBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TMBadge.h"; sourceTree = "<group>"; };
+		AA0A9C002338A39E008D0B08 /* UIButton+TMBadge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TMBadge.m"; sourceTree = "<group>"; };
+		AA0A9C022338A3D1008D0B08 /* UIButton+TMExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TMExtension.h"; sourceTree = "<group>"; };
+		AA0A9C032338A3D1008D0B08 /* UIButton+TMExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TMExtension.m"; sourceTree = "<group>"; };
+		AA230EC522B9CB9800866C04 /* UIView+TMExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TMExtension.h"; sourceTree = "<group>"; };
+		AA230EC622B9CB9800866C04 /* UIView+TMExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TMExtension.m"; sourceTree = "<group>"; };
 		AA55E0C522B8B39A00CBC1CA /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
 		AA55E0C622B8B39A00CBC1CA /* UIAlertController+Blocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Blocks.m"; sourceTree = "<group>"; };
-		AA55E0CB22B8CBCF00CBC1CA /* UIViewController+LT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LT.h"; sourceTree = "<group>"; };
-		AA55E0CC22B8CBCF00CBC1CA /* UIViewController+LT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LT.m"; sourceTree = "<group>"; };
-		AA794C862333686200AB7EE6 /* UIView+LTGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LTGradient.h"; sourceTree = "<group>"; };
-		AA794C872333686200AB7EE6 /* UIView+LTGradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTGradient.m"; sourceTree = "<group>"; };
-		AA794C8C2333793B00AB7EE6 /* UIView+LTShadow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LTShadow.h"; sourceTree = "<group>"; };
-		AA794C8D2333793B00AB7EE6 /* UIView+LTShadow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTShadow.m"; sourceTree = "<group>"; };
-		AA794C8F2333796700AB7EE6 /* UIView+LTTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LTTouch.h"; sourceTree = "<group>"; };
-		AA794C902333796700AB7EE6 /* UIView+LTTouch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTTouch.m"; sourceTree = "<group>"; };
+		AA55E0CB22B8CBCF00CBC1CA /* UIViewController+TM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TM.h"; sourceTree = "<group>"; };
+		AA55E0CC22B8CBCF00CBC1CA /* UIViewController+TM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TM.m"; sourceTree = "<group>"; };
+		AA794C862333686200AB7EE6 /* UIView+TMGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TMGradient.h"; sourceTree = "<group>"; };
+		AA794C872333686200AB7EE6 /* UIView+TMGradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TMGradient.m"; sourceTree = "<group>"; };
+		AA794C8C2333793B00AB7EE6 /* UIView+TMShadow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TMShadow.h"; sourceTree = "<group>"; };
+		AA794C8D2333793B00AB7EE6 /* UIView+TMShadow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TMShadow.m"; sourceTree = "<group>"; };
+		AA794C8F2333796700AB7EE6 /* UIView+TMTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TMTouch.h"; sourceTree = "<group>"; };
+		AA794C902333796700AB7EE6 /* UIView+TMTouch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TMTouch.m"; sourceTree = "<group>"; };
 		AAC48E6722B78D8000B885A3 /* TMKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC48E6A22B78D8000B885A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AAC48E6B22B78D8000B885A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -147,53 +147,53 @@
 		AAC48E8A22B78D8200B885A3 /* TMKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC48E8E22B78D8200B885A3 /* TMKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMKitUITests.m; sourceTree = "<group>"; };
 		AAC48E9022B78D8200B885A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAC48E9D22B7915F00B885A3 /* LTDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTDefines.h; sourceTree = "<group>"; };
-		AAE2F521233747A000BE535B /* LTTouchID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTTouchID.h; sourceTree = "<group>"; };
-		AAE2F522233747A000BE535B /* LTTouchID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTTouchID.m; sourceTree = "<group>"; };
-		AAE2F5242337576100BE535B /* UIView+LTFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LTFrame.h"; sourceTree = "<group>"; };
-		AAE2F5252337576100BE535B /* UIView+LTFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTFrame.m"; sourceTree = "<group>"; };
-		AAE2F5272337577C00BE535B /* UIView+LTCorners.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LTCorners.h"; sourceTree = "<group>"; };
-		AAE2F5282337577C00BE535B /* UIView+LTCorners.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTCorners.m"; sourceTree = "<group>"; };
-		AAE2F52A23375B4800BE535B /* NSObject+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+LTExtension.h"; sourceTree = "<group>"; };
-		AAE2F52B23375B4800BE535B /* NSObject+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LTExtension.m"; sourceTree = "<group>"; };
-		AAE660C32387730A00F58C13 /* NSDictionary+LT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LT.h"; sourceTree = "<group>"; };
-		AAE660C42387730A00F58C13 /* NSDictionary+LT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LT.m"; sourceTree = "<group>"; };
-		AAE660D32387A94800F58C13 /* LTTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTTextView.h; sourceTree = "<group>"; };
-		AAE660D42387A94800F58C13 /* LTTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTTextView.m; sourceTree = "<group>"; };
-		AAE660D92387AE4B00F58C13 /* UITextView+LT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+LT.h"; sourceTree = "<group>"; };
-		AAE660DA2387AE4B00F58C13 /* UITextView+LT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LT.m"; sourceTree = "<group>"; };
-		AAE775452352FD6F00026A17 /* NSIndexPath+LTOffset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+LTOffset.h"; sourceTree = "<group>"; };
-		AAE775462352FD6F00026A17 /* NSIndexPath+LTOffset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+LTOffset.m"; sourceTree = "<group>"; };
-		AAE775492353040300026A17 /* NSUserDefaults+LTiCloudSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+LTiCloudSync.h"; sourceTree = "<group>"; };
-		AAE7754A2353040300026A17 /* NSUserDefaults+LTiCloudSync.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+LTiCloudSync.m"; sourceTree = "<group>"; };
-		AAECFBC423D57EFA00BAD468 /* LTTranslationMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTTranslationMainViewController.h; sourceTree = "<group>"; };
-		AAECFBC523D57EFA00BAD468 /* LTTranslationMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTTranslationMainViewController.m; sourceTree = "<group>"; };
-		AAECFBC723D57F1D00BAD468 /* LTTranslationModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTTranslationModalViewController.h; sourceTree = "<group>"; };
-		AAECFBC823D57F1D00BAD468 /* LTTranslationModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTTranslationModalViewController.m; sourceTree = "<group>"; };
-		AAECFBCB23D5820400BAD468 /* LTBouncePresentAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBouncePresentAnimation.h; sourceTree = "<group>"; };
-		AAECFBCC23D5820400BAD468 /* LTBouncePresentAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBouncePresentAnimation.m; sourceTree = "<group>"; };
-		AAECFBCE23D5821B00BAD468 /* LTNormalDismissAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTNormalDismissAnimation.h; sourceTree = "<group>"; };
-		AAECFBCF23D5821B00BAD468 /* LTNormalDismissAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTNormalDismissAnimation.m; sourceTree = "<group>"; };
-		AAECFBD123D5824800BAD468 /* LTSwipeUpInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTSwipeUpInteractiveTransition.h; sourceTree = "<group>"; };
-		AAECFBD223D5824800BAD468 /* LTSwipeUpInteractiveTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTSwipeUpInteractiveTransition.m; sourceTree = "<group>"; };
-		AAF11DE5234C55E20095201E /* UIButton+LTCountDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+LTCountDown.h"; sourceTree = "<group>"; };
-		AAF11DE6234C55E20095201E /* UIButton+LTCountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LTCountDown.m"; sourceTree = "<group>"; };
-		AAF11DE8234C596B0095201E /* UIColor+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+LTExtension.h"; sourceTree = "<group>"; };
-		AAF11DE9234C596B0095201E /* UIColor+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LTExtension.m"; sourceTree = "<group>"; };
-		AAF11DEB234C623E0095201E /* UIImage+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+LTExtension.h"; sourceTree = "<group>"; };
-		AAF11DEC234C623E0095201E /* UIImage+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LTExtension.m"; sourceTree = "<group>"; };
-		AAF11DEE234C75BD0095201E /* LTCategoriesHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTCategoriesHeader.h; sourceTree = "<group>"; };
-		AAF11DEF234C78400095201E /* NSDate+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+LTExtension.h"; sourceTree = "<group>"; };
-		AAF11DF0234C78400095201E /* NSDate+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LTExtension.m"; sourceTree = "<group>"; };
+		AAC48E9D22B7915F00B885A3 /* TMDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMDefines.h; sourceTree = "<group>"; };
+		AAE2F521233747A000BE535B /* TMTouchID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMTouchID.h; sourceTree = "<group>"; };
+		AAE2F522233747A000BE535B /* TMTouchID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMTouchID.m; sourceTree = "<group>"; };
+		AAE2F5242337576100BE535B /* UIView+TMFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TMFrame.h"; sourceTree = "<group>"; };
+		AAE2F5252337576100BE535B /* UIView+TMFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TMFrame.m"; sourceTree = "<group>"; };
+		AAE2F5272337577C00BE535B /* UIView+TMCorners.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TMCorners.h"; sourceTree = "<group>"; };
+		AAE2F5282337577C00BE535B /* UIView+TMCorners.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TMCorners.m"; sourceTree = "<group>"; };
+		AAE2F52A23375B4800BE535B /* NSObject+TMExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+TMExtension.h"; sourceTree = "<group>"; };
+		AAE2F52B23375B4800BE535B /* NSObject+TMExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TMExtension.m"; sourceTree = "<group>"; };
+		AAE660C32387730A00F58C13 /* NSDictionary+TM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TM.h"; sourceTree = "<group>"; };
+		AAE660C42387730A00F58C13 /* NSDictionary+TM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TM.m"; sourceTree = "<group>"; };
+		AAE660D32387A94800F58C13 /* TMTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMTextView.h; sourceTree = "<group>"; };
+		AAE660D42387A94800F58C13 /* TMTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMTextView.m; sourceTree = "<group>"; };
+		AAE660D92387AE4B00F58C13 /* UITextView+TM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+TM.h"; sourceTree = "<group>"; };
+		AAE660DA2387AE4B00F58C13 /* UITextView+TM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TM.m"; sourceTree = "<group>"; };
+		AAE775452352FD6F00026A17 /* NSIndexPath+TMOffset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+TMOffset.h"; sourceTree = "<group>"; };
+		AAE775462352FD6F00026A17 /* NSIndexPath+TMOffset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+TMOffset.m"; sourceTree = "<group>"; };
+		AAE775492353040300026A17 /* NSUserDefaults+TMiCloudSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+TMiCloudSync.h"; sourceTree = "<group>"; };
+		AAE7754A2353040300026A17 /* NSUserDefaults+TMiCloudSync.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+TMiCloudSync.m"; sourceTree = "<group>"; };
+		AAECFBC423D57EFA00BAD468 /* TMTranslationMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMTranslationMainViewController.h; sourceTree = "<group>"; };
+		AAECFBC523D57EFA00BAD468 /* TMTranslationMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMTranslationMainViewController.m; sourceTree = "<group>"; };
+		AAECFBC723D57F1D00BAD468 /* TMTranslationModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMTranslationModalViewController.h; sourceTree = "<group>"; };
+		AAECFBC823D57F1D00BAD468 /* TMTranslationModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMTranslationModalViewController.m; sourceTree = "<group>"; };
+		AAECFBCB23D5820400BAD468 /* TMBouncePresentAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBouncePresentAnimation.h; sourceTree = "<group>"; };
+		AAECFBCC23D5820400BAD468 /* TMBouncePresentAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBouncePresentAnimation.m; sourceTree = "<group>"; };
+		AAECFBCE23D5821B00BAD468 /* TMNormalDismissAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMNormalDismissAnimation.h; sourceTree = "<group>"; };
+		AAECFBCF23D5821B00BAD468 /* TMNormalDismissAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMNormalDismissAnimation.m; sourceTree = "<group>"; };
+		AAECFBD123D5824800BAD468 /* TMSwipeUpInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMSwipeUpInteractiveTransition.h; sourceTree = "<group>"; };
+		AAECFBD223D5824800BAD468 /* TMSwipeUpInteractiveTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMSwipeUpInteractiveTransition.m; sourceTree = "<group>"; };
+		AAF11DE5234C55E20095201E /* UIButton+TMCountDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TMCountDown.h"; sourceTree = "<group>"; };
+		AAF11DE6234C55E20095201E /* UIButton+TMCountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TMCountDown.m"; sourceTree = "<group>"; };
+		AAF11DE8234C596B0095201E /* UIColor+TMExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+TMExtension.h"; sourceTree = "<group>"; };
+		AAF11DE9234C596B0095201E /* UIColor+TMExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TMExtension.m"; sourceTree = "<group>"; };
+		AAF11DEB234C623E0095201E /* UIImage+TMExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+TMExtension.h"; sourceTree = "<group>"; };
+		AAF11DEC234C623E0095201E /* UIImage+TMExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TMExtension.m"; sourceTree = "<group>"; };
+		AAF11DEE234C75BD0095201E /* TMCategoriesHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMCategoriesHeader.h; sourceTree = "<group>"; };
+		AAF11DEF234C78400095201E /* NSDate+TMExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+TMExtension.h"; sourceTree = "<group>"; };
+		AAF11DF0234C78400095201E /* NSDate+TMExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TMExtension.m"; sourceTree = "<group>"; };
 		AAF11DF2234C78F40095201E /* NSArray+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
 		AAF11DF3234C78F40095201E /* NSArray+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
 		AAF15F06238CF89C0042A768 /* TMPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMPrefixHeader.pch; sourceTree = "<group>"; };
-		AAF2E74F23504AF7007470ED /* NSURLSession+LTSynchronousTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+LTSynchronousTask.h"; sourceTree = "<group>"; };
-		AAF2E75023504AF7007470ED /* NSURLSession+LTSynchronousTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+LTSynchronousTask.m"; sourceTree = "<group>"; };
-		AAF2E753235053BA007470ED /* NSURLRequest+LTParams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+LTParams.h"; sourceTree = "<group>"; };
-		AAF2E754235053BA007470ED /* NSURLRequest+LTParams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+LTParams.m"; sourceTree = "<group>"; };
-		AAFC39AF23D04D77002AB88C /* LTStarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTStarView.h; sourceTree = "<group>"; };
-		AAFC39B023D04D77002AB88C /* LTStarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTStarView.m; sourceTree = "<group>"; };
+		AAF2E74F23504AF7007470ED /* NSURLSession+TMSynchronousTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+TMSynchronousTask.h"; sourceTree = "<group>"; };
+		AAF2E75023504AF7007470ED /* NSURLSession+TMSynchronousTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+TMSynchronousTask.m"; sourceTree = "<group>"; };
+		AAF2E753235053BA007470ED /* NSURLRequest+TMParams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+TMParams.h"; sourceTree = "<group>"; };
+		AAF2E754235053BA007470ED /* NSURLRequest+TMParams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+TMParams.m"; sourceTree = "<group>"; };
+		AAFC39AF23D04D77002AB88C /* TMStarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMStarView.h; sourceTree = "<group>"; };
+		AAFC39B023D04D77002AB88C /* TMStarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMStarView.m; sourceTree = "<group>"; };
 		BB88A2F166ECA98D44F90D14 /* Pods-TMKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TMKitTests/Pods-TMKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB0696967615F615F5D4F66A /* libPods-TMKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TMKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -239,12 +239,12 @@
 		AA0252D923A863FD0098C132 /* TMCyclePagerView */ = {
 			isa = PBXGroup;
 			children = (
-				AA0252DA23A864860098C132 /* LTPageControl.h */,
-				AA0252DB23A864860098C132 /* LTPageControl.m */,
-				AA0252DD23A864BD0098C132 /* LTCyclePagerView.h */,
-				AA0252DE23A864BD0098C132 /* LTCyclePagerView.m */,
-				AA0252E023A865640098C132 /* LTCyclePagerTransformLayout.h */,
-				AA0252E123A865640098C132 /* LTCyclePagerTransformLayout.m */,
+				AA0252DA23A864860098C132 /* TMPageControl.h */,
+				AA0252DB23A864860098C132 /* TMPageControl.m */,
+				AA0252DD23A864BD0098C132 /* TMCyclePagerView.h */,
+				AA0252DE23A864BD0098C132 /* TMCyclePagerView.m */,
+				AA0252E023A865640098C132 /* TMCyclePagerTransformLayout.h */,
+				AA0252E123A865640098C132 /* TMCyclePagerTransformLayout.m */,
 			);
 			path = TMCyclePagerView;
 			sourceTree = "<group>";
@@ -347,9 +347,9 @@
 		AAC48E9C22B7911F00B885A3 /* TMDefines */ = {
 			isa = PBXGroup;
 			children = (
-				AAC48E9D22B7915F00B885A3 /* LTDefines.h */,
-				AAF11DEE234C75BD0095201E /* LTCategoriesHeader.h */,
-				AA0252E323A87A8F0098C132 /* LTHeader.h */,
+				AAC48E9D22B7915F00B885A3 /* TMDefines.h */,
+				AAF11DEE234C75BD0095201E /* TMCategoriesHeader.h */,
+				AA0252E323A87A8F0098C132 /* TMHeader.h */,
 			);
 			path = TMDefines;
 			sourceTree = "<group>";
@@ -357,12 +357,12 @@
 		AAE2F5202337477C00BE535B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				AAE2F521233747A000BE535B /* LTTouchID.h */,
-				AAE2F522233747A000BE535B /* LTTouchID.m */,
-				AA084499234DD3F800CDAC5D /* LTFPSLabel.h */,
-				AA08449A234DD3F800CDAC5D /* LTFPSLabel.m */,
-				AA0487E4234F051600A7A87D /* LTAdPageView.h */,
-				AA0487E5234F051600A7A87D /* LTAdPageView.m */,
+				AAE2F521233747A000BE535B /* TMTouchID.h */,
+				AAE2F522233747A000BE535B /* TMTouchID.m */,
+				AA084499234DD3F800CDAC5D /* TMFPSLabel.h */,
+				AA08449A234DD3F800CDAC5D /* TMFPSLabel.m */,
+				AA0487E4234F051600A7A87D /* TMAdPageView.h */,
+				AA0487E5234F051600A7A87D /* TMAdPageView.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -370,8 +370,8 @@
 		AAE660C2238772D900F58C13 /* NSDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				AAE660C32387730A00F58C13 /* NSDictionary+LT.h */,
-				AAE660C42387730A00F58C13 /* NSDictionary+LT.m */,
+				AAE660C32387730A00F58C13 /* NSDictionary+TM.h */,
+				AAE660C42387730A00F58C13 /* NSDictionary+TM.m */,
 			);
 			path = NSDictionary;
 			sourceTree = "<group>";
@@ -388,12 +388,12 @@
 		AAE660C723877B4200F58C13 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				AA04444623345DB400FD2F07 /* NSString+LTExtension.h */,
-				AA04444723345DB400FD2F07 /* NSString+LTExtension.m */,
-				AA04444C2334664200FD2F07 /* NSString+LTRegex.h */,
-				AA04444D2334664200FD2F07 /* NSString+LTRegex.m */,
-				AA0444532334679300FD2F07 /* NSString+LTEncrypt.h */,
-				AA0444542334679300FD2F07 /* NSString+LTEncrypt.m */,
+				AA04444623345DB400FD2F07 /* NSString+TMExtension.h */,
+				AA04444723345DB400FD2F07 /* NSString+TMExtension.m */,
+				AA04444C2334664200FD2F07 /* NSString+TMRegex.h */,
+				AA04444D2334664200FD2F07 /* NSString+TMRegex.m */,
+				AA0444532334679300FD2F07 /* NSString+TMEncrypt.h */,
+				AA0444542334679300FD2F07 /* NSString+TMEncrypt.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -401,8 +401,8 @@
 		AAE660C823877B5000F58C13 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
-				AAE2F52A23375B4800BE535B /* NSObject+LTExtension.h */,
-				AAE2F52B23375B4800BE535B /* NSObject+LTExtension.m */,
+				AAE2F52A23375B4800BE535B /* NSObject+TMExtension.h */,
+				AAE2F52B23375B4800BE535B /* NSObject+TMExtension.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -410,8 +410,8 @@
 		AAE660C923877B5C00F58C13 /* NSDate */ = {
 			isa = PBXGroup;
 			children = (
-				AAF11DEF234C78400095201E /* NSDate+LTExtension.h */,
-				AAF11DF0234C78400095201E /* NSDate+LTExtension.m */,
+				AAF11DEF234C78400095201E /* NSDate+TMExtension.h */,
+				AAF11DF0234C78400095201E /* NSDate+TMExtension.m */,
 			);
 			path = NSDate;
 			sourceTree = "<group>";
@@ -419,8 +419,8 @@
 		AAE660CA23877B7200F58C13 /* NSDta */ = {
 			isa = PBXGroup;
 			children = (
-				AA04444923345F0C00FD2F07 /* NSData+LTEncrypt.h */,
-				AA04444A23345F0C00FD2F07 /* NSData+LTEncrypt.m */,
+				AA04444923345F0C00FD2F07 /* NSData+TMEncrypt.h */,
+				AA04444A23345F0C00FD2F07 /* NSData+TMEncrypt.m */,
 			);
 			path = NSDta;
 			sourceTree = "<group>";
@@ -428,12 +428,12 @@
 		AAE660CB2387A8A900F58C13 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
-				AA0A9BFF2338A39E008D0B08 /* UIButton+LTBadge.h */,
-				AA0A9C002338A39E008D0B08 /* UIButton+LTBadge.m */,
-				AA0A9C022338A3D1008D0B08 /* UIButton+LTExtension.h */,
-				AA0A9C032338A3D1008D0B08 /* UIButton+LTExtension.m */,
-				AAF11DE5234C55E20095201E /* UIButton+LTCountDown.h */,
-				AAF11DE6234C55E20095201E /* UIButton+LTCountDown.m */,
+				AA0A9BFF2338A39E008D0B08 /* UIButton+TMBadge.h */,
+				AA0A9C002338A39E008D0B08 /* UIButton+TMBadge.m */,
+				AA0A9C022338A3D1008D0B08 /* UIButton+TMExtension.h */,
+				AA0A9C032338A3D1008D0B08 /* UIButton+TMExtension.m */,
+				AAF11DE5234C55E20095201E /* UIButton+TMCountDown.h */,
+				AAF11DE6234C55E20095201E /* UIButton+TMCountDown.m */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -441,20 +441,20 @@
 		AAE660CC2387A8C200F58C13 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				AA00662F23B19C4300349C55 /* UIView+LTAutoLayout.h */,
-				AA00663023B19C4300349C55 /* UIView+LTAutoLayout.m */,
-				AA230EC522B9CB9800866C04 /* UIView+LTExtension.h */,
-				AA230EC622B9CB9800866C04 /* UIView+LTExtension.m */,
-				AA794C862333686200AB7EE6 /* UIView+LTGradient.h */,
-				AA794C872333686200AB7EE6 /* UIView+LTGradient.m */,
-				AA794C8C2333793B00AB7EE6 /* UIView+LTShadow.h */,
-				AA794C8D2333793B00AB7EE6 /* UIView+LTShadow.m */,
-				AA794C8F2333796700AB7EE6 /* UIView+LTTouch.h */,
-				AA794C902333796700AB7EE6 /* UIView+LTTouch.m */,
-				AAE2F5242337576100BE535B /* UIView+LTFrame.h */,
-				AAE2F5252337576100BE535B /* UIView+LTFrame.m */,
-				AAE2F5272337577C00BE535B /* UIView+LTCorners.h */,
-				AAE2F5282337577C00BE535B /* UIView+LTCorners.m */,
+				AA00662F23B19C4300349C55 /* UIView+TMAutoLayout.h */,
+				AA00663023B19C4300349C55 /* UIView+TMAutoLayout.m */,
+				AA230EC522B9CB9800866C04 /* UIView+TMExtension.h */,
+				AA230EC622B9CB9800866C04 /* UIView+TMExtension.m */,
+				AA794C862333686200AB7EE6 /* UIView+TMGradient.h */,
+				AA794C872333686200AB7EE6 /* UIView+TMGradient.m */,
+				AA794C8C2333793B00AB7EE6 /* UIView+TMShadow.h */,
+				AA794C8D2333793B00AB7EE6 /* UIView+TMShadow.m */,
+				AA794C8F2333796700AB7EE6 /* UIView+TMTouch.h */,
+				AA794C902333796700AB7EE6 /* UIView+TMTouch.m */,
+				AAE2F5242337576100BE535B /* UIView+TMFrame.h */,
+				AAE2F5252337576100BE535B /* UIView+TMFrame.m */,
+				AAE2F5272337577C00BE535B /* UIView+TMCorners.h */,
+				AAE2F5282337577C00BE535B /* UIView+TMCorners.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -462,8 +462,8 @@
 		AAE660CD2387A8D500F58C13 /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
-				AA55E0CB22B8CBCF00CBC1CA /* UIViewController+LT.h */,
-				AA55E0CC22B8CBCF00CBC1CA /* UIViewController+LT.m */,
+				AA55E0CB22B8CBCF00CBC1CA /* UIViewController+TM.h */,
+				AA55E0CC22B8CBCF00CBC1CA /* UIViewController+TM.m */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
@@ -471,8 +471,8 @@
 		AAE660CE2387A8E500F58C13 /* UIApplication */ = {
 			isa = PBXGroup;
 			children = (
-				AA0A9BFC23385CBE008D0B08 /* UIApplication+LTExtension.h */,
-				AA0A9BFD23385CBE008D0B08 /* UIApplication+LTExtension.m */,
+				AA0A9BFC23385CBE008D0B08 /* UIApplication+TMExtension.h */,
+				AA0A9BFD23385CBE008D0B08 /* UIApplication+TMExtension.m */,
 			);
 			path = UIApplication;
 			sourceTree = "<group>";
@@ -480,8 +480,8 @@
 		AAE660CF2387A8F000F58C13 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				AAF11DEB234C623E0095201E /* UIImage+LTExtension.h */,
-				AAF11DEC234C623E0095201E /* UIImage+LTExtension.m */,
+				AAF11DEB234C623E0095201E /* UIImage+TMExtension.h */,
+				AAF11DEC234C623E0095201E /* UIImage+TMExtension.m */,
 				AA0429B623D41ACB0021D2D2 /* UIImage+Tint.h */,
 				AA0429B723D41ACB0021D2D2 /* UIImage+Tint.m */,
 			);
@@ -491,8 +491,8 @@
 		AAE660D02387A8F900F58C13 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
-				AAF11DE8234C596B0095201E /* UIColor+LTExtension.h */,
-				AAF11DE9234C596B0095201E /* UIColor+LTExtension.m */,
+				AAF11DE8234C596B0095201E /* UIColor+TMExtension.h */,
+				AAF11DE9234C596B0095201E /* UIColor+TMExtension.m */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
@@ -509,10 +509,10 @@
 		AAE660D22387A91900F58C13 /* UITextView */ = {
 			isa = PBXGroup;
 			children = (
-				AAE660D32387A94800F58C13 /* LTTextView.h */,
-				AAE660D42387A94800F58C13 /* LTTextView.m */,
-				AAE660D92387AE4B00F58C13 /* UITextView+LT.h */,
-				AAE660DA2387AE4B00F58C13 /* UITextView+LT.m */,
+				AAE660D32387A94800F58C13 /* TMTextView.h */,
+				AAE660D42387A94800F58C13 /* TMTextView.m */,
+				AAE660D92387AE4B00F58C13 /* UITextView+TM.h */,
+				AAE660DA2387AE4B00F58C13 /* UITextView+TM.m */,
 			);
 			path = UITextView;
 			sourceTree = "<group>";
@@ -520,8 +520,8 @@
 		AAE775442352FD4F00026A17 /* NSIndexPath */ = {
 			isa = PBXGroup;
 			children = (
-				AAE775452352FD6F00026A17 /* NSIndexPath+LTOffset.h */,
-				AAE775462352FD6F00026A17 /* NSIndexPath+LTOffset.m */,
+				AAE775452352FD6F00026A17 /* NSIndexPath+TMOffset.h */,
+				AAE775462352FD6F00026A17 /* NSIndexPath+TMOffset.m */,
 			);
 			path = NSIndexPath;
 			sourceTree = "<group>";
@@ -529,8 +529,8 @@
 		AAE77548235303C800026A17 /* NSUserDefaults */ = {
 			isa = PBXGroup;
 			children = (
-				AAE775492353040300026A17 /* NSUserDefaults+LTiCloudSync.h */,
-				AAE7754A2353040300026A17 /* NSUserDefaults+LTiCloudSync.m */,
+				AAE775492353040300026A17 /* NSUserDefaults+TMiCloudSync.h */,
+				AAE7754A2353040300026A17 /* NSUserDefaults+TMiCloudSync.m */,
 			);
 			path = NSUserDefaults;
 			sourceTree = "<group>";
@@ -556,10 +556,10 @@
 		AAECFBC323D57ECB00BAD468 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				AAECFBC423D57EFA00BAD468 /* LTTranslationMainViewController.h */,
-				AAECFBC523D57EFA00BAD468 /* LTTranslationMainViewController.m */,
-				AAECFBC723D57F1D00BAD468 /* LTTranslationModalViewController.h */,
-				AAECFBC823D57F1D00BAD468 /* LTTranslationModalViewController.m */,
+				AAECFBC423D57EFA00BAD468 /* TMTranslationMainViewController.h */,
+				AAECFBC523D57EFA00BAD468 /* TMTranslationMainViewController.m */,
+				AAECFBC723D57F1D00BAD468 /* TMTranslationModalViewController.h */,
+				AAECFBC823D57F1D00BAD468 /* TMTranslationModalViewController.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -567,12 +567,12 @@
 		AAECFBCA23D581BD00BAD468 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				AAECFBCB23D5820400BAD468 /* LTBouncePresentAnimation.h */,
-				AAECFBCC23D5820400BAD468 /* LTBouncePresentAnimation.m */,
-				AAECFBCE23D5821B00BAD468 /* LTNormalDismissAnimation.h */,
-				AAECFBCF23D5821B00BAD468 /* LTNormalDismissAnimation.m */,
-				AAECFBD123D5824800BAD468 /* LTSwipeUpInteractiveTransition.h */,
-				AAECFBD223D5824800BAD468 /* LTSwipeUpInteractiveTransition.m */,
+				AAECFBCB23D5820400BAD468 /* TMBouncePresentAnimation.h */,
+				AAECFBCC23D5820400BAD468 /* TMBouncePresentAnimation.m */,
+				AAECFBCE23D5821B00BAD468 /* TMNormalDismissAnimation.h */,
+				AAECFBCF23D5821B00BAD468 /* TMNormalDismissAnimation.m */,
+				AAECFBD123D5824800BAD468 /* TMSwipeUpInteractiveTransition.h */,
+				AAECFBD223D5824800BAD468 /* TMSwipeUpInteractiveTransition.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -580,8 +580,8 @@
 		AAF2E74E235047BF007470ED /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
-				AAF2E74F23504AF7007470ED /* NSURLSession+LTSynchronousTask.h */,
-				AAF2E75023504AF7007470ED /* NSURLSession+LTSynchronousTask.m */,
+				AAF2E74F23504AF7007470ED /* NSURLSession+TMSynchronousTask.h */,
+				AAF2E75023504AF7007470ED /* NSURLSession+TMSynchronousTask.m */,
 			);
 			path = NSURLSession;
 			sourceTree = "<group>";
@@ -589,8 +589,8 @@
 		AAF2E75223505391007470ED /* NSURLRequest */ = {
 			isa = PBXGroup;
 			children = (
-				AAF2E753235053BA007470ED /* NSURLRequest+LTParams.h */,
-				AAF2E754235053BA007470ED /* NSURLRequest+LTParams.m */,
+				AAF2E753235053BA007470ED /* NSURLRequest+TMParams.h */,
+				AAF2E754235053BA007470ED /* NSURLRequest+TMParams.m */,
 			);
 			path = NSURLRequest;
 			sourceTree = "<group>";
@@ -598,10 +598,10 @@
 		AAFC39AE23D04D51002AB88C /* TMStarView */ = {
 			isa = PBXGroup;
 			children = (
-				AAFC39AF23D04D77002AB88C /* LTStarView.h */,
-				AAFC39B023D04D77002AB88C /* LTStarView.m */,
-				AA0429B023D3FC770021D2D2 /* LTStarRateView.h */,
-				AA0429B123D3FC770021D2D2 /* LTStarRateView.m */,
+				AAFC39AF23D04D77002AB88C /* TMStarView.h */,
+				AAFC39B023D04D77002AB88C /* TMStarView.m */,
+				AA0429B023D3FC770021D2D2 /* TMStarRateView.h */,
+				AA0429B123D3FC770021D2D2 /* TMStarRateView.m */,
 			);
 			path = TMStarView;
 			sourceTree = "<group>";
@@ -821,52 +821,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA0487E6234F051600A7A87D /* LTAdPageView.m in Sources */,
-				AA08449B234DD3F800CDAC5D /* LTFPSLabel.m in Sources */,
-				AAF11DED234C623E0095201E /* UIImage+LTExtension.m in Sources */,
-				AAE660DB2387AE4B00F58C13 /* UITextView+LT.m in Sources */,
-				AA0429B223D3FC770021D2D2 /* LTStarRateView.m in Sources */,
-				AAE660C52387730A00F58C13 /* NSDictionary+LT.m in Sources */,
-				AAECFBCD23D5820400BAD468 /* LTBouncePresentAnimation.m in Sources */,
+				AA0487E6234F051600A7A87D /* TMAdPageView.m in Sources */,
+				AA08449B234DD3F800CDAC5D /* TMFPSLabel.m in Sources */,
+				AAF11DED234C623E0095201E /* UIImage+TMExtension.m in Sources */,
+				AAE660DB2387AE4B00F58C13 /* UITextView+TM.m in Sources */,
+				AA0429B223D3FC770021D2D2 /* TMStarRateView.m in Sources */,
+				AAE660C52387730A00F58C13 /* NSDictionary+TM.m in Sources */,
+				AAECFBCD23D5820400BAD468 /* TMBouncePresentAnimation.m in Sources */,
 				AA55E0C722B8B39A00CBC1CA /* UIAlertController+Blocks.m in Sources */,
-				AAF11DF1234C78400095201E /* NSDate+LTExtension.m in Sources */,
-				AA794C882333686200AB7EE6 /* UIView+LTGradient.m in Sources */,
-				AAF11DE7234C55E20095201E /* UIButton+LTCountDown.m in Sources */,
-				AAE660D52387A94800F58C13 /* LTTextView.m in Sources */,
+				AAF11DF1234C78400095201E /* NSDate+TMExtension.m in Sources */,
+				AA794C882333686200AB7EE6 /* UIView+TMGradient.m in Sources */,
+				AAF11DE7234C55E20095201E /* UIButton+TMCountDown.m in Sources */,
+				AAE660D52387A94800F58C13 /* TMTextView.m in Sources */,
 				AAC48E6F22B78D8000B885A3 /* ViewController.m in Sources */,
-				AA00663123B19C4300349C55 /* UIView+LTAutoLayout.m in Sources */,
-				AA55E0CD22B8CBCF00CBC1CA /* UIViewController+LT.m in Sources */,
-				AAECFBC923D57F1D00BAD468 /* LTTranslationModalViewController.m in Sources */,
-				AA0252DC23A864860098C132 /* LTPageControl.m in Sources */,
+				AA00663123B19C4300349C55 /* UIView+TMAutoLayout.m in Sources */,
+				AA55E0CD22B8CBCF00CBC1CA /* UIViewController+TM.m in Sources */,
+				AAECFBC923D57F1D00BAD468 /* TMTranslationModalViewController.m in Sources */,
+				AA0252DC23A864860098C132 /* TMPageControl.m in Sources */,
 				AAC48E7A22B78D8200B885A3 /* main.m in Sources */,
-				AAE2F5262337576100BE535B /* UIView+LTFrame.m in Sources */,
-				AAFC39B123D04D77002AB88C /* LTStarView.m in Sources */,
-				AA0252E223A865640098C132 /* LTCyclePagerTransformLayout.m in Sources */,
-				AAE2F52C23375B4800BE535B /* NSObject+LTExtension.m in Sources */,
-				AAE7754B2353040300026A17 /* NSUserDefaults+LTiCloudSync.m in Sources */,
-				AAECFBC623D57EFA00BAD468 /* LTTranslationMainViewController.m in Sources */,
-				AAE2F523233747A000BE535B /* LTTouchID.m in Sources */,
-				AA794C912333796700AB7EE6 /* UIView+LTTouch.m in Sources */,
-				AA794C8E2333793B00AB7EE6 /* UIView+LTShadow.m in Sources */,
+				AAE2F5262337576100BE535B /* UIView+TMFrame.m in Sources */,
+				AAFC39B123D04D77002AB88C /* TMStarView.m in Sources */,
+				AA0252E223A865640098C132 /* TMCyclePagerTransformLayout.m in Sources */,
+				AAE2F52C23375B4800BE535B /* NSObject+TMExtension.m in Sources */,
+				AAE7754B2353040300026A17 /* NSUserDefaults+TMiCloudSync.m in Sources */,
+				AAECFBC623D57EFA00BAD468 /* TMTranslationMainViewController.m in Sources */,
+				AAE2F523233747A000BE535B /* TMTouchID.m in Sources */,
+				AA794C912333796700AB7EE6 /* UIView+TMTouch.m in Sources */,
+				AA794C8E2333793B00AB7EE6 /* UIView+TMShadow.m in Sources */,
 				AAF11DF4234C78F40095201E /* NSArray+Safe.m in Sources */,
-				AAE775472352FD6F00026A17 /* NSIndexPath+LTOffset.m in Sources */,
+				AAE775472352FD6F00026A17 /* NSIndexPath+TMOffset.m in Sources */,
 				AAC48E6C22B78D8000B885A3 /* AppDelegate.m in Sources */,
 				AA0429B823D41ACB0021D2D2 /* UIImage+Tint.m in Sources */,
-				AA0252DF23A864BD0098C132 /* LTCyclePagerView.m in Sources */,
-				AAECFBD023D5821B00BAD468 /* LTNormalDismissAnimation.m in Sources */,
-				AA04444823345DB400FD2F07 /* NSString+LTExtension.m in Sources */,
-				AA0A9C042338A3D1008D0B08 /* UIButton+LTExtension.m in Sources */,
-				AA230EC722B9CB9800866C04 /* UIView+LTExtension.m in Sources */,
-				AA04444B23345F0C00FD2F07 /* NSData+LTEncrypt.m in Sources */,
-				AA0A9BFE23385CBE008D0B08 /* UIApplication+LTExtension.m in Sources */,
-				AA0A9C012338A39E008D0B08 /* UIButton+LTBadge.m in Sources */,
-				AAE2F5292337577C00BE535B /* UIView+LTCorners.m in Sources */,
-				AAF11DEA234C596B0095201E /* UIColor+LTExtension.m in Sources */,
-				AA0444552334679300FD2F07 /* NSString+LTEncrypt.m in Sources */,
-				AAECFBD323D5824800BAD468 /* LTSwipeUpInteractiveTransition.m in Sources */,
-				AA04444E2334664200FD2F07 /* NSString+LTRegex.m in Sources */,
-				AAF2E755235053BA007470ED /* NSURLRequest+LTParams.m in Sources */,
-				AAF2E75123504AF7007470ED /* NSURLSession+LTSynchronousTask.m in Sources */,
+				AA0252DF23A864BD0098C132 /* TMCyclePagerView.m in Sources */,
+				AAECFBD023D5821B00BAD468 /* TMNormalDismissAnimation.m in Sources */,
+				AA04444823345DB400FD2F07 /* NSString+TMExtension.m in Sources */,
+				AA0A9C042338A3D1008D0B08 /* UIButton+TMExtension.m in Sources */,
+				AA230EC722B9CB9800866C04 /* UIView+TMExtension.m in Sources */,
+				AA04444B23345F0C00FD2F07 /* NSData+TMEncrypt.m in Sources */,
+				AA0A9BFE23385CBE008D0B08 /* UIApplication+TMExtension.m in Sources */,
+				AA0A9C012338A39E008D0B08 /* UIButton+TMBadge.m in Sources */,
+				AAE2F5292337577C00BE535B /* UIView+TMCorners.m in Sources */,
+				AAF11DEA234C596B0095201E /* UIColor+TMExtension.m in Sources */,
+				AA0444552334679300FD2F07 /* NSString+TMEncrypt.m in Sources */,
+				AAECFBD323D5824800BAD468 /* TMSwipeUpInteractiveTransition.m in Sources */,
+				AA04444E2334664200FD2F07 /* NSString+TMRegex.m in Sources */,
+				AAF2E755235053BA007470ED /* NSURLRequest+TMParams.m in Sources */,
+				AAF2E75123504AF7007470ED /* NSURLSession+TMSynchronousTask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

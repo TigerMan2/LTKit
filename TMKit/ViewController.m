@@ -1,13 +1,13 @@
 //
 //  ViewController.m
-//  LTKit
+//  TMKit
 //
 //  Created by Luther on 2019/6/17.
 //  Copyright © 2019 mrstock. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "LTTranslationMainViewController.h"
+#import "TMTranslationMainViewController.h"
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -49,7 +49,7 @@
     switch (indexPath.row) {
         case 0:
         {
-            LTTranslationMainViewController *mainVC = [[LTTranslationMainViewController alloc] init];
+            TMTranslationMainViewController *mainVC = [[TMTranslationMainViewController alloc] init];
             [self.navigationController pushViewController:mainVC animated:YES];
         }
             break;
@@ -58,7 +58,7 @@
 
 - (NSArray *)dataSources {
     if (!_dataSources) {
-        _dataSources = @[@"LTTranslation"];
+        _dataSources = @[@"TMTranslation"];
     }
     return _dataSources;
 }
