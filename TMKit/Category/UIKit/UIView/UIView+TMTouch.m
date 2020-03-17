@@ -15,7 +15,7 @@
     return objc_getAssociatedObject(self, UIView_TouchAction);
 }
 
-- (void)lt_setTouchAction:(void(^)(UIView *view))touchAction {
+- (void)tm_setTouchAction:(void(^)(UIView *view))touchAction {
     objc_setAssociatedObject(self, UIView_TouchAction, touchAction, OBJC_ASSOCIATION_COPY);
     for (UIGestureRecognizer *gesture in self.gestureRecognizers) {
         [self removeGestureRecognizer:gesture];
@@ -38,7 +38,7 @@
     return objc_getAssociatedObject(self, UIView_LongTouchAction_Finish);
 }
 
-- (void)lt_setLongTouchBeginAction:(void(^)(UIView *view))longTouchBeginAction longTouchFinishAction:(void(^)(UIView *view))longTouchFinishAction {
+- (void)tm_setLongTouchBeginAction:(void(^)(UIView *view))longTouchBeginAction longTouchFinishAction:(void(^)(UIView *view))longTouchFinishAction {
     objc_setAssociatedObject(self, UIView_LongTouchAction_Begin, longTouchBeginAction, OBJC_ASSOCIATION_COPY);
     objc_setAssociatedObject(self, UIView_LongTouchAction_Finish, longTouchFinishAction, OBJC_ASSOCIATION_COPY);
     

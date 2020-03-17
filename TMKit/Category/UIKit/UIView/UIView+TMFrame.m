@@ -10,143 +10,143 @@
 
 @implementation UIView (TMFrame)
 
-- (void)setLt_x:(CGFloat)lt_x {
+- (void)setTm_x:(CGFloat)tm_x {
     CGRect frame = self.frame;
-    frame.origin.x = lt_x;
+    frame.origin.x = tm_x;
     self.frame = frame;
 }
 
-- (CGFloat)lt_x {
+- (CGFloat)tm_x {
     return self.frame.origin.x;
 }
 
-- (void)setLt_y:(CGFloat)lt_y {
+- (void)setTm_y:(CGFloat)tm_y {
     CGRect frame = self.frame;
-    frame.origin.y = lt_y;
+    frame.origin.y = tm_y;
     self.frame = frame;
 }
 
-- (CGFloat)lt_y {
+- (CGFloat)tm_y {
     return self.frame.origin.y;
 }
 
-- (void)setLt_centerX:(CGFloat)lt_centerX {
+- (void)setTm_centerX:(CGFloat)tm_centerX {
     CGPoint center = self.center;
-    center.x = lt_centerX;
+    center.x = tm_centerX;
     self.center = center;
 }
 
-- (CGFloat)lt_centerX {
+- (CGFloat)tm_centerX {
     return self.center.x;
 }
 
-- (void)setLt_centerY:(CGFloat)lt_centerY {
+- (void)setTm_centerY:(CGFloat)tm_centerY {
     CGPoint center = self.center;
-    center.y = lt_centerY;
+    center.y = tm_centerY;
     self.center = center;
 }
 
-- (CGFloat)lt_centerY {
+- (CGFloat)tm_centerY {
     return self.center.y;
 }
 
-- (void)setLt_maxX:(CGFloat)lt_maxX {
+- (void)setTm_maxX:(CGFloat)tm_maxX {
     CGRect frame = self.frame;
-    frame.origin.x = lt_maxX - frame.size.width;
+    frame.origin.x = tm_maxX - frame.size.width;
     self.frame = frame;
 }
 
-- (CGFloat)lt_maxX {
+- (CGFloat)tm_maxX {
     return CGRectGetMaxX(self.frame);
 }
 
-- (void)setLt_maxY:(CGFloat)lt_maxY {
+- (void)setTm_maxY:(CGFloat)tm_maxY {
     CGRect frame = self.frame;
-    frame.origin.y = lt_maxY - frame.size.height;
+    frame.origin.y = tm_maxY - frame.size.height;
     self.frame = frame;
 }
 
-- (CGFloat)lt_maxY {
+- (CGFloat)tm_maxY {
     return CGRectGetMaxY(self.frame);
 }
 
-- (void)setLt_width:(CGFloat)lt_width {
+- (void)setTm_width:(CGFloat)tm_width {
     CGRect frame = self.frame;
-    frame.size.width = lt_width;
+    frame.size.width = tm_width;
     self.frame = frame;
 }
 
-- (CGFloat)lt_width {
+- (CGFloat)tm_width {
     return self.frame.size.width;
 }
 
-- (void)setLt_height:(CGFloat)lt_height {
+- (void)setTm_height:(CGFloat)tm_height {
     CGRect frame = self.frame;
-    frame.size.height = lt_height;
+    frame.size.height = tm_height;
     self.frame = frame;
 }
 
-- (CGFloat)lt_height {
+- (CGFloat)tm_height {
     return self.frame.size.height;
 }
 
-- (void)setLt_size:(CGSize)lt_size {
+- (void)setTm_size:(CGSize)tm_size {
     CGRect frame = self.frame;
-    frame.size = lt_size;
+    frame.size = tm_size;
     self.frame = frame;
 }
 
-- (CGSize)lt_size {
+- (CGSize)tm_size {
     return self.frame.size;
 }
 
-- (void)setLt_origin:(CGPoint)lt_origin {
+- (void)setTm_origin:(CGPoint)tm_origin {
     CGRect frame = self.frame;
-    frame.origin = lt_origin;
+    frame.origin = tm_origin;
     self.frame = frame;
 }
 
-- (CGPoint)lt_origin {
+- (CGPoint)tm_origin {
     return self.frame.origin;
 }
 
-- (CGFloat)lt_left {
+- (CGFloat)tm_left {
     return self.frame.origin.x;
 }
 
-- (void)setLt_left:(CGFloat)lt_left {
+- (void)setTm_left:(CGFloat)tm_left {
     CGRect frame = self.frame;
-    frame.origin.x = lt_left;
+    frame.origin.x = tm_left;
     self.frame = frame;
 }
 
-- (CGFloat)lt_top {
+- (CGFloat)tm_top {
     return self.frame.origin.y;
 }
 
-- (void)setLt_top:(CGFloat)lt_top {
+- (void)setTm_top:(CGFloat)tm_top {
     CGRect frame = self.frame;
-    frame.origin.y = lt_top;
+    frame.origin.y = tm_top;
     self.frame = frame;
 }
 
-- (CGFloat)lt_right {
+- (CGFloat)tm_right {
     return self.frame.origin.x + self.frame.size.width;
 }
 
-- (void)setLt_right:(CGFloat)lt_right {
+- (void)setTm_right:(CGFloat)tm_right {
     CGRect frame = self.frame;
-    frame.origin.x = lt_right - frame.size.width;
+    frame.origin.x = tm_right - frame.size.width;
     self.frame = frame;
 }
 
-- (CGFloat)lt_bottom {
+- (CGFloat)tm_bottom {
     return self.frame.origin.y + self.frame.size.height;
 }
 
-- (void)setLt_bottom:(CGFloat)lt_bottom {
+- (void)setTm_bottom:(CGFloat)tm_bottom {
     CGRect frame = self.frame;
-    frame.origin.y = lt_bottom - frame.size.height;
+    frame.origin.y = tm_bottom - frame.size.height;
     self.frame = frame;
 }
 

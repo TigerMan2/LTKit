@@ -12,25 +12,25 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (TMFrame)
 
-@property (nonatomic) CGFloat TM_x;
-@property (nonatomic) CGFloat TM_y;
+@property (nonatomic) CGFloat tm_x;
+@property (nonatomic) CGFloat tm_y;
 
-@property (nonatomic) CGFloat TM_centerX;
-@property (nonatomic) CGFloat TM_centerY;
+@property (nonatomic) CGFloat tm_centerX;
+@property (nonatomic) CGFloat tm_centerY;
 
-@property (nonatomic) CGFloat TM_maxX;
-@property (nonatomic) CGFloat TM_maxY;
+@property (nonatomic) CGFloat tm_maxX;
+@property (nonatomic) CGFloat tm_maxY;
 
-@property (nonatomic) CGFloat TM_width;
-@property (nonatomic) CGFloat TM_height;
+@property (nonatomic) CGFloat tm_width;
+@property (nonatomic) CGFloat tm_height;
 
-@property (nonatomic) CGSize TM_size;
-@property (nonatomic) CGPoint TM_origin;
+@property (nonatomic) CGSize tm_size;
+@property (nonatomic) CGPoint tm_origin;
 
-@property (nonatomic) CGFloat TM_left;        ///< Shortcut for frame.origin.x.
-@property (nonatomic) CGFloat TM_top;         ///< Shortcut for frame.origin.y
-@property (nonatomic) CGFloat TM_right;       ///< Shortcut for frame.origin.x + frame.size.width
-@property (nonatomic) CGFloat TM_bottom;      ///< Shortcut for frame.origin.y + frame.size.height
+@property (nonatomic) CGFloat tm_left;        ///< Shortcut for frame.origin.x.
+@property (nonatomic) CGFloat tm_top;         ///< Shortcut for frame.origin.y
+@property (nonatomic) CGFloat tm_right;       ///< Shortcut for frame.origin.x + frame.size.width
+@property (nonatomic) CGFloat tm_bottom;      ///< Shortcut for frame.origin.y + frame.size.height
 
 @end
 

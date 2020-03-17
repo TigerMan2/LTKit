@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSAttributedString *attributedPlaceholder;
 @property (nonatomic, strong) IBInspectable UIColor *placeholderColor;
 
-+ (UIColor *)defauTMPlaceholderColor;
++ (UIColor *)defaultPlaceholderColor;
 
 @end
 

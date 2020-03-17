@@ -45,7 +45,7 @@ typedef NS_ENUM(NSUInteger, TMLayoutCornerRadiusType) {
  @param type 圆角类型
  @param cornerRadius 圆角弧度
  */
-- (void)lt_useBezierPathClipCornerWithTMLayoutCornerRadiusType:(TMLayoutCornerRadiusType)type
+- (void)tm_useBezierPathClipCornerWithTMLayoutCornerRadiusType:(TMLayoutCornerRadiusType)type
                                                   cornerRadius:(CGFloat)cornerRadius;
 
 /**
@@ -56,7 +56,7 @@ typedef NS_ENUM(NSUInteger, TMLayoutCornerRadiusType) {
  @param color 边框颜色
  @param borderWidth 边框宽度
  */
-- (void)lt_userBezierPathClipCornerWithTMLayoutCornerRadiusType:(TMLayoutCornerRadiusType)type
+- (void)tm_userBezierPathClipCornerWithTMLayoutCornerRadiusType:(TMLayoutCornerRadiusType)type
                                                    cornerRadius:(CGFloat)cornerRadius
                                                           color:(UIColor *)color
                                                     borderWidth:(CGFloat)borderWidth;
@@ -67,7 +67,7 @@ typedef NS_ENUM(NSUInteger, TMLayoutCornerRadiusType) {
  @param color 边框颜色
  @param borderWidth 边框宽度
  */
-- (void)lt_userCALayerMakeBorderLineWithColor:(UIColor *)color
+- (void)tm_userCALayerMakeBorderLineWithColor:(UIColor *)color
                                   borderWidth:(CGFloat)borderWidth;
 
 @end

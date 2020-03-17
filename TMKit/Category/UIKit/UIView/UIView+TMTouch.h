@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 
  @param touchAction 单击的block
  */
-- (void)TM_setTouchAction:(void(^)(UIView *view))touchAction;
+- (void)tm_setTouchAction:(void(^)(UIView *view))touchAction;
 
 /**
  UIView和子类添加长按事件
@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param longTouchBeginAction 开始长按block
  @param longTouchFinishAction 结束或者取消长按block
  */
-- (void)TM_setLongTouchBeginAction:(void(^)(UIView *view))longTouchBeginAction longTouchFinishAction:(void(^)(UIView *view))longTouchFinishAction;
+- (void)tm_setLongTouchBeginAction:(void(^)(UIView *view))longTouchBeginAction longTouchFinishAction:(void(^)(UIView *view))longTouchFinishAction;
 
 @end
 

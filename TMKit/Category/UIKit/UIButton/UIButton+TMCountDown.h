@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIButton (TMCountDown)
 
-- (void)startCountDownWithDefauTMTitle:(NSString *)defauTMTitle totaTMime:(NSInteger)totaTMime timeUnit:(NSString *)unit;
+- (void)startCountDownWithDefaultTitle:(NSString *)defaultTitle totalTime:(NSInteger)totalTime timeUnit:(NSString *)unit;
 
 @end
 

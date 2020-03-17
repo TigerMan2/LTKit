@@ -11,30 +11,30 @@
 @implementation UIView (TMCorners)
 
 #pragma mark    -   public method
-- (void)lt_useBezierPathClipCornerWithTMLayoutCornerRadiusType:(TMLayoutCornerRadiusType)type cornerRadius:(CGFloat)cornerRadius {
-    [self lt_makeCornerWithMaskPath:[self lt_bezierPathWithTMLayoutCornerRadiusType:type cornerRadius:cornerRadius]];
+- (void)tm_useBezierPathClipCornerWithTMLayoutCornerRadiusType:(TMLayoutCornerRadiusType)type cornerRadius:(CGFloat)cornerRadius {
+    [self tm_makeCornerWithMaskPath:[self tm_bezierPathWithTMLayoutCornerRadiusType:type cornerRadius:cornerRadius]];
 }
 
-- (void)lt_userBezierPathClipCornerWithLTLayoutCornerRadiusType:(TMLayoutCornerRadiusType)type cornerRadius:(CGFloat)cornerRadius color:(UIColor *)color borderWidth:(CGFloat)borderWidth {
+- (void)tm_userBezierPathClipCornerWithTMLayoutCornerRadiusType:(TMLayoutCornerRadiusType)type cornerRadius:(CGFloat)cornerRadius color:(UIColor *)color borderWidth:(CGFloat)borderWidth {
     
     CAShapeLayer *shapeLayer = [CAShapeLayer layer];
     shapeLayer.lineWidth = borderWidth;
-    shapeLayer.path = [self lt_bezierPathWithTMLayoutCornerRadiusType:type cornerRadius:cornerRadius].CGPath;
+    shapeLayer.path = [self tm_bezierPathWithTMLayoutCornerRadiusType:type cornerRadius:cornerRadius].CGPath;
     shapeLayer.strokeColor = color.CGColor;
     shapeLayer.fillColor = [UIColor clearColor].CGColor;
     [self.layer addSublayer:shapeLayer];
     
-    [self lt_useBezierPathClipCornerWithTMLayoutCornerRadiusType:type cornerRadius:cornerRadius];
+    [self tm_useBezierPathClipCornerWithTMLayoutCornerRadiusType:type cornerRadius:cornerRadius];
 }
 
 #pragma mark    -    private method
 //!< 添加边框
-- (void)lt_userCALayerMakeBorderLineWithColor:(UIColor *)color borderWidth:(CGFloat)borderWidth {
+- (void)tm_userCALayerMakeBorderLineWithColor:(UIColor *)color borderWidth:(CGFloat)borderWidth {
     self.layer.borderColor = color.CGColor;
     self.layer.borderWidth = borderWidth;
 }
 //!< 根据不同类型获取UIBezierPath
-- (UIBezierPath *)lt_bezierPathWithTMLayoutCornerRadiusType:(TMLayoutCornerRadiusType)type cornerRadius:(CGFloat)cornerRadius {
+- (UIBezierPath *)tm_bezierPathWithTMLayoutCornerRadiusType:(TMLayoutCornerRadiusType)type cornerRadius:(CGFloat)cornerRadius {
     
     UIBezierPath *maskPath;
     CGSize cornerSize = CGSizeMake(cornerRadius, cornerRadius);
@@ -153,7 +153,7 @@
     return maskPath;
 }
 
-- (void)lt_makeCornerWithMaskPath:(UIBezierPath *)maskPath {
+- (void)tm_makeCornerWithMaskPath:(UIBezierPath *)maskPath {
     CAShapeLayer *maskLayer = [CAShapeLayer layer];
     maskLayer.frame = self.bounds;
     maskLayer.path = maskPath.CGPath;

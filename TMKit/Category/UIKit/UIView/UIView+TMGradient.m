@@ -15,13 +15,13 @@
     return [CAGradientLayer class];
 }
 
-+ (UIView *)lt_gradientViewWithColors:(NSArray <UIColor *> *)colors locations:(NSArray <NSNumber *> *)locations startPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint {
++ (UIView *)tm_gradientViewWithColors:(NSArray <UIColor *> *)colors locations:(NSArray <NSNumber *> *)locations startPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint {
     UIView *view = [[UIView alloc] init];
-    [view lt_setGradientBackgroundWithColors:colors loactions:locations startPoint:startPoint endPoint:endPoint];
+    [view tm_setGradientBackgroundWithColors:colors loactions:locations startPoint:startPoint endPoint:endPoint];
     return view;
 }
 
-- (void)lt_setGradientBackgroundWithColors:(NSArray <UIColor *> *)colors loactions:(NSArray <NSNumber *> *)locations startPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint {
+- (void)tm_setGradientBackgroundWithColors:(NSArray <UIColor *> *)colors loactions:(NSArray <NSNumber *> *)locations startPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint {
     NSMutableArray *colorsM = [[NSMutableArray alloc] init];
     for (UIColor *color in colors) {
         [colorsM addObject:(__bridge id)color.CGColor];

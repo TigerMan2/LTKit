@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param endPoint 结束位置
  @return 渐变色的view
  */
-+ (UIView *)TM_gradientViewWithColors:(NSArray <UIColor *> * _Nullable)colors
++ (UIView *)tm_gradientViewWithColors:(NSArray <UIColor *> * _Nullable)colors
                             locations:(NSArray <NSNumber *> * _Nullable)locations
                            startPoint:(CGPoint)startPoint
                              endPoint:(CGPoint)endPoint;
@@ -34,7 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param startPoint 开始位置
  @param endPoint 结束位置
  */
-- (void)TM_setGradientBackgroundWithColors:(NSArray <UIColor *> * _Nullable)colors
+- (void)tm_setGradientBackgroundWithColors:(NSArray <UIColor *> * _Nullable)colors
                                  loactions:(NSArray <NSNumber *> * _Nullable)locations
                                 startPoint:(CGPoint)startPoint
                                   endPoint:(CGPoint)endPoint;
