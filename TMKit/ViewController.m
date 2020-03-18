@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "TMTranslationMainViewController.h"
+#import "TMDragViewController.h"
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -53,12 +54,18 @@
             [self.navigationController pushViewController:mainVC animated:YES];
         }
             break;
+        case 1:
+        {
+            TMDragViewController *dragVC = [[TMDragViewController alloc] init];
+            [self.navigationController pushViewController:dragVC animated:YES];
+        }
+            break;
     }
 }
 
 - (NSArray *)dataSources {
     if (!_dataSources) {
-        _dataSources = @[@"TMTranslation"];
+        _dataSources = @[@"TMTranslation",@"TMDrag"];
     }
     return _dataSources;
 }

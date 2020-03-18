@@ -24,6 +24,8 @@
 		AA0A9BFE23385CBE008D0B08 /* UIApplication+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9BFD23385CBE008D0B08 /* UIApplication+TMExtension.m */; };
 		AA0A9C012338A39E008D0B08 /* UIButton+TMBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9C002338A39E008D0B08 /* UIButton+TMBadge.m */; };
 		AA0A9C042338A3D1008D0B08 /* UIButton+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9C032338A3D1008D0B08 /* UIButton+TMExtension.m */; };
+		AA10DE412420C68B00CCBFCC /* TMDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA10DE402420C68B00CCBFCC /* TMDragView.m */; };
+		AA10DE452420DC6900CCBFCC /* TMDragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA10DE442420DC6900CCBFCC /* TMDragViewController.m */; };
 		AA230EC722B9CB9800866C04 /* UIView+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA230EC622B9CB9800866C04 /* UIView+TMExtension.m */; };
 		AA55E0C722B8B39A00CBC1CA /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55E0C622B8B39A00CBC1CA /* UIAlertController+Blocks.m */; };
 		AA55E0CD22B8CBCF00CBC1CA /* UIViewController+TM.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55E0CC22B8CBCF00CBC1CA /* UIViewController+TM.m */; };
@@ -119,6 +121,10 @@
 		AA0A9C002338A39E008D0B08 /* UIButton+TMBadge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TMBadge.m"; sourceTree = "<group>"; };
 		AA0A9C022338A3D1008D0B08 /* UIButton+TMExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TMExtension.h"; sourceTree = "<group>"; };
 		AA0A9C032338A3D1008D0B08 /* UIButton+TMExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TMExtension.m"; sourceTree = "<group>"; };
+		AA10DE3F2420C68B00CCBFCC /* TMDragView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMDragView.h; sourceTree = "<group>"; };
+		AA10DE402420C68B00CCBFCC /* TMDragView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMDragView.m; sourceTree = "<group>"; };
+		AA10DE432420DC6900CCBFCC /* TMDragViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMDragViewController.h; sourceTree = "<group>"; };
+		AA10DE442420DC6900CCBFCC /* TMDragViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMDragViewController.m; sourceTree = "<group>"; };
 		AA230EC522B9CB9800866C04 /* UIView+TMExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TMExtension.h"; sourceTree = "<group>"; };
 		AA230EC622B9CB9800866C04 /* UIView+TMExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TMExtension.m"; sourceTree = "<group>"; };
 		AA55E0C522B8B39A00CBC1CA /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
@@ -266,6 +272,24 @@
 			path = Foundation;
 			sourceTree = "<group>";
 		};
+		AA10DE3E2420C66C00CCBFCC /* TMDragView */ = {
+			isa = PBXGroup;
+			children = (
+				AA10DE3F2420C68B00CCBFCC /* TMDragView.h */,
+				AA10DE402420C68B00CCBFCC /* TMDragView.m */,
+			);
+			path = TMDragView;
+			sourceTree = "<group>";
+		};
+		AA10DE422420DC5200CCBFCC /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				AA10DE432420DC6900CCBFCC /* TMDragViewController.h */,
+				AA10DE442420DC6900CCBFCC /* TMDragViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		AA55E0C422B8B34D00CBC1CA /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +330,7 @@
 		AAC48E6922B78D8000B885A3 /* TMKit */ = {
 			isa = PBXGroup;
 			children = (
+				AA10DE3E2420C66C00CCBFCC /* TMDragView */,
 				AAECFBC223D57E1800BAD468 /* TMTranslation */,
 				AAFC39AE23D04D51002AB88C /* TMStarView */,
 				AA0252D923A863FD0098C132 /* TMCyclePagerView */,
@@ -316,6 +341,7 @@
 				AAC48E6B22B78D8000B885A3 /* AppDelegate.m */,
 				AAC48E6D22B78D8000B885A3 /* ViewController.h */,
 				AAC48E6E22B78D8000B885A3 /* ViewController.m */,
+				AA10DE422420DC5200CCBFCC /* Demo */,
 				AAC48E7022B78D8000B885A3 /* Main.storyboard */,
 				AAC48E7322B78D8200B885A3 /* Assets.xcassets */,
 				AAC48E7522B78D8200B885A3 /* LaunchScreen.storyboard */,
@@ -826,6 +852,7 @@
 				AAF11DED234C623E0095201E /* UIImage+TMExtension.m in Sources */,
 				AAE660DB2387AE4B00F58C13 /* UITextView+TM.m in Sources */,
 				AA0429B223D3FC770021D2D2 /* TMStarRateView.m in Sources */,
+				AA10DE412420C68B00CCBFCC /* TMDragView.m in Sources */,
 				AAE660C52387730A00F58C13 /* NSDictionary+TM.m in Sources */,
 				AAECFBCD23D5820400BAD468 /* TMBouncePresentAnimation.m in Sources */,
 				AA55E0C722B8B39A00CBC1CA /* UIAlertController+Blocks.m in Sources */,
@@ -835,6 +862,7 @@
 				AAE660D52387A94800F58C13 /* TMTextView.m in Sources */,
 				AAC48E6F22B78D8000B885A3 /* ViewController.m in Sources */,
 				AA00663123B19C4300349C55 /* UIView+TMAutoLayout.m in Sources */,
+				AA10DE452420DC6900CCBFCC /* TMDragViewController.m in Sources */,
 				AA55E0CD22B8CBCF00CBC1CA /* UIViewController+TM.m in Sources */,
 				AAECFBC923D57F1D00BAD468 /* TMTranslationModalViewController.m in Sources */,
 				AA0252DC23A864860098C132 /* TMPageControl.m in Sources */,
