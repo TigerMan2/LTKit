@@ -26,6 +26,8 @@
 		AA0A9C042338A3D1008D0B08 /* UIButton+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9C032338A3D1008D0B08 /* UIButton+TMExtension.m */; };
 		AA10DE412420C68B00CCBFCC /* TMDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA10DE402420C68B00CCBFCC /* TMDragView.m */; };
 		AA10DE452420DC6900CCBFCC /* TMDragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA10DE442420DC6900CCBFCC /* TMDragViewController.m */; };
+		AA1B9E0C24287FF5006B2910 /* TMPanModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1B9E0A24287FF5006B2910 /* TMPanModalViewController.m */; };
+		AA1B9E0D24287FF5006B2910 /* TMPanModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1B9E0B24287FF5006B2910 /* TMPanModalViewController.xib */; };
 		AA230EC722B9CB9800866C04 /* UIView+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA230EC622B9CB9800866C04 /* UIView+TMExtension.m */; };
 		AA55E0C722B8B39A00CBC1CA /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55E0C622B8B39A00CBC1CA /* UIAlertController+Blocks.m */; };
 		AA55E0CD22B8CBCF00CBC1CA /* UIViewController+TM.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55E0CC22B8CBCF00CBC1CA /* UIViewController+TM.m */; };
@@ -126,6 +128,9 @@
 		AA10DE402420C68B00CCBFCC /* TMDragView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMDragView.m; sourceTree = "<group>"; };
 		AA10DE432420DC6900CCBFCC /* TMDragViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMDragViewController.h; sourceTree = "<group>"; };
 		AA10DE442420DC6900CCBFCC /* TMDragViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMDragViewController.m; sourceTree = "<group>"; };
+		AA1B9E0924287FF5006B2910 /* TMPanModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMPanModalViewController.h; sourceTree = "<group>"; };
+		AA1B9E0A24287FF5006B2910 /* TMPanModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMPanModalViewController.m; sourceTree = "<group>"; };
+		AA1B9E0B24287FF5006B2910 /* TMPanModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TMPanModalViewController.xib; sourceTree = "<group>"; };
 		AA230EC522B9CB9800866C04 /* UIView+TMExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TMExtension.h"; sourceTree = "<group>"; };
 		AA230EC622B9CB9800866C04 /* UIView+TMExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TMExtension.m"; sourceTree = "<group>"; };
 		AA55E0C522B8B39A00CBC1CA /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
@@ -291,6 +296,9 @@
 				AA10DE442420DC6900CCBFCC /* TMDragViewController.m */,
 				AAD531ED2423736300048DD9 /* TMWebViewController.h */,
 				AAD531EE2423736300048DD9 /* TMWebViewController.m */,
+				AA1B9E0924287FF5006B2910 /* TMPanModalViewController.h */,
+				AA1B9E0A24287FF5006B2910 /* TMPanModalViewController.m */,
+				AA1B9E0B24287FF5006B2910 /* TMPanModalViewController.xib */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -758,6 +766,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAC48E7722B78D8200B885A3 /* LaunchScreen.storyboard in Resources */,
+				AA1B9E0D24287FF5006B2910 /* TMPanModalViewController.xib in Resources */,
 				AAC48E7422B78D8200B885A3 /* Assets.xcassets in Resources */,
 				AAC48E7222B78D8000B885A3 /* Main.storyboard in Resources */,
 			);
@@ -901,6 +910,7 @@
 				AA794C912333796700AB7EE6 /* UIView+TMTouch.m in Sources */,
 				AA794C8E2333793B00AB7EE6 /* UIView+TMShadow.m in Sources */,
 				AAF11DF4234C78F40095201E /* NSArray+Safe.m in Sources */,
+				AA1B9E0C24287FF5006B2910 /* TMPanModalViewController.m in Sources */,
 				AAE775472352FD6F00026A17 /* NSIndexPath+TMOffset.m in Sources */,
 				AAC48E6C22B78D8000B885A3 /* AppDelegate.m in Sources */,
 				AA0429B823D41ACB0021D2D2 /* UIImage+Tint.m in Sources */,

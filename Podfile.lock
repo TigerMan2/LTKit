@@ -24,6 +24,7 @@ PODS:
     - AXNavigationBackItemInjection
     - AXPracticalHUD
     - NJKWebViewProgress
+  - HWPanModal (0.6.7)
   - NJKWebViewProgress (0.2.3):
     - NJKWebViewProgress/Core (= 0.2.3)
     - NJKWebViewProgress/ProgressView (= 0.2.3)
@@ -33,6 +34,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - AXWebViewController
+  - HWPanModal
 
 SPEC REPOS:
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
@@ -42,6 +44,7 @@ SPEC REPOS:
     - AXNavigationBackItemInjection
     - AXPracticalHUD
     - AXWebViewController
+    - HWPanModal
     - NJKWebViewProgress
 
 SPEC CHECKSUMS:
@@ -51,8 +54,9 @@ SPEC CHECKSUMS:
   AXNavigationBackItemInjection: efe0446967f3cbcc85a9118decd1e145138912dd
   AXPracticalHUD: 821d170b31e050c426ef8754b07b4264a8b1d861
   AXWebViewController: 96566c473fce2806f4da696132b31777f5404c9f
+  HWPanModal: 8ce3489c30e2268dafc50acdcde50d34f75f35aa
   NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
 
-PODFILE CHECKSUM: 9206f9acad9c20a51ebc49f70bb25a1c8c2ee379
+PODFILE CHECKSUM: 39d4e955f738fe830c0667ff250b722e44da3814
 
 COCOAPODS: 1.8.4

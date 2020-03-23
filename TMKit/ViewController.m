@@ -10,6 +10,7 @@
 #import "TMTranslationMainViewController.h"
 #import "TMDragViewController.h"
 #import "TMWebViewController.h"
+#import "TMPanModalViewController.h"
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -68,12 +69,18 @@
             [self.navigationController pushViewController:webVC animated:YES];
         }
             break;
+        case 3:
+        {
+            TMPanModalViewController *modalVC = [[TMPanModalViewController alloc] init];
+            [self presentPanModal:modalVC];
+        }
+            break;
     }
 }
 
 - (NSArray *)dataSources {
     if (!_dataSources) {
-        _dataSources = @[@"TMTranslation",@"TMDrag",@"TMWeb"];
+        _dataSources = @[@"TMTranslation",@"TMDrag",@"TMWeb",@"TMPanModal"];
     }
     return _dataSources;
 }
