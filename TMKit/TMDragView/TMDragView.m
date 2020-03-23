@@ -50,7 +50,7 @@ static CGFloat TMDelayAlphaDuration = .25;
     self.clipsToBounds = YES;
     self.isKeepBounds = NO;
     self.stayAlpha = 1.0;
-    self.backgroundColor = [UIColor blackColor];
+    self.backgroundColor = [UIColor lightGrayColor];
     
     UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTapDrag)];
     [self addGestureRecognizer:tapGestureRecognizer];
@@ -98,8 +98,29 @@ static CGFloat TMDelayAlphaDuration = .25;
             CGPoint point = [gesture translationInView:self];
             CGFloat dx;
             CGFloat dy;
-            dx = point.x - self.startPoint.x;
-            dy = point.y - self.startPoint.y;
+            switch (self.dragDirection) {
+                case TMDragDirectionAny:
+                {
+                    dx = point.x - self.startPoint.x;
+                    dy = point.y - self.startPoint.y;
+                }
+                    break;
+                case TMDragDirectionHorizontal:
+                {
+                    dx = point.x - self.startPoint.x;
+                    dy = 0;
+                }
+                    break;
+                case TMDragDirectionVertical:
+                {
+                    dx = 0;
+                    dy = point.y - self.startPoint.y;
+                }
+                    break;
+                    
+                default:
+                    break;
+            }
             
             CGPoint center = CGPointMake(self.center.x + dx, self.center.y + dy);
             self.center = center;

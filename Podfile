@@ -10,6 +10,7 @@ target 'TMKit' do
   
   # 网络
   pod 'AFNetworking'
+  pod 'AXWebViewController'
   
 
   target 'TMKitTests' do

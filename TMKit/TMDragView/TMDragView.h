@@ -10,6 +10,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSUInteger, TMDragDirection) {
+    TMDragDirectionAny,             // 任意
+    TMDragDirectionHorizontal,      // 水平
+    TMDragDirectionVertical,        // 垂直
+};
+
 @interface TMDragView : UIView
 
 /// 是否可以拖拽, Default YES.
@@ -22,6 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL shouldDelayChangeAlpha;
 /// 悬浮球停留时, 透明度, 0~1, Default 0.4.
 @property (nonatomic, assign) CGFloat stayAlpha;
+/// 拖拽方向
+@property (nonatomic, assign) TMDragDirection dragDirection;
 
 /// 单击.
 @property (nonatomic, copy) void(^singleTapDragBlock) (TMDragView *dragView);

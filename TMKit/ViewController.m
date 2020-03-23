@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "TMTranslationMainViewController.h"
 #import "TMDragViewController.h"
+#import "TMWebViewController.h"
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -60,12 +61,19 @@
             [self.navigationController pushViewController:dragVC animated:YES];
         }
             break;
+        case 2:
+        {
+            UIStoryboard *board = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+            TMWebViewController *webVC = [board instantiateViewControllerWithIdentifier:@"TMWebViewController"];
+            [self.navigationController pushViewController:webVC animated:YES];
+        }
+            break;
     }
 }
 
 - (NSArray *)dataSources {
     if (!_dataSources) {
-        _dataSources = @[@"TMTranslation",@"TMDrag"];
+        _dataSources = @[@"TMTranslation",@"TMDrag",@"TMWeb"];
     }
     return _dataSources;
 }

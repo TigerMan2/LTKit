@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -40,6 +40,7 @@
 		AAC48E7A22B78D8200B885A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC48E7922B78D8200B885A3 /* main.m */; };
 		AAC48E8422B78D8200B885A3 /* TMKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC48E8322B78D8200B885A3 /* TMKitTests.m */; };
 		AAC48E8F22B78D8200B885A3 /* TMKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC48E8E22B78D8200B885A3 /* TMKitUITests.m */; };
+		AAD531F02423736300048DD9 /* TMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD531EE2423736300048DD9 /* TMWebViewController.m */; };
 		AAE2F523233747A000BE535B /* TMTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2F522233747A000BE535B /* TMTouchID.m */; };
 		AAE2F5262337576100BE535B /* UIView+TMFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2F5252337576100BE535B /* UIView+TMFrame.m */; };
 		AAE2F5292337577C00BE535B /* UIView+TMCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2F5282337577C00BE535B /* UIView+TMCorners.m */; };
@@ -154,6 +155,8 @@
 		AAC48E8E22B78D8200B885A3 /* TMKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMKitUITests.m; sourceTree = "<group>"; };
 		AAC48E9022B78D8200B885A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAC48E9D22B7915F00B885A3 /* TMDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMDefines.h; sourceTree = "<group>"; };
+		AAD531ED2423736300048DD9 /* TMWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMWebViewController.h; sourceTree = "<group>"; };
+		AAD531EE2423736300048DD9 /* TMWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMWebViewController.m; sourceTree = "<group>"; };
 		AAE2F521233747A000BE535B /* TMTouchID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMTouchID.h; sourceTree = "<group>"; };
 		AAE2F522233747A000BE535B /* TMTouchID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMTouchID.m; sourceTree = "<group>"; };
 		AAE2F5242337576100BE535B /* UIView+TMFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TMFrame.h"; sourceTree = "<group>"; };
@@ -286,6 +289,8 @@
 			children = (
 				AA10DE432420DC6900CCBFCC /* TMDragViewController.h */,
 				AA10DE442420DC6900CCBFCC /* TMDragViewController.m */,
+				AAD531ED2423736300048DD9 /* TMWebViewController.h */,
+				AAD531EE2423736300048DD9 /* TMWebViewController.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -656,6 +661,7 @@
 				AAC48E6322B78D8000B885A3 /* Sources */,
 				AAC48E6422B78D8000B885A3 /* Frameworks */,
 				AAC48E6522B78D8000B885A3 /* Resources */,
+				69FF15EEA9AFFFC8915641B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -796,6 +802,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		69FF15EEA9AFFFC8915641B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TMKit/Pods-TMKit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TMKit/Pods-TMKit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TMKit/Pods-TMKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		88D9C1F3265A9F2E6AA509BC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -853,6 +876,7 @@
 				AAE660DB2387AE4B00F58C13 /* UITextView+TM.m in Sources */,
 				AA0429B223D3FC770021D2D2 /* TMStarRateView.m in Sources */,
 				AA10DE412420C68B00CCBFCC /* TMDragView.m in Sources */,
+				AAD531F02423736300048DD9 /* TMWebViewController.m in Sources */,
 				AAE660C52387730A00F58C13 /* NSDictionary+TM.m in Sources */,
 				AAECFBCD23D5820400BAD468 /* TMBouncePresentAnimation.m in Sources */,
 				AA55E0C722B8B39A00CBC1CA /* UIAlertController+Blocks.m in Sources */,
