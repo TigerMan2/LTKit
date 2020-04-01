@@ -30,11 +30,13 @@ PODS:
     - NJKWebViewProgress/ProgressView (= 0.2.3)
   - NJKWebViewProgress/Core (0.2.3)
   - NJKWebViewProgress/ProgressView (0.2.3)
+  - pop (1.0.12)
 
 DEPENDENCIES:
   - AFNetworking
   - AXWebViewController
   - HWPanModal
+  - pop
 
 SPEC REPOS:
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
@@ -46,6 +48,7 @@ SPEC REPOS:
     - AXWebViewController
     - HWPanModal
     - NJKWebViewProgress
+    - pop
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
@@ -56,7 +59,8 @@ SPEC CHECKSUMS:
   AXWebViewController: 96566c473fce2806f4da696132b31777f5404c9f
   HWPanModal: 8ce3489c30e2268dafc50acdcde50d34f75f35aa
   NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
 
-PODFILE CHECKSUM: 39d4e955f738fe830c0667ff250b722e44da3814
+PODFILE CHECKSUM: 8ddd605f720c1bc1b4bd7192abafd16c037b40ed
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1

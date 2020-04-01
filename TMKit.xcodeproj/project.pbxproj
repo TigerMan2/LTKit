@@ -26,6 +26,8 @@
 		AA0A9C042338A3D1008D0B08 /* UIButton+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9C032338A3D1008D0B08 /* UIButton+TMExtension.m */; };
 		AA10DE412420C68B00CCBFCC /* TMDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA10DE402420C68B00CCBFCC /* TMDragView.m */; };
 		AA10DE452420DC6900CCBFCC /* TMDragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA10DE442420DC6900CCBFCC /* TMDragViewController.m */; };
+		AA18D34F2434815C001E1BFC /* TMPOPScaleControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AA18D34E2434815C001E1BFC /* TMPOPScaleControl.m */; };
+		AA18D35224348AA1001E1BFC /* TMPressScaleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AA18D35124348AA1001E1BFC /* TMPressScaleButton.m */; };
 		AA1B9E0C24287FF5006B2910 /* TMPanModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1B9E0A24287FF5006B2910 /* TMPanModalViewController.m */; };
 		AA1B9E0D24287FF5006B2910 /* TMPanModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1B9E0B24287FF5006B2910 /* TMPanModalViewController.xib */; };
 		AA230EC722B9CB9800866C04 /* UIView+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA230EC622B9CB9800866C04 /* UIView+TMExtension.m */; };
@@ -65,6 +67,8 @@
 		AAF2E75123504AF7007470ED /* NSURLSession+TMSynchronousTask.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF2E75023504AF7007470ED /* NSURLSession+TMSynchronousTask.m */; };
 		AAF2E755235053BA007470ED /* NSURLRequest+TMParams.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF2E754235053BA007470ED /* NSURLRequest+TMParams.m */; };
 		AAFC39B123D04D77002AB88C /* TMStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFC39B023D04D77002AB88C /* TMStarView.m */; };
+		AAFFECD6243325C300546069 /* TMAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFFECD5243325C300546069 /* TMAnimationViewController.m */; };
+		AAFFECDA24333BBD00546069 /* TMButtonPressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFFECD924333BBD00546069 /* TMButtonPressViewController.m */; };
 		FD3B1E5BAC1B4C9D18AF5042 /* libPods-TMKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0696967615F615F5D4F66A /* libPods-TMKitTests.a */; };
 /* End PBXBuildFile section */
 
@@ -128,6 +132,10 @@
 		AA10DE402420C68B00CCBFCC /* TMDragView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMDragView.m; sourceTree = "<group>"; };
 		AA10DE432420DC6900CCBFCC /* TMDragViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMDragViewController.h; sourceTree = "<group>"; };
 		AA10DE442420DC6900CCBFCC /* TMDragViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMDragViewController.m; sourceTree = "<group>"; };
+		AA18D34D2434815C001E1BFC /* TMPOPScaleControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMPOPScaleControl.h; sourceTree = "<group>"; };
+		AA18D34E2434815C001E1BFC /* TMPOPScaleControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMPOPScaleControl.m; sourceTree = "<group>"; };
+		AA18D35024348AA1001E1BFC /* TMPressScaleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMPressScaleButton.h; sourceTree = "<group>"; };
+		AA18D35124348AA1001E1BFC /* TMPressScaleButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMPressScaleButton.m; sourceTree = "<group>"; };
 		AA1B9E0924287FF5006B2910 /* TMPanModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMPanModalViewController.h; sourceTree = "<group>"; };
 		AA1B9E0A24287FF5006B2910 /* TMPanModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMPanModalViewController.m; sourceTree = "<group>"; };
 		AA1B9E0B24287FF5006B2910 /* TMPanModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TMPanModalViewController.xib; sourceTree = "<group>"; };
@@ -208,6 +216,10 @@
 		AAF2E754235053BA007470ED /* NSURLRequest+TMParams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+TMParams.m"; sourceTree = "<group>"; };
 		AAFC39AF23D04D77002AB88C /* TMStarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMStarView.h; sourceTree = "<group>"; };
 		AAFC39B023D04D77002AB88C /* TMStarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMStarView.m; sourceTree = "<group>"; };
+		AAFFECD4243325C300546069 /* TMAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAnimationViewController.h; sourceTree = "<group>"; };
+		AAFFECD5243325C300546069 /* TMAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAnimationViewController.m; sourceTree = "<group>"; };
+		AAFFECD824333BBD00546069 /* TMButtonPressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMButtonPressViewController.h; sourceTree = "<group>"; };
+		AAFFECD924333BBD00546069 /* TMButtonPressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMButtonPressViewController.m; sourceTree = "<group>"; };
 		BB88A2F166ECA98D44F90D14 /* Pods-TMKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TMKitTests/Pods-TMKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB0696967615F615F5D4F66A /* libPods-TMKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TMKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -299,6 +311,9 @@
 				AA1B9E0924287FF5006B2910 /* TMPanModalViewController.h */,
 				AA1B9E0A24287FF5006B2910 /* TMPanModalViewController.m */,
 				AA1B9E0B24287FF5006B2910 /* TMPanModalViewController.xib */,
+				AAFFECD4243325C300546069 /* TMAnimationViewController.h */,
+				AAFFECD5243325C300546069 /* TMAnimationViewController.m */,
+				AAFFECD724333B7200546069 /* Animation */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -343,6 +358,7 @@
 		AAC48E6922B78D8000B885A3 /* TMKit */ = {
 			isa = PBXGroup;
 			children = (
+				AAFFECD32433257200546069 /* TMAnimations */,
 				AA10DE3E2420C66C00CCBFCC /* TMDragView */,
 				AAECFBC223D57E1800BAD468 /* TMTranslation */,
 				AAFC39AE23D04D51002AB88C /* TMStarView */,
@@ -645,6 +661,26 @@
 			path = TMStarView;
 			sourceTree = "<group>";
 		};
+		AAFFECD32433257200546069 /* TMAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				AA18D34D2434815C001E1BFC /* TMPOPScaleControl.h */,
+				AA18D34E2434815C001E1BFC /* TMPOPScaleControl.m */,
+			);
+			path = TMAnimations;
+			sourceTree = "<group>";
+		};
+		AAFFECD724333B7200546069 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				AAFFECD824333BBD00546069 /* TMButtonPressViewController.h */,
+				AAFFECD924333BBD00546069 /* TMButtonPressViewController.m */,
+				AA18D35024348AA1001E1BFC /* TMPressScaleButton.h */,
+				AA18D35124348AA1001E1BFC /* TMPressScaleButton.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		D806710BCB015E3DB6200A37 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -892,11 +928,13 @@
 				AAF11DF1234C78400095201E /* NSDate+TMExtension.m in Sources */,
 				AA794C882333686200AB7EE6 /* UIView+TMGradient.m in Sources */,
 				AAF11DE7234C55E20095201E /* UIButton+TMCountDown.m in Sources */,
+				AAFFECDA24333BBD00546069 /* TMButtonPressViewController.m in Sources */,
 				AAE660D52387A94800F58C13 /* TMTextView.m in Sources */,
 				AAC48E6F22B78D8000B885A3 /* ViewController.m in Sources */,
 				AA00663123B19C4300349C55 /* UIView+TMAutoLayout.m in Sources */,
 				AA10DE452420DC6900CCBFCC /* TMDragViewController.m in Sources */,
 				AA55E0CD22B8CBCF00CBC1CA /* UIViewController+TM.m in Sources */,
+				AA18D34F2434815C001E1BFC /* TMPOPScaleControl.m in Sources */,
 				AAECFBC923D57F1D00BAD468 /* TMTranslationModalViewController.m in Sources */,
 				AA0252DC23A864860098C132 /* TMPageControl.m in Sources */,
 				AAC48E7A22B78D8200B885A3 /* main.m in Sources */,
@@ -906,10 +944,12 @@
 				AAE2F52C23375B4800BE535B /* NSObject+TMExtension.m in Sources */,
 				AAE7754B2353040300026A17 /* NSUserDefaults+TMiCloudSync.m in Sources */,
 				AAECFBC623D57EFA00BAD468 /* TMTranslationMainViewController.m in Sources */,
+				AA18D35224348AA1001E1BFC /* TMPressScaleButton.m in Sources */,
 				AAE2F523233747A000BE535B /* TMTouchID.m in Sources */,
 				AA794C912333796700AB7EE6 /* UIView+TMTouch.m in Sources */,
 				AA794C8E2333793B00AB7EE6 /* UIView+TMShadow.m in Sources */,
 				AAF11DF4234C78F40095201E /* NSArray+Safe.m in Sources */,
+				AAFFECD6243325C300546069 /* TMAnimationViewController.m in Sources */,
 				AA1B9E0C24287FF5006B2910 /* TMPanModalViewController.m in Sources */,
 				AAE775472352FD6F00026A17 /* NSIndexPath+TMOffset.m in Sources */,
 				AAC48E6C22B78D8000B885A3 /* AppDelegate.m in Sources */,

@@ -12,6 +12,7 @@ target 'TMKit' do
   pod 'AFNetworking'
   pod 'AXWebViewController'
   pod 'HWPanModal'
+  pod 'pop'
   
 
   target 'TMKitTests' do
