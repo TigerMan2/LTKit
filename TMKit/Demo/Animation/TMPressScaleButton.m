@@ -22,7 +22,7 @@
         self.backgroundColor     = [UIColor whiteColor];
         self.layer.cornerRadius  = frame.size.width / 2.f;
         
-        self.label = [[UILabel alloc] initWithFrame:frame];
+        self.label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
         self.label.text = @"0%";
         self.label.textAlignment = NSTextAlignmentCenter;
         [self addSubview:self.label];

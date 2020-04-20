@@ -12,6 +12,7 @@
 #import "TMWebViewController.h"
 #import "TMPanModalViewController.h"
 #import "TMAnimationViewController.h"
+#import "TMModelManager.h"
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -82,12 +83,19 @@
             [self.navigationController pushViewController:animationVC animated:YES];
         }
             break;
+        case 5:
+        {
+            TMModelManager *modelManager = [TMModelManager shareManager];
+            [modelManager tm_jsonToModel];
+            [modelManager performSelector:@selector(testObj)];
+        }
+            break;
     }
 }
 
 - (NSArray *)dataSources {
     if (!_dataSources) {
-        _dataSources = @[@"TMTranslation",@"TMDrag",@"TMWeb",@"TMPanModal",@"TMAnimations"];
+        _dataSources = @[@"TMTranslation",@"TMDrag",@"TMWeb",@"TMPanModal",@"TMAnimations",@"TMYYModel"];
     }
     return _dataSources;
 }

@@ -13,7 +13,8 @@ target 'TMKit' do
   pod 'AXWebViewController'
   pod 'HWPanModal'
   pod 'pop'
-  
+  pod 'YYModel'
+  pod 'VHBoomMenuButton/ObjC'
 
   target 'TMKitTests' do
     inherit! :search_paths

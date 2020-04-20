@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "TMAdPageView.h"
 #import "ViewController.h"
+#import "TMModelManager.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +19,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    [[TMModelManager shareManager] tm_jsonToModel];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];

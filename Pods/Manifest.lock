@@ -31,12 +31,16 @@ PODS:
   - NJKWebViewProgress/Core (0.2.3)
   - NJKWebViewProgress/ProgressView (0.2.3)
   - pop (1.0.12)
+  - VHBoomMenuButton/ObjC (2.0.0)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking
   - AXWebViewController
   - HWPanModal
   - pop
+  - VHBoomMenuButton/ObjC
+  - YYModel
 
 SPEC REPOS:
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
@@ -49,6 +53,8 @@ SPEC REPOS:
     - HWPanModal
     - NJKWebViewProgress
     - pop
+    - VHBoomMenuButton
+    - YYModel
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
@@ -60,7 +66,9 @@ SPEC CHECKSUMS:
   HWPanModal: 8ce3489c30e2268dafc50acdcde50d34f75f35aa
   NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  VHBoomMenuButton: 77a7ae6742220b57b54eec28183fc123a3dd98ed
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 8ddd605f720c1bc1b4bd7192abafd16c037b40ed
+PODFILE CHECKSUM: 5606e737e45ddbb26587b8da6200e8b57714ab3e
 
 COCOAPODS: 1.9.1

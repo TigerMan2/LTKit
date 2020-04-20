@@ -26,6 +26,11 @@
 		AA0A9C042338A3D1008D0B08 /* UIButton+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9C032338A3D1008D0B08 /* UIButton+TMExtension.m */; };
 		AA10DE412420C68B00CCBFCC /* TMDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA10DE402420C68B00CCBFCC /* TMDragView.m */; };
 		AA10DE452420DC6900CCBFCC /* TMDragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA10DE442420DC6900CCBFCC /* TMDragViewController.m */; };
+		AA119B15244041D400EF3C13 /* TMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = AA119B14244041D400EF3C13 /* TMUser.m */; };
+		AA119B182440425F00EF3C13 /* TMModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA119B172440425F00EF3C13 /* TMModelManager.m */; };
+		AA119B1924404E7200EF3C13 /* demo.json in Resources */ = {isa = PBXBuildFile; fileRef = AA119B12244041B300EF3C13 /* demo.json */; };
+		AA12C3D02436FFB900CCCC3E /* CAShapeLayerConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = AA12C3CF2436FFB900CCCC3E /* CAShapeLayerConfigure.m */; };
+		AA12C3D32437012800CCCC3E /* StrokeCircleLayerConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = AA12C3D22437012800CCCC3E /* StrokeCircleLayerConfigure.m */; };
 		AA18D34F2434815C001E1BFC /* TMPOPScaleControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AA18D34E2434815C001E1BFC /* TMPOPScaleControl.m */; };
 		AA18D35224348AA1001E1BFC /* TMPressScaleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AA18D35124348AA1001E1BFC /* TMPressScaleButton.m */; };
 		AA1B9E0C24287FF5006B2910 /* TMPanModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1B9E0A24287FF5006B2910 /* TMPanModalViewController.m */; };
@@ -132,6 +137,15 @@
 		AA10DE402420C68B00CCBFCC /* TMDragView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMDragView.m; sourceTree = "<group>"; };
 		AA10DE432420DC6900CCBFCC /* TMDragViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMDragViewController.h; sourceTree = "<group>"; };
 		AA10DE442420DC6900CCBFCC /* TMDragViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMDragViewController.m; sourceTree = "<group>"; };
+		AA119B12244041B300EF3C13 /* demo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = demo.json; sourceTree = "<group>"; };
+		AA119B13244041D400EF3C13 /* TMUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMUser.h; sourceTree = "<group>"; };
+		AA119B14244041D400EF3C13 /* TMUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMUser.m; sourceTree = "<group>"; };
+		AA119B162440425F00EF3C13 /* TMModelManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMModelManager.h; sourceTree = "<group>"; };
+		AA119B172440425F00EF3C13 /* TMModelManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMModelManager.m; sourceTree = "<group>"; };
+		AA12C3CE2436FFB900CCCC3E /* CAShapeLayerConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAShapeLayerConfigure.h; sourceTree = "<group>"; };
+		AA12C3CF2436FFB900CCCC3E /* CAShapeLayerConfigure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerConfigure.m; sourceTree = "<group>"; };
+		AA12C3D12437012800CCCC3E /* StrokeCircleLayerConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrokeCircleLayerConfigure.h; sourceTree = "<group>"; };
+		AA12C3D22437012800CCCC3E /* StrokeCircleLayerConfigure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrokeCircleLayerConfigure.m; sourceTree = "<group>"; };
 		AA18D34D2434815C001E1BFC /* TMPOPScaleControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMPOPScaleControl.h; sourceTree = "<group>"; };
 		AA18D34E2434815C001E1BFC /* TMPOPScaleControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMPOPScaleControl.m; sourceTree = "<group>"; };
 		AA18D35024348AA1001E1BFC /* TMPressScaleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMPressScaleButton.h; sourceTree = "<group>"; };
@@ -318,6 +332,18 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
+		AA119B112440417A00EF3C13 /* TMYYModelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AA119B12244041B300EF3C13 /* demo.json */,
+				AA119B13244041D400EF3C13 /* TMUser.h */,
+				AA119B14244041D400EF3C13 /* TMUser.m */,
+				AA119B162440425F00EF3C13 /* TMModelManager.h */,
+				AA119B172440425F00EF3C13 /* TMModelManager.m */,
+			);
+			path = TMYYModelDemo;
+			sourceTree = "<group>";
+		};
 		AA55E0C422B8B34D00CBC1CA /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -358,6 +384,7 @@
 		AAC48E6922B78D8000B885A3 /* TMKit */ = {
 			isa = PBXGroup;
 			children = (
+				AA119B112440417A00EF3C13 /* TMYYModelDemo */,
 				AAFFECD32433257200546069 /* TMAnimations */,
 				AA10DE3E2420C66C00CCBFCC /* TMDragView */,
 				AAECFBC223D57E1800BAD468 /* TMTranslation */,
@@ -677,6 +704,10 @@
 				AAFFECD924333BBD00546069 /* TMButtonPressViewController.m */,
 				AA18D35024348AA1001E1BFC /* TMPressScaleButton.h */,
 				AA18D35124348AA1001E1BFC /* TMPressScaleButton.m */,
+				AA12C3CE2436FFB900CCCC3E /* CAShapeLayerConfigure.h */,
+				AA12C3CF2436FFB900CCCC3E /* CAShapeLayerConfigure.m */,
+				AA12C3D12437012800CCCC3E /* StrokeCircleLayerConfigure.h */,
+				AA12C3D22437012800CCCC3E /* StrokeCircleLayerConfigure.m */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -804,6 +835,7 @@
 				AAC48E7722B78D8200B885A3 /* LaunchScreen.storyboard in Resources */,
 				AA1B9E0D24287FF5006B2910 /* TMPanModalViewController.xib in Resources */,
 				AAC48E7422B78D8200B885A3 /* Assets.xcassets in Resources */,
+				AA119B1924404E7200EF3C13 /* demo.json in Resources */,
 				AAC48E7222B78D8000B885A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -915,6 +947,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA12C3D32437012800CCCC3E /* StrokeCircleLayerConfigure.m in Sources */,
 				AA0487E6234F051600A7A87D /* TMAdPageView.m in Sources */,
 				AA08449B234DD3F800CDAC5D /* TMFPSLabel.m in Sources */,
 				AAF11DED234C623E0095201E /* UIImage+TMExtension.m in Sources */,
@@ -938,10 +971,12 @@
 				AAECFBC923D57F1D00BAD468 /* TMTranslationModalViewController.m in Sources */,
 				AA0252DC23A864860098C132 /* TMPageControl.m in Sources */,
 				AAC48E7A22B78D8200B885A3 /* main.m in Sources */,
+				AA119B182440425F00EF3C13 /* TMModelManager.m in Sources */,
 				AAE2F5262337576100BE535B /* UIView+TMFrame.m in Sources */,
 				AAFC39B123D04D77002AB88C /* TMStarView.m in Sources */,
 				AA0252E223A865640098C132 /* TMCyclePagerTransformLayout.m in Sources */,
 				AAE2F52C23375B4800BE535B /* NSObject+TMExtension.m in Sources */,
+				AA119B15244041D400EF3C13 /* TMUser.m in Sources */,
 				AAE7754B2353040300026A17 /* NSUserDefaults+TMiCloudSync.m in Sources */,
 				AAECFBC623D57EFA00BAD468 /* TMTranslationMainViewController.m in Sources */,
 				AA18D35224348AA1001E1BFC /* TMPressScaleButton.m in Sources */,
@@ -969,6 +1004,7 @@
 				AA04444E2334664200FD2F07 /* NSString+TMRegex.m in Sources */,
 				AAF2E755235053BA007470ED /* NSURLRequest+TMParams.m in Sources */,
 				AAF2E75123504AF7007470ED /* NSURLSession+TMSynchronousTask.m in Sources */,
+				AA12C3D02436FFB900CCCC3E /* CAShapeLayerConfigure.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
