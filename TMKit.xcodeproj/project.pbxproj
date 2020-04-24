@@ -21,6 +21,10 @@
 		AA0444552334679300FD2F07 /* NSString+TMEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0444542334679300FD2F07 /* NSString+TMEncrypt.m */; };
 		AA0487E6234F051600A7A87D /* TMAdPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0487E5234F051600A7A87D /* TMAdPageView.m */; };
 		AA08449B234DD3F800CDAC5D /* TMFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08449A234DD3F800CDAC5D /* TMFPSLabel.m */; };
+		AA09B457245184E9006FA07F /* TMRunLoopManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA09B456245184E9006FA07F /* TMRunLoopManager.m */; };
+		AA0A006C245017170054A810 /* TMFather.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A006B245017170054A810 /* TMFather.m */; };
+		AA0A006F245017260054A810 /* TMRuntimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A006E245017260054A810 /* TMRuntimeManager.m */; };
+		AA0A0072245017890054A810 /* TMSon.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A0071245017890054A810 /* TMSon.m */; };
 		AA0A9BFE23385CBE008D0B08 /* UIApplication+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9BFD23385CBE008D0B08 /* UIApplication+TMExtension.m */; };
 		AA0A9C012338A39E008D0B08 /* UIButton+TMBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9C002338A39E008D0B08 /* UIButton+TMBadge.m */; };
 		AA0A9C042338A3D1008D0B08 /* UIButton+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9C032338A3D1008D0B08 /* UIButton+TMExtension.m */; };
@@ -127,6 +131,14 @@
 		AA0487E5234F051600A7A87D /* TMAdPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAdPageView.m; sourceTree = "<group>"; };
 		AA084499234DD3F800CDAC5D /* TMFPSLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMFPSLabel.h; sourceTree = "<group>"; };
 		AA08449A234DD3F800CDAC5D /* TMFPSLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMFPSLabel.m; sourceTree = "<group>"; };
+		AA09B455245184E9006FA07F /* TMRunLoopManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRunLoopManager.h; sourceTree = "<group>"; };
+		AA09B456245184E9006FA07F /* TMRunLoopManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRunLoopManager.m; sourceTree = "<group>"; };
+		AA0A006A245017170054A810 /* TMFather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMFather.h; sourceTree = "<group>"; };
+		AA0A006B245017170054A810 /* TMFather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMFather.m; sourceTree = "<group>"; };
+		AA0A006D245017260054A810 /* TMRuntimeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRuntimeManager.h; sourceTree = "<group>"; };
+		AA0A006E245017260054A810 /* TMRuntimeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRuntimeManager.m; sourceTree = "<group>"; };
+		AA0A0070245017890054A810 /* TMSon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMSon.h; sourceTree = "<group>"; };
+		AA0A0071245017890054A810 /* TMSon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMSon.m; sourceTree = "<group>"; };
 		AA0A9BFC23385CBE008D0B08 /* UIApplication+TMExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+TMExtension.h"; sourceTree = "<group>"; };
 		AA0A9BFD23385CBE008D0B08 /* UIApplication+TMExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+TMExtension.m"; sourceTree = "<group>"; };
 		AA0A9BFF2338A39E008D0B08 /* UIButton+TMBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TMBadge.h"; sourceTree = "<group>"; };
@@ -306,6 +318,28 @@
 			path = Foundation;
 			sourceTree = "<group>";
 		};
+		AA09B45424518498006FA07F /* TMRunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				AA09B455245184E9006FA07F /* TMRunLoopManager.h */,
+				AA09B456245184E9006FA07F /* TMRunLoopManager.m */,
+			);
+			path = TMRunLoop;
+			sourceTree = "<group>";
+		};
+		AA0A0069245016F30054A810 /* TMRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				AA0A006A245017170054A810 /* TMFather.h */,
+				AA0A006B245017170054A810 /* TMFather.m */,
+				AA0A0070245017890054A810 /* TMSon.h */,
+				AA0A0071245017890054A810 /* TMSon.m */,
+				AA0A006D245017260054A810 /* TMRuntimeManager.h */,
+				AA0A006E245017260054A810 /* TMRuntimeManager.m */,
+			);
+			path = TMRuntime;
+			sourceTree = "<group>";
+		};
 		AA10DE3E2420C66C00CCBFCC /* TMDragView */ = {
 			isa = PBXGroup;
 			children = (
@@ -384,6 +418,8 @@
 		AAC48E6922B78D8000B885A3 /* TMKit */ = {
 			isa = PBXGroup;
 			children = (
+				AA09B45424518498006FA07F /* TMRunLoop */,
+				AA0A0069245016F30054A810 /* TMRuntime */,
 				AA119B112440417A00EF3C13 /* TMYYModelDemo */,
 				AAFFECD32433257200546069 /* TMAnimations */,
 				AA10DE3E2420C66C00CCBFCC /* TMDragView */,
@@ -958,6 +994,7 @@
 				AAE660C52387730A00F58C13 /* NSDictionary+TM.m in Sources */,
 				AAECFBCD23D5820400BAD468 /* TMBouncePresentAnimation.m in Sources */,
 				AA55E0C722B8B39A00CBC1CA /* UIAlertController+Blocks.m in Sources */,
+				AA0A006C245017170054A810 /* TMFather.m in Sources */,
 				AAF11DF1234C78400095201E /* NSDate+TMExtension.m in Sources */,
 				AA794C882333686200AB7EE6 /* UIView+TMGradient.m in Sources */,
 				AAF11DE7234C55E20095201E /* UIButton+TMCountDown.m in Sources */,
@@ -967,6 +1004,7 @@
 				AA00663123B19C4300349C55 /* UIView+TMAutoLayout.m in Sources */,
 				AA10DE452420DC6900CCBFCC /* TMDragViewController.m in Sources */,
 				AA55E0CD22B8CBCF00CBC1CA /* UIViewController+TM.m in Sources */,
+				AA0A006F245017260054A810 /* TMRuntimeManager.m in Sources */,
 				AA18D34F2434815C001E1BFC /* TMPOPScaleControl.m in Sources */,
 				AAECFBC923D57F1D00BAD468 /* TMTranslationModalViewController.m in Sources */,
 				AA0252DC23A864860098C132 /* TMPageControl.m in Sources */,
@@ -979,6 +1017,7 @@
 				AA119B15244041D400EF3C13 /* TMUser.m in Sources */,
 				AAE7754B2353040300026A17 /* NSUserDefaults+TMiCloudSync.m in Sources */,
 				AAECFBC623D57EFA00BAD468 /* TMTranslationMainViewController.m in Sources */,
+				AA0A0072245017890054A810 /* TMSon.m in Sources */,
 				AA18D35224348AA1001E1BFC /* TMPressScaleButton.m in Sources */,
 				AAE2F523233747A000BE535B /* TMTouchID.m in Sources */,
 				AA794C912333796700AB7EE6 /* UIView+TMTouch.m in Sources */,
@@ -986,6 +1025,7 @@
 				AAF11DF4234C78F40095201E /* NSArray+Safe.m in Sources */,
 				AAFFECD6243325C300546069 /* TMAnimationViewController.m in Sources */,
 				AA1B9E0C24287FF5006B2910 /* TMPanModalViewController.m in Sources */,
+				AA09B457245184E9006FA07F /* TMRunLoopManager.m in Sources */,
 				AAE775472352FD6F00026A17 /* NSIndexPath+TMOffset.m in Sources */,
 				AAC48E6C22B78D8000B885A3 /* AppDelegate.m in Sources */,
 				AA0429B823D41ACB0021D2D2 /* UIImage+Tint.m in Sources */,

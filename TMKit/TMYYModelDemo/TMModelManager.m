@@ -23,7 +23,7 @@
     __block id observer = [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationDidFinishLaunchingNotification
                                                                     object:nil
                                                                      queue:nil usingBlock:^(NSNotification * _Nonnull note) {
-        [[self shareManager] test];
+//        [[self shareManager] test];
         [[NSNotificationCenter defaultCenter] removeObserver:observer];
     }];
 }
