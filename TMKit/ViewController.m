@@ -13,6 +13,7 @@
 #import "TMPanModalViewController.h"
 #import "TMAnimationViewController.h"
 #import "TMModelManager.h"
+#import "TMAlgorithmManager.h"
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -90,12 +91,17 @@
             [modelManager performSelector:@selector(testObj)];
         }
             break;
+        case 6:
+        {
+            [TMAlgorithmManager bubbleSort];
+        }
+            break;
     }
 }
 
 - (NSArray *)dataSources {
     if (!_dataSources) {
-        _dataSources = @[@"TMTranslation",@"TMDrag",@"TMWeb",@"TMPanModal",@"TMAnimations",@"TMYYModel"];
+        _dataSources = @[@"TMTranslation",@"TMDrag",@"TMWeb",@"TMPanModal",@"TMAnimations",@"TMYYModel",@"TMAlgorithmManager"];
     }
     return _dataSources;
 }

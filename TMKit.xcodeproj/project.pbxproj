@@ -13,6 +13,7 @@
 		AA0252DC23A864860098C132 /* TMPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0252DB23A864860098C132 /* TMPageControl.m */; };
 		AA0252DF23A864BD0098C132 /* TMCyclePagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0252DE23A864BD0098C132 /* TMCyclePagerView.m */; };
 		AA0252E223A865640098C132 /* TMCyclePagerTransformLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0252E123A865640098C132 /* TMCyclePagerTransformLayout.m */; };
+		AA0349672456B1DA00F07AD3 /* TMLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0349662456B1DA00F07AD3 /* TMLabel.m */; };
 		AA0429B223D3FC770021D2D2 /* TMStarRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0429B123D3FC770021D2D2 /* TMStarRateView.m */; };
 		AA0429B823D41ACB0021D2D2 /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0429B723D41ACB0021D2D2 /* UIImage+Tint.m */; };
 		AA04444823345DB400FD2F07 /* NSString+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA04444723345DB400FD2F07 /* NSString+TMExtension.m */; };
@@ -76,6 +77,7 @@
 		AAF2E75123504AF7007470ED /* NSURLSession+TMSynchronousTask.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF2E75023504AF7007470ED /* NSURLSession+TMSynchronousTask.m */; };
 		AAF2E755235053BA007470ED /* NSURLRequest+TMParams.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF2E754235053BA007470ED /* NSURLRequest+TMParams.m */; };
 		AAFC39B123D04D77002AB88C /* TMStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFC39B023D04D77002AB88C /* TMStarView.m */; };
+		AAFDEA27247BCDB80007BE84 /* TMAlgorithmManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFDEA26247BCDB80007BE84 /* TMAlgorithmManager.m */; };
 		AAFFECD6243325C300546069 /* TMAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFFECD5243325C300546069 /* TMAnimationViewController.m */; };
 		AAFFECDA24333BBD00546069 /* TMButtonPressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFFECD924333BBD00546069 /* TMButtonPressViewController.m */; };
 		FD3B1E5BAC1B4C9D18AF5042 /* libPods-TMKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0696967615F615F5D4F66A /* libPods-TMKitTests.a */; };
@@ -115,6 +117,8 @@
 		AA0252E023A865640098C132 /* TMCyclePagerTransformLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMCyclePagerTransformLayout.h; sourceTree = "<group>"; };
 		AA0252E123A865640098C132 /* TMCyclePagerTransformLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMCyclePagerTransformLayout.m; sourceTree = "<group>"; };
 		AA0252E323A87A8F0098C132 /* TMHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMHeader.h; sourceTree = "<group>"; };
+		AA0349652456B1DA00F07AD3 /* TMLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMLabel.h; sourceTree = "<group>"; };
+		AA0349662456B1DA00F07AD3 /* TMLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMLabel.m; sourceTree = "<group>"; };
 		AA0429B023D3FC770021D2D2 /* TMStarRateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMStarRateView.h; sourceTree = "<group>"; };
 		AA0429B123D3FC770021D2D2 /* TMStarRateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMStarRateView.m; sourceTree = "<group>"; };
 		AA0429B623D41ACB0021D2D2 /* UIImage+Tint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
@@ -242,6 +246,8 @@
 		AAF2E754235053BA007470ED /* NSURLRequest+TMParams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+TMParams.m"; sourceTree = "<group>"; };
 		AAFC39AF23D04D77002AB88C /* TMStarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMStarView.h; sourceTree = "<group>"; };
 		AAFC39B023D04D77002AB88C /* TMStarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMStarView.m; sourceTree = "<group>"; };
+		AAFDEA25247BCDB80007BE84 /* TMAlgorithmManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAlgorithmManager.h; sourceTree = "<group>"; };
+		AAFDEA26247BCDB80007BE84 /* TMAlgorithmManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAlgorithmManager.m; sourceTree = "<group>"; };
 		AAFFECD4243325C300546069 /* TMAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAnimationViewController.h; sourceTree = "<group>"; };
 		AAFFECD5243325C300546069 /* TMAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAnimationViewController.m; sourceTree = "<group>"; };
 		AAFFECD824333BBD00546069 /* TMButtonPressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMButtonPressViewController.h; sourceTree = "<group>"; };
@@ -299,6 +305,15 @@
 				AA0252E123A865640098C132 /* TMCyclePagerTransformLayout.m */,
 			);
 			path = TMCyclePagerView;
+			sourceTree = "<group>";
+		};
+		AA0349642456B1BB00F07AD3 /* TMLabel */ = {
+			isa = PBXGroup;
+			children = (
+				AA0349652456B1DA00F07AD3 /* TMLabel.h */,
+				AA0349662456B1DA00F07AD3 /* TMLabel.m */,
+			);
+			path = TMLabel;
 			sourceTree = "<group>";
 		};
 		AA04444F2334666400FD2F07 /* Foundation */ = {
@@ -418,6 +433,8 @@
 		AAC48E6922B78D8000B885A3 /* TMKit */ = {
 			isa = PBXGroup;
 			children = (
+				AAFDEA24247BCD920007BE84 /* TMAlgorithm */,
+				AA0349642456B1BB00F07AD3 /* TMLabel */,
 				AA09B45424518498006FA07F /* TMRunLoop */,
 				AA0A0069245016F30054A810 /* TMRuntime */,
 				AA119B112440417A00EF3C13 /* TMYYModelDemo */,
@@ -724,6 +741,15 @@
 			path = TMStarView;
 			sourceTree = "<group>";
 		};
+		AAFDEA24247BCD920007BE84 /* TMAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				AAFDEA25247BCDB80007BE84 /* TMAlgorithmManager.h */,
+				AAFDEA26247BCDB80007BE84 /* TMAlgorithmManager.m */,
+			);
+			path = TMAlgorithm;
+			sourceTree = "<group>";
+		};
 		AAFFECD32433257200546069 /* TMAnimations */ = {
 			isa = PBXGroup;
 			children = (
@@ -1005,6 +1031,7 @@
 				AA10DE452420DC6900CCBFCC /* TMDragViewController.m in Sources */,
 				AA55E0CD22B8CBCF00CBC1CA /* UIViewController+TM.m in Sources */,
 				AA0A006F245017260054A810 /* TMRuntimeManager.m in Sources */,
+				AA0349672456B1DA00F07AD3 /* TMLabel.m in Sources */,
 				AA18D34F2434815C001E1BFC /* TMPOPScaleControl.m in Sources */,
 				AAECFBC923D57F1D00BAD468 /* TMTranslationModalViewController.m in Sources */,
 				AA0252DC23A864860098C132 /* TMPageControl.m in Sources */,
@@ -1032,6 +1059,7 @@
 				AA0252DF23A864BD0098C132 /* TMCyclePagerView.m in Sources */,
 				AAECFBD023D5821B00BAD468 /* TMNormalDismissAnimation.m in Sources */,
 				AA04444823345DB400FD2F07 /* NSString+TMExtension.m in Sources */,
+				AAFDEA27247BCDB80007BE84 /* TMAlgorithmManager.m in Sources */,
 				AA0A9C042338A3D1008D0B08 /* UIButton+TMExtension.m in Sources */,
 				AA230EC722B9CB9800866C04 /* UIView+TMExtension.m in Sources */,
 				AA04444B23345F0C00FD2F07 /* NSData+TMEncrypt.m in Sources */,
