@@ -96,12 +96,18 @@
             [TMAlgorithmManager bubbleSort];
         }
             break;
+        case 7:
+        {
+//            TMRecordViewController *recordVC = [[TMRecordViewController alloc] init];
+//            [self.navigationController presentViewController:recordVC animated:YES completion:nil];
+        }
+            break;
     }
 }
 
 - (NSArray *)dataSources {
     if (!_dataSources) {
-        _dataSources = @[@"TMTranslation",@"TMDrag",@"TMWeb",@"TMPanModal",@"TMAnimations",@"TMYYModel",@"TMAlgorithmManager"];
+        _dataSources = @[@"TMTranslation",@"TMDrag",@"TMWeb",@"TMPanModal",@"TMAnimations",@"TMYYModel",@"TMAlgorithmManager",@"TMRecord"];
     }
     return _dataSources;
 }
