@@ -28,4 +28,32 @@
     NSLog(@"冒的排序:%@",array);
 }
 
+long long factorial(int min, int max) {
+    if (min > max) {
+        return 0;
+    }
+    if (min == 0) {
+        if (max == 0) {
+            return 1;
+        } else {
+            min = 1;
+        }
+    }
+    
+    long long result = 1;
+    for (int i = min; i <= max; i ++) {
+        result *= i;
+        //考虑溢出
+        if (result > INT_MAX) {
+            return -1;
+        }
+    }
+    return result;
+}
+
++ (void)factorial {
+    long long result = factorial(0, 6);
+    NSLog(@"阶乘的结果:%lld",result);
+}
+
 @end

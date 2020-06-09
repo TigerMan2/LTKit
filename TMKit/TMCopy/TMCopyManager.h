@@ -1,8 +1,8 @@
 //
-//  TMAlgorithmManager.h
+//  TMCopyManager.h
 //  TMKit
 //
-//  Created by Luther on 2020/5/25.
+//  Created by Luther on 2020/6/9.
 //  Copyright © 2020 mrstock. All rights reserved.
 //
 
@@ -10,11 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TMAlgorithmManager : NSObject
+@interface TMCopyManager : NSObject
 
-+ (void)bubbleSort;
-
-+ (void)factorial;
++ (void)testCopy;
 
 @end
 

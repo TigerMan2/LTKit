@@ -14,6 +14,8 @@
 #import "TMAnimationViewController.h"
 #import "TMModelManager.h"
 #import "TMAlgorithmManager.h"
+#import "TMBlockDemoController.h"
+#import "TMCopyManager.h"
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -93,13 +95,21 @@
             break;
         case 6:
         {
-            [TMAlgorithmManager bubbleSort];
+            //冒泡排序
+//            [TMAlgorithmManager bubbleSort];
+            //阶乘
+            [TMAlgorithmManager factorial];
         }
             break;
         case 7:
         {
-//            TMRecordViewController *recordVC = [[TMRecordViewController alloc] init];
-//            [self.navigationController presentViewController:recordVC animated:YES completion:nil];
+            TMBlockDemoController *blockVC = [[TMBlockDemoController alloc] init];
+            [self.navigationController pushViewController:blockVC animated:YES];
+        }
+            break;
+        case 8:
+        {
+            [TMCopyManager testCopy];
         }
             break;
     }
@@ -107,7 +117,7 @@
 
 - (NSArray *)dataSources {
     if (!_dataSources) {
-        _dataSources = @[@"TMTranslation",@"TMDrag",@"TMWeb",@"TMPanModal",@"TMAnimations",@"TMYYModel",@"TMAlgorithmManager",@"TMRecord"];
+        _dataSources = @[@"TMTranslation",@"TMDrag",@"TMWeb",@"TMPanModal",@"TMAnimations",@"TMYYModel",@"TMAlgorithmManager",@"TMBlock",@"TMCopy"];
     }
     return _dataSources;
 }

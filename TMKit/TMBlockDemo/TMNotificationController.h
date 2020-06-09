@@ -1,8 +1,8 @@
 //
-//  TMLabel.h
+//  TMNotificationController.h
 //  TMKit
 //
-//  Created by Luther on 2020/4/27.
+//  Created by Luther on 2020/6/8.
 //  Copyright © 2020 mrstock. All rights reserved.
 //
 
@@ -10,9 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TMLabel : UIView
-
-@property (nonatomic, strong) NSString *text;
+@interface TMNotificationController : UIViewController
 
 @end
 

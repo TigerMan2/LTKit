@@ -13,15 +13,6 @@
 
 @implementation TMRuntimeManager
 
-+ (void)load {
-    __block id observer = [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationDidFinishLaunchingNotification
-                                                                    object:nil
-                                                                     queue:nil usingBlock:^(NSNotification * _Nonnull note) {
-//        [[self shareManager] testRuntime];
-        [[NSNotificationCenter defaultCenter] removeObserver:observer];
-    }];
-}
-
 + (instancetype)shareManager {
     static TMRuntimeManager *_manager;
     static dispatch_once_t onceToken;

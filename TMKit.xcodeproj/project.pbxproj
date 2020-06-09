@@ -13,7 +13,6 @@
 		AA0252DC23A864860098C132 /* TMPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0252DB23A864860098C132 /* TMPageControl.m */; };
 		AA0252DF23A864BD0098C132 /* TMCyclePagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0252DE23A864BD0098C132 /* TMCyclePagerView.m */; };
 		AA0252E223A865640098C132 /* TMCyclePagerTransformLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0252E123A865640098C132 /* TMCyclePagerTransformLayout.m */; };
-		AA0349672456B1DA00F07AD3 /* TMLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0349662456B1DA00F07AD3 /* TMLabel.m */; };
 		AA0429B223D3FC770021D2D2 /* TMStarRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0429B123D3FC770021D2D2 /* TMStarRateView.m */; };
 		AA0429B823D41ACB0021D2D2 /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0429B723D41ACB0021D2D2 /* UIImage+Tint.m */; };
 		AA04444823345DB400FD2F07 /* NSString+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA04444723345DB400FD2F07 /* NSString+TMExtension.m */; };
@@ -41,8 +40,16 @@
 		AA1B9E0C24287FF5006B2910 /* TMPanModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1B9E0A24287FF5006B2910 /* TMPanModalViewController.m */; };
 		AA1B9E0D24287FF5006B2910 /* TMPanModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1B9E0B24287FF5006B2910 /* TMPanModalViewController.xib */; };
 		AA230EC722B9CB9800866C04 /* UIView+TMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA230EC622B9CB9800866C04 /* UIView+TMExtension.m */; };
+		AA45DEC7248DC9880094D159 /* TMBlockDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA45DEC6248DC9880094D159 /* TMBlockDemoController.m */; };
+		AA45DECA248DC9D00094D159 /* TMGCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA45DEC9248DC9D00094D159 /* TMGCDController.m */; };
+		AA45DECD248DC9E80094D159 /* TMNotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA45DECC248DC9E80094D159 /* TMNotificationController.m */; };
+		AA45DED0248DCA080094D159 /* TMAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA45DECF248DCA080094D159 /* TMAnimationController.m */; };
+		AA45DED3248DCA1B0094D159 /* TMOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA45DED2248DCA1B0094D159 /* TMOperationController.m */; };
+		AA45DED6248DCF7E0094D159 /* TMOperationIvarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA45DED5248DCF7E0094D159 /* TMOperationIvarController.m */; };
+		AA45DED9248DCF910094D159 /* TMNotificationIvarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA45DED8248DCF910094D159 /* TMNotificationIvarController.m */; };
 		AA55E0C722B8B39A00CBC1CA /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55E0C622B8B39A00CBC1CA /* UIAlertController+Blocks.m */; };
 		AA55E0CD22B8CBCF00CBC1CA /* UIViewController+TM.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55E0CC22B8CBCF00CBC1CA /* UIViewController+TM.m */; };
+		AA699BD2248F2A39004CD7FC /* TMCopyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA699BD1248F2A39004CD7FC /* TMCopyManager.m */; };
 		AA794C882333686200AB7EE6 /* UIView+TMGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = AA794C872333686200AB7EE6 /* UIView+TMGradient.m */; };
 		AA794C8E2333793B00AB7EE6 /* UIView+TMShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = AA794C8D2333793B00AB7EE6 /* UIView+TMShadow.m */; };
 		AA794C912333796700AB7EE6 /* UIView+TMTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = AA794C902333796700AB7EE6 /* UIView+TMTouch.m */; };
@@ -117,8 +124,6 @@
 		AA0252E023A865640098C132 /* TMCyclePagerTransformLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMCyclePagerTransformLayout.h; sourceTree = "<group>"; };
 		AA0252E123A865640098C132 /* TMCyclePagerTransformLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMCyclePagerTransformLayout.m; sourceTree = "<group>"; };
 		AA0252E323A87A8F0098C132 /* TMHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMHeader.h; sourceTree = "<group>"; };
-		AA0349652456B1DA00F07AD3 /* TMLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMLabel.h; sourceTree = "<group>"; };
-		AA0349662456B1DA00F07AD3 /* TMLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMLabel.m; sourceTree = "<group>"; };
 		AA0429B023D3FC770021D2D2 /* TMStarRateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMStarRateView.h; sourceTree = "<group>"; };
 		AA0429B123D3FC770021D2D2 /* TMStarRateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMStarRateView.m; sourceTree = "<group>"; };
 		AA0429B623D41ACB0021D2D2 /* UIImage+Tint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
@@ -171,10 +176,26 @@
 		AA1B9E0B24287FF5006B2910 /* TMPanModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TMPanModalViewController.xib; sourceTree = "<group>"; };
 		AA230EC522B9CB9800866C04 /* UIView+TMExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TMExtension.h"; sourceTree = "<group>"; };
 		AA230EC622B9CB9800866C04 /* UIView+TMExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TMExtension.m"; sourceTree = "<group>"; };
+		AA45DEC5248DC9880094D159 /* TMBlockDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBlockDemoController.h; sourceTree = "<group>"; };
+		AA45DEC6248DC9880094D159 /* TMBlockDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBlockDemoController.m; sourceTree = "<group>"; };
+		AA45DEC8248DC9D00094D159 /* TMGCDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMGCDController.h; sourceTree = "<group>"; };
+		AA45DEC9248DC9D00094D159 /* TMGCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMGCDController.m; sourceTree = "<group>"; };
+		AA45DECB248DC9E80094D159 /* TMNotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMNotificationController.h; sourceTree = "<group>"; };
+		AA45DECC248DC9E80094D159 /* TMNotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMNotificationController.m; sourceTree = "<group>"; };
+		AA45DECE248DCA080094D159 /* TMAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAnimationController.h; sourceTree = "<group>"; };
+		AA45DECF248DCA080094D159 /* TMAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAnimationController.m; sourceTree = "<group>"; };
+		AA45DED1248DCA1B0094D159 /* TMOperationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMOperationController.h; sourceTree = "<group>"; };
+		AA45DED2248DCA1B0094D159 /* TMOperationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMOperationController.m; sourceTree = "<group>"; };
+		AA45DED4248DCF7E0094D159 /* TMOperationIvarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMOperationIvarController.h; sourceTree = "<group>"; };
+		AA45DED5248DCF7E0094D159 /* TMOperationIvarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMOperationIvarController.m; sourceTree = "<group>"; };
+		AA45DED7248DCF900094D159 /* TMNotificationIvarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMNotificationIvarController.h; sourceTree = "<group>"; };
+		AA45DED8248DCF910094D159 /* TMNotificationIvarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMNotificationIvarController.m; sourceTree = "<group>"; };
 		AA55E0C522B8B39A00CBC1CA /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
 		AA55E0C622B8B39A00CBC1CA /* UIAlertController+Blocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Blocks.m"; sourceTree = "<group>"; };
 		AA55E0CB22B8CBCF00CBC1CA /* UIViewController+TM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TM.h"; sourceTree = "<group>"; };
 		AA55E0CC22B8CBCF00CBC1CA /* UIViewController+TM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TM.m"; sourceTree = "<group>"; };
+		AA699BD0248F2A39004CD7FC /* TMCopyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMCopyManager.h; sourceTree = "<group>"; };
+		AA699BD1248F2A39004CD7FC /* TMCopyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMCopyManager.m; sourceTree = "<group>"; };
 		AA794C862333686200AB7EE6 /* UIView+TMGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TMGradient.h"; sourceTree = "<group>"; };
 		AA794C872333686200AB7EE6 /* UIView+TMGradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TMGradient.m"; sourceTree = "<group>"; };
 		AA794C8C2333793B00AB7EE6 /* UIView+TMShadow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TMShadow.h"; sourceTree = "<group>"; };
@@ -307,15 +328,6 @@
 			path = TMCyclePagerView;
 			sourceTree = "<group>";
 		};
-		AA0349642456B1BB00F07AD3 /* TMLabel */ = {
-			isa = PBXGroup;
-			children = (
-				AA0349652456B1DA00F07AD3 /* TMLabel.h */,
-				AA0349662456B1DA00F07AD3 /* TMLabel.m */,
-			);
-			path = TMLabel;
-			sourceTree = "<group>";
-		};
 		AA04444F2334666400FD2F07 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -353,13 +365,6 @@
 				AA0A006E245017260054A810 /* TMRuntimeManager.m */,
 			);
 			path = TMRuntime;
-			sourceTree = "<group>";
-		};
-		AA0B094E247E70B5008A3770 /* TMRecord */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TMRecord;
 			sourceTree = "<group>";
 		};
 		AA10DE3E2420C66C00CCBFCC /* TMDragView */ = {
@@ -400,6 +405,27 @@
 			path = TMYYModelDemo;
 			sourceTree = "<group>";
 		};
+		AA45DEC4248DC95F0094D159 /* TMBlockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AA45DEC5248DC9880094D159 /* TMBlockDemoController.h */,
+				AA45DEC6248DC9880094D159 /* TMBlockDemoController.m */,
+				AA45DEC8248DC9D00094D159 /* TMGCDController.h */,
+				AA45DEC9248DC9D00094D159 /* TMGCDController.m */,
+				AA45DECB248DC9E80094D159 /* TMNotificationController.h */,
+				AA45DECC248DC9E80094D159 /* TMNotificationController.m */,
+				AA45DED7248DCF900094D159 /* TMNotificationIvarController.h */,
+				AA45DED8248DCF910094D159 /* TMNotificationIvarController.m */,
+				AA45DECE248DCA080094D159 /* TMAnimationController.h */,
+				AA45DECF248DCA080094D159 /* TMAnimationController.m */,
+				AA45DED1248DCA1B0094D159 /* TMOperationController.h */,
+				AA45DED2248DCA1B0094D159 /* TMOperationController.m */,
+				AA45DED4248DCF7E0094D159 /* TMOperationIvarController.h */,
+				AA45DED5248DCF7E0094D159 /* TMOperationIvarController.m */,
+			);
+			path = TMBlockDemo;
+			sourceTree = "<group>";
+		};
 		AA55E0C422B8B34D00CBC1CA /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -413,6 +439,15 @@
 				AAE660CB2387A8A900F58C13 /* UIButton */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		AA699BCF248F2A22004CD7FC /* TMCopy */ = {
+			isa = PBXGroup;
+			children = (
+				AA699BD0248F2A39004CD7FC /* TMCopyManager.h */,
+				AA699BD1248F2A39004CD7FC /* TMCopyManager.m */,
+			);
+			path = TMCopy;
 			sourceTree = "<group>";
 		};
 		AAC48E5E22B78D8000B885A3 = {
@@ -440,9 +475,9 @@
 		AAC48E6922B78D8000B885A3 /* TMKit */ = {
 			isa = PBXGroup;
 			children = (
-				AA0B094E247E70B5008A3770 /* TMRecord */,
+				AA699BCF248F2A22004CD7FC /* TMCopy */,
+				AA45DEC4248DC95F0094D159 /* TMBlockDemo */,
 				AAFDEA24247BCD920007BE84 /* TMAlgorithm */,
-				AA0349642456B1BB00F07AD3 /* TMLabel */,
 				AA09B45424518498006FA07F /* TMRunLoop */,
 				AA0A0069245016F30054A810 /* TMRuntime */,
 				AA119B112440417A00EF3C13 /* TMYYModelDemo */,
@@ -1019,6 +1054,8 @@
 			files = (
 				AA12C3D32437012800CCCC3E /* StrokeCircleLayerConfigure.m in Sources */,
 				AA0487E6234F051600A7A87D /* TMAdPageView.m in Sources */,
+				AA45DED6248DCF7E0094D159 /* TMOperationIvarController.m in Sources */,
+				AA45DED3248DCA1B0094D159 /* TMOperationController.m in Sources */,
 				AA08449B234DD3F800CDAC5D /* TMFPSLabel.m in Sources */,
 				AAF11DED234C623E0095201E /* UIImage+TMExtension.m in Sources */,
 				AAE660DB2387AE4B00F58C13 /* UITextView+TM.m in Sources */,
@@ -1026,7 +1063,9 @@
 				AA10DE412420C68B00CCBFCC /* TMDragView.m in Sources */,
 				AAD531F02423736300048DD9 /* TMWebViewController.m in Sources */,
 				AAE660C52387730A00F58C13 /* NSDictionary+TM.m in Sources */,
+				AA45DECD248DC9E80094D159 /* TMNotificationController.m in Sources */,
 				AAECFBCD23D5820400BAD468 /* TMBouncePresentAnimation.m in Sources */,
+				AA45DED0248DCA080094D159 /* TMAnimationController.m in Sources */,
 				AA55E0C722B8B39A00CBC1CA /* UIAlertController+Blocks.m in Sources */,
 				AA0A006C245017170054A810 /* TMFather.m in Sources */,
 				AAF11DF1234C78400095201E /* NSDate+TMExtension.m in Sources */,
@@ -1039,7 +1078,6 @@
 				AA10DE452420DC6900CCBFCC /* TMDragViewController.m in Sources */,
 				AA55E0CD22B8CBCF00CBC1CA /* UIViewController+TM.m in Sources */,
 				AA0A006F245017260054A810 /* TMRuntimeManager.m in Sources */,
-				AA0349672456B1DA00F07AD3 /* TMLabel.m in Sources */,
 				AA18D34F2434815C001E1BFC /* TMPOPScaleControl.m in Sources */,
 				AAECFBC923D57F1D00BAD468 /* TMTranslationModalViewController.m in Sources */,
 				AA0252DC23A864860098C132 /* TMPageControl.m in Sources */,
@@ -1050,10 +1088,12 @@
 				AA0252E223A865640098C132 /* TMCyclePagerTransformLayout.m in Sources */,
 				AAE2F52C23375B4800BE535B /* NSObject+TMExtension.m in Sources */,
 				AA119B15244041D400EF3C13 /* TMUser.m in Sources */,
+				AA45DED9248DCF910094D159 /* TMNotificationIvarController.m in Sources */,
 				AAE7754B2353040300026A17 /* NSUserDefaults+TMiCloudSync.m in Sources */,
 				AAECFBC623D57EFA00BAD468 /* TMTranslationMainViewController.m in Sources */,
 				AA0A0072245017890054A810 /* TMSon.m in Sources */,
 				AA18D35224348AA1001E1BFC /* TMPressScaleButton.m in Sources */,
+				AA45DECA248DC9D00094D159 /* TMGCDController.m in Sources */,
 				AAE2F523233747A000BE535B /* TMTouchID.m in Sources */,
 				AA794C912333796700AB7EE6 /* UIView+TMTouch.m in Sources */,
 				AA794C8E2333793B00AB7EE6 /* UIView+TMShadow.m in Sources */,
@@ -1069,7 +1109,9 @@
 				AA04444823345DB400FD2F07 /* NSString+TMExtension.m in Sources */,
 				AAFDEA27247BCDB80007BE84 /* TMAlgorithmManager.m in Sources */,
 				AA0A9C042338A3D1008D0B08 /* UIButton+TMExtension.m in Sources */,
+				AA45DEC7248DC9880094D159 /* TMBlockDemoController.m in Sources */,
 				AA230EC722B9CB9800866C04 /* UIView+TMExtension.m in Sources */,
+				AA699BD2248F2A39004CD7FC /* TMCopyManager.m in Sources */,
 				AA04444B23345F0C00FD2F07 /* NSData+TMEncrypt.m in Sources */,
 				AA0A9BFE23385CBE008D0B08 /* UIApplication+TMExtension.m in Sources */,
 				AA0A9C012338A39E008D0B08 /* UIButton+TMBadge.m in Sources */,
@@ -1253,6 +1295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = X4634493CA;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TMKit/TMPrefixHeader.pch";
 				INFOPLIST_FILE = TMKit/Info.plist;
@@ -1273,6 +1316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = X4634493CA;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TMKit/TMPrefixHeader.pch";
 				INFOPLIST_FILE = TMKit/Info.plist;

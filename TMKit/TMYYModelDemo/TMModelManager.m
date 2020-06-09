@@ -11,23 +11,6 @@
 #import "YYModel.h"
 
 @implementation TMModelManager
-/**
- * 用来给AppDelegate瘦身的
- * 在模块内部完成程序启动点代码的挂载
- * + load方法在足够早的时间点被调用
- * block 版本的通知注册会产生一个__NSObserver *对象用来给外部 remove 观察者
- * block 对 observer 对象的捕获早于函数的返回，所以若不加__block，会捕获到 nil
- * 在 block 执行结束时移除 observer，无需其他清理工作
- */
-+ (void)load {
-    __block id observer = [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationDidFinishLaunchingNotification
-                                                                    object:nil
-                                                                     queue:nil usingBlock:^(NSNotification * _Nonnull note) {
-//        [[self shareManager] test];
-        [[NSNotificationCenter defaultCenter] removeObserver:observer];
-    }];
-}
-
 - (void)test {
     /**
      * 执行的是类方法'isKindOfClass'和'isMemberOfClass',而不是实例方法.

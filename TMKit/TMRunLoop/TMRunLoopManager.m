@@ -10,15 +10,6 @@
 
 @implementation TMRunLoopManager
 
-+ (void)load {
-    __block id observer = [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationDidFinishLaunchingNotification
-                                                                        object:nil
-                                                                         queue:nil usingBlock:^(NSNotification * _Nonnull note) {
-            [[self shareManager] testRunLoop];
-            [[NSNotificationCenter defaultCenter] removeObserver:observer];
-        }];
-}
-
 + (instancetype)shareManager {
     static TMRunLoopManager *_manager = nil;
     static dispatch_once_t onceToken;
